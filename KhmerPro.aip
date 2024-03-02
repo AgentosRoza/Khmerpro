@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="21.0.1" version="21.0.1" Modules="enterprise" RootPath="." Language="en" Id="{5194704F-D4AA-4942-9D0F-F61A67D887C4}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;SccmComponent;ActSyncAppComponent;CPLAppletComponent;AutorunComponent;GameUxComponent;SilverlightSlnComponent;SharePointSlnComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_APP_FILE" Value="[#setup.exe]"/>
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_FINDEXE_TITLE" Value="Select the installation package for [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="AI_IA_APPLICATION_ID" Value="65e3387043fc530d362b83de"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPHELPLINK" Value="https://t.me/vbakhmercode"/>
+    <ROW Property="ARPNOREPAIR" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="ARPPRODUCTICON" Value="khmeruni.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="https://t.me/agentosroza"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="https://t.me/ExcelVbaKhmer"/>
+    <ROW Property="AiEmbeddedUI" Value="1"/>
+    <ROW Property="AiSkipExitDlg" Value="1" Type="4" MsiKey="AiSkipExitDlg"/>
+    <ROW Property="AiWinUI" Value="1"/>
+    <ROW Property="AppLogoIcon" Value="applogo.png" MultiBuildValue="DefaultBuild:khmeruni.png" Type="1" MsiKey="AppLogoIcon"/>
+    <ROW Property="AppLogoIconDark" Value="applogodark.png" MultiBuildValue="DefaultBuild:khmeruni.png" Type="1" MsiKey="AppLogoIconDark"/>
+    <ROW Property="CTRLS" Value="2"/>
+    <ROW Property="Manufacturer" Value="Agentos"/>
+    <ROW Property="ProductCode" Value="1033:{B0A8B4E2-6C3A-42EE-9ECD-E85F9EF400C0} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="KhmerPro"/>
+    <ROW Property="ProductVersion" Value="2.0.2" Options="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{DF75D436-94BF-4FE6-BD53-3A0E90A8410D}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT" MultiBuildValue="DefaultBuild:Windows Vista x86, Windows Server 2008 x86, Windows 7 x86, Windows 8 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT64" MultiBuildValue="DefaultBuild:Windows Vista x64, Windows Server 2008 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT64Display" MultiBuildValue="DefaultBuild:Windows Vista x64, Windows Server 2008 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNTDisplay" MultiBuildValue="DefaultBuild:Windows Vista x86, Windows Server 2008 x86, Windows 7 x86, Windows 8 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="AppDataFolder" Directory_Parent="TARGETDIR" DefaultDir="APPDAT~1|AppDataFolder" IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="FontsFolder" Directory_Parent="TARGETDIR" DefaultDir="FONTSF~1|FontsFolder" IsPseudoRoot="1"/>
+    <ROW Directory="LiveContent_Dir" Directory_Parent="Templates_Dir" DefaultDir="LIVECO~1|LiveContent" DirectoryOptions="3"/>
+    <ROW Directory="MacLayout_Dir" Directory_Parent="APPDIR" DefaultDir="MAC-LA~1|Mac-Layout"/>
+    <ROW Directory="Microsoft_Dir" Directory_Parent="AppDataFolder" DefaultDir="MICROS~1|Microsoft"/>
+    <ROW Directory="ProgramMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="PROGRA~1|ProgramMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="Templates_Dir" Directory_Parent="Microsoft_Dir" DefaultDir="TEMPLA~1|Templates"/>
+    <ROW Directory="amd64_Dir" Directory_Parent="MacLayout_Dir" DefaultDir="amd64"/>
+    <ROW Directory="i386_Dir" Directory_Parent="MacLayout_Dir" DefaultDir="i386"/>
+    <ROW Directory="ia64_Dir" Directory_Parent="MacLayout_Dir" DefaultDir="ia64"/>
+    <ROW Directory="wow64_Dir" Directory_Parent="MacLayout_Dir" DefaultDir="wow64"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_ExePath" ComponentId="{6D217D66-D881-4291-9CD0-136D567D87DF}" Directory_="APPDIR" Attributes="260" KeyPath="AI_ExePath"/>
+    <ROW Component="APPDIR" ComponentId="{4D40983B-ABBA-495D-AD85-54411A3F03DC}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="AgKhmerChrongUI.ttf" ComponentId="{80C0A8C0-0F77-42BB-BB24-637337C977B3}" Directory_="FontsFolder" Attributes="0" Type="0"/>
+    <ROW Component="AgentosUI.ttf" ComponentId="{2FE62F21-5E0D-4B43-994D-7B03DE4403AF}" Directory_="FontsFolder" Attributes="0" Type="0"/>
+    <ROW Component="AutoLoad" ComponentId="{DF04CABD-E6C6-49DA-BB28-B23FB5CB23D6}" Directory_="APPDIR" Attributes="4" KeyPath="AutoLoad"/>
+    <ROW Component="Data.xlsb" ComponentId="{4472A6AE-F66D-43AD-9F1F-355BB05940A5}" Directory_="LiveContent_Dir" Attributes="0" KeyPath="Data.xlsb" Type="0"/>
+    <ROW Component="DaunPenh" ComponentId="{61D7ADB7-269D-4F04-BF10-71E49B04366C}" Directory_="APPDIR" Attributes="4" KeyPath="DaunPenh"/>
+    <ROW Component="DaunPenhTrueType" ComponentId="{DE029725-39BD-4C92-ABEF-9B813969BF0F}" Directory_="APPDIR" Attributes="4" KeyPath="DaunPenhTrueType"/>
+    <ROW Component="DesktopOK.exe" ComponentId="{9D366571-9BFE-4E77-B2FC-D416B1B923B0}" Directory_="APPDIR" Attributes="0" Condition="NOT VersionNT64" KeyPath="DesktopOK.exe"/>
+    <ROW Component="DesktopOK_x64.exe" ComponentId="{8C46B4CF-C2AC-4863-A791-635A506E64AB}" Directory_="APPDIR" Attributes="256" Condition="VersionNT64" KeyPath="DesktopOK_x64.exe"/>
+    <ROW Component="KhmerOSApsaraNumKhRegular.ttf" ComponentId="{5B864EE3-BB60-4C8A-B406-AE395476396E}" Directory_="FontsFolder" Attributes="0" Type="0"/>
+    <ROW Component="KhmerUI" ComponentId="{2E925454-4A81-4EBB-A82D-F804F6FBA066}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUI"/>
+    <ROW Component="KhmerUIBold" ComponentId="{88D78516-6E0E-416B-800C-693156A796D2}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUIBold"/>
+    <ROW Component="KhmerUIBoldTrueType" ComponentId="{85667EE2-11B0-4366-AD2F-5D560C0DEDBE}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUIBoldTrueType"/>
+    <ROW Component="KhmerUITrueType" ComponentId="{5904B038-1C86-4975-9049-47637259F7D9}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUITrueType"/>
+    <ROW Component="LeelawadeeUIBoldTrueType" ComponentId="{DCCE9205-015F-414E-BFDE-63FA3E8F7759}" Directory_="APPDIR" Attributes="4" KeyPath="LeelawadeeUIBoldTrueType"/>
+    <ROW Component="LeelawadeeUISemilightTrueType" ComponentId="{402F29B9-2864-4295-B567-D11E33BA486B}" Directory_="APPDIR" Attributes="4" KeyPath="LeelawadeeUISemilightTrueType"/>
+    <ROW Component="LeelawadeeUITrueType" ComponentId="{8ACDA461-1D6F-47B8-91BA-A134C44A5EAF}" Directory_="APPDIR" Attributes="4" KeyPath="LeelawadeeUITrueType"/>
+    <ROW Component="MacKhmer.dll" ComponentId="{F1941779-1636-4067-8931-19B51DF250AB}" Directory_="amd64_Dir" Attributes="256" KeyPath="MacKhmer.dll"/>
+    <ROW Component="MacKhmer.dll_1" ComponentId="{9319BD7B-07E3-481A-9D35-03EE74D65B0F}" Directory_="i386_Dir" Attributes="0" KeyPath="MacKhmer.dll_1"/>
+    <ROW Component="MacKhmer.dll_2" ComponentId="{F7807EB4-9D6C-4581-BEC1-E60BEEDBA7CA}" Directory_="ia64_Dir" Attributes="256" KeyPath="MacKhmer.dll_2"/>
+    <ROW Component="MacKhmer.dll_3" ComponentId="{CFDFB217-B66F-47E6-A66D-B0E190ABF17E}" Directory_="wow64_Dir" Attributes="0" KeyPath="MacKhmer.dll_3"/>
+    <ROW Component="MacKhmer_amd64.msi" ComponentId="{624F7CF7-9E09-49BE-8D51-C547CFC00037}" Directory_="MacLayout_Dir" Attributes="0" KeyPath="MacKhmer_amd64.msi" Type="0"/>
+    <ROW Component="Normal.dotm" ComponentId="{798C35A0-062F-4D6B-A572-4711557D4175}" Directory_="Templates_Dir" Attributes="0" KeyPath="Normal.dotm_3" Type="0"/>
+    <ROW Component="OPEN" ComponentId="{E1D7866F-B68C-442C-8432-561D24E5F906}" Directory_="APPDIR" Attributes="4" KeyPath="OPEN"/>
+    <ROW Component="Path" ComponentId="{478A7119-2A2B-4584-85A9-8A14DA1B2141}" Directory_="APPDIR" Attributes="4" KeyPath="Path_1"/>
+    <ROW Component="ProductInformation" ComponentId="{F904D4A0-5FEA-4E06-9885-FDF1FD92BBB0}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SegoeUIBoldTrueType" ComponentId="{4E69A62F-EEE3-4F88-ADDC-AF15ABC802D6}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUIBoldTrueType"/>
+    <ROW Component="SegoeUILightTrueType" ComponentId="{95A0B874-D918-4A59-94B9-469AA0BD9C56}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUILightTrueType"/>
+    <ROW Component="SegoeUISemiboldTrueType" ComponentId="{897147B4-4F8B-4B3A-9AF6-8CFA917D7409}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUISemiboldTrueType"/>
+    <ROW Component="SegoeUISemilightTrueType" ComponentId="{5A18F86F-D649-429F-A1AA-4F6276C517D8}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUISemilightTrueType"/>
+    <ROW Component="SegoeUITrueType" ComponentId="{39F3F1EE-F1EC-4561-885E-49A5EEA8AD10}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUITrueType"/>
+    <ROW Component="khmermackey.png" ComponentId="{1B5F5DC4-7E87-454D-9361-D1777B704E51}" Directory_="APPDIR" Attributes="0" KeyPath="khmermackey.png" Type="0"/>
+    <ROW Component="setup.exe" ComponentId="{FBD63F34-96FD-4719-BD7F-27F3C67D18F7}" Directory_="MacLayout_Dir" Attributes="0" KeyPath="setup.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="AI32BitFiles" Title="32-bit" Description="32-bit Executables and Libraries" Display="5" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="AI64BitFiles" Title="64-bit" Description="64-bit Executables and Libraries" Display="3" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="AIOtherFiles" Title="Common" Description="Shared Resource and Regular Files" Display="7" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="AgFonts" Title="Ag-Fonts" Description="Description" Display="9" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="KhmerOSFonts" Title="KhmerOS-Fonts" Description="Description" Display="11" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Data.xlsb" Component_="Data.xlsb" FileName="DATA~1.XLS|Data.xlsb" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\AppData\Roaming\Microsoft\Templates\LiveContent\Data.xlsb" SelfReg="false"/>
+    <ROW File="Khmerpro.ppam" Component_="Data.xlsb" FileName="KHMERP~1.PPA|Khmerpro.ppam" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\AppData\Roaming\Microsoft\Templates\LiveContent\Khmerpro.ppam" SelfReg="false"/>
+    <ROW File="Khmerpro.xlam" Component_="Data.xlsb" FileName="KHMERP~1.XLA|Khmerpro.xlam" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\AppData\Roaming\Microsoft\Templates\LiveContent\Khmerpro.xlam" SelfReg="false"/>
+    <ROW File="Normal.dotm_3" Component_="Normal.dotm" FileName="NORMAL~1.DOT|Normal.dotm" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\AppData\Roaming\Microsoft\Templates\Normal.dotm" SelfReg="false"/>
+    <ROW File="DesktopOK.exe" Component_="DesktopOK.exe" FileName="DESKTO~1.EXE|DesktopOK.exe" Attributes="0" SourcePath="KhmerPro\DesktopOK.exe" SelfReg="false"/>
+    <ROW File="DesktopOK_x64.exe" Component_="DesktopOK_x64.exe" FileName="DESKTO~2.EXE|DesktopOK_x64.exe" Attributes="0" SourcePath="KhmerPro\DesktopOK_x64.exe" SelfReg="false"/>
+    <ROW File="AgKhmerChrongUI.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHME~1.TTF|AgKhmerChrongUI.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUI.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerChrongUIBold.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHME~2.TTF|AgKhmerChrongUI-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerChrongUINumKhRegular.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHME~3.TTF|AgKhmerChrongUINumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUINumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerDangrekUI.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHME~4.TTF|AgKhmerDangrekUI.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUI.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerDangrekUIBold.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHME~5.TTF|AgKhmerDangrekUI-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerDangrekUINumKhRegular.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHME~6.TTF|AgKhmerDangrekUINumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUINumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerFreehand.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHME~7.TTF|AgKhmerFreehand.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehand.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerFreehandBold.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHME~8.TTF|AgKhmerFreehand-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehand-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerFreehandNumKhRegular.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHME~9.TTF|AgKhmerFreehandNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehandNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerKhlaUI.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHM~10.TTF|AgKhmerKhlaUI.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUI.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerKhlaUIBold.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHM~11.TTF|AgKhmerKhlaUI-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerKhlaUINumKhRegular.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHM~12.TTF|AgKhmerKhlaUINumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUINumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMN.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHM~13.TTF|AgKhmerMN.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMN.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMNBold.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHM~14.TTF|AgKhmerMN-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMN-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMNNumKhRegular.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHM~15.TTF|AgKhmerMNNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMNNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerUI.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHM~16.TTF|AgKhmerUI.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUI.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerUIBold.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHM~17.TTF|AgKhmerUI-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerUINumKhRegular.ttf" Component_="AgKhmerChrongUI.ttf" FileName="AGKHM~18.TTF|AgKhmerUINumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUINumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="code128.ttf" Component_="AgKhmerChrongUI.ttf" FileName="code128.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\code128.ttf" SelfReg="false"/>
+    <ROW File="KhmerUIBold.ttf" Component_="AgKhmerChrongUI.ttf" FileName="KHMERU~1.TTF|KhmerUI-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\KhmerUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="KhmerUIRegular.ttf" Component_="AgKhmerChrongUI.ttf" FileName="KHMERU~2.TTF|KhmerUI-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\KhmerUI-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSApsaraNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMERO~1.TTF|KhmerOSApsaraNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSApsaraNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSApsaraRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMERO~2.TTF|KhmerOSApsara-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSApsara-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBassacNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMERO~3.TTF|KhmerOSBassacNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBassacNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBassacRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMERO~4.TTF|KhmerOSBassac-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBassac-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBattambangBold.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMERO~5.TTF|KhmerOSBattambang-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBattambang-Bold.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBattambangNumKhBold.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMERO~6.TTF|KhmerOSBattambangNumKh-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBattambangNumKh-Bold.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBattambangNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMERO~7.TTF|KhmerOSBattambangNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBattambangNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBattambangRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMERO~8.TTF|KhmerOSBattambang-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBattambang-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBokorNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMERO~9.TTF|KhmerOSBokorNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBokorNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBokorRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~10.TTF|KhmerOSBokor-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBokor-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSContentBold.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~11.TTF|KhmerOSContent-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSContent-Bold.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSContentNumKhBold.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~12.TTF|KhmerOSContentNumKh-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSContentNumKh-Bold.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSContentNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~13.TTF|KhmerOSContentNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSContentNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSContentRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~14.TTF|KhmerOSContent-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSContent-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSDangrekNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~15.TTF|KhmerOSDangrekNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSDangrekNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSDangrekRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~16.TTF|KhmerOSDangrek-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSDangrek-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSFasthandNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~17.TTF|KhmerOSFasthandNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFasthandNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSFasthandRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~18.TTF|KhmerOSFasthand-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFasthand-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSFreehandNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~19.TTF|KhmerOSFreehandNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFreehandNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSFreehandRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~20.TTF|KhmerOSFreehand-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFreehand-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSKangreyNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~21.TTF|KhmerOSKangreyNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSKangreyNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSKangreyRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~22.TTF|KhmerOSKangrey-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSKangrey-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSKienSvayNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~23.TTF|KhmerOSKienSvayNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSKienSvayNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSKienSvayRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~24.TTF|KhmerOSKienSvay-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSKienSvay-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSKoulenNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~25.TTF|KhmerOSKoulenNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSKoulenNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSKoulenRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~26.TTF|KhmerOSKoulen-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSKoulen-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMetalchriengNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~27.TTF|KhmerOSMetalchriengNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMetalchriengNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMetalchriengRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~28.TTF|KhmerOSMetalchrieng-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMetalchrieng-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMoulNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~29.TTF|KhmerOSMoulNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMoulNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMoulpaliNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~30.TTF|KhmerOSMoulpaliNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMoulpaliNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMoulpaliRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~31.TTF|KhmerOSMoulpali-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMoulpali-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMoulRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~32.TTF|KhmerOSMoul-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMoul-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSNewBold.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~33.TTF|KhmerOSNew-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNew-Bold.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSNewNumKhBold.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~34.TTF|KhmerOSNewNumKh-Bold.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNewNumKh-Bold.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSNewNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~35.TTF|KhmerOSNewNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNewNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSNewRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~36.TTF|KhmerOSNew-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNew-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSNirothNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~37.TTF|KhmerOSNirothNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNirothNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSNirothRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~38.TTF|KhmerOSNiroth-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNiroth-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~39.TTF|KhmerOSNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~40.TTF|KhmerOS-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOS-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSSiemreapNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~41.TTF|KhmerOSSiemreapNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSiemreapNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSSiemreapRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~42.TTF|KhmerOSSiemreap-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSiemreap-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSSystemNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~43.TTF|KhmerOSSystemNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSystemNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSSystemRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~44.TTF|KhmerOSSystem-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSystem-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSWatPhnomNumKhRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~45.TTF|KhmerOSWatPhnomNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSWatPhnomNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSWatPhnomRegular.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="KHMER~46.TTF|KhmerOSWatPhnom-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSWatPhnom-Regular.ttf" SelfReg="false"/>
+    <ROW File="Tacteing.ttf" Component_="KhmerOSApsaraNumKhRegular.ttf" FileName="Tacteing.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\Tacteing.ttf" SelfReg="false"/>
+    <ROW File="AgentosUI.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~1.TTF|AgentosUI.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\AgentosUI.ttf" SelfReg="false"/>
+    <ROW File="KhmerUI_0.ttf" Component_="AgentosUI.ttf" FileName="KHMERU~3.TTF|KhmerUI_0.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\KhmerUI_0.ttf" SelfReg="false"/>
+    <ROW File="KhmerUIb_0.ttf" Component_="AgentosUI.ttf" FileName="KHMERU~4.TTF|KhmerUIb_0.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\KhmerUIb_0.ttf" SelfReg="false"/>
+    <ROW File="leelauib_0.ttf" Component_="AgentosUI.ttf" FileName="LEELAU~1.TTF|leelauib_0.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\leelauib_0.ttf" SelfReg="false"/>
+    <ROW File="LeelawUI_0.ttf" Component_="AgentosUI.ttf" FileName="LEELAW~1.TTF|LeelawUI_0.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\LeelawUI_0.ttf" SelfReg="false"/>
+    <ROW File="LeelUIsl_0.ttf" Component_="AgentosUI.ttf" FileName="LEELUI~1.TTF|LeelUIsl_0.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\LeelUIsl_0.ttf" SelfReg="false"/>
+    <ROW File="segoeui_0.ttf" Component_="AgentosUI.ttf" FileName="SEGOEU~1.TTF|segoeui_0.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\segoeui_0.ttf" SelfReg="false"/>
+    <ROW File="segoeuib_0.ttf" Component_="AgentosUI.ttf" FileName="SEGOEU~2.TTF|segoeuib_0.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\segoeuib_0.ttf" SelfReg="false"/>
+    <ROW File="segoeuil_0.ttf" Component_="AgentosUI.ttf" FileName="SEGOEU~3.TTF|segoeuil_0.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\segoeuil_0.ttf" SelfReg="false"/>
+    <ROW File="segoeuisl_0.ttf" Component_="AgentosUI.ttf" FileName="SEGOEU~4.TTF|segoeuisl_0.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\segoeuisl_0.ttf" SelfReg="false"/>
+    <ROW File="seguisb_0.ttf" Component_="AgentosUI.ttf" FileName="SEGUIS~1.TTF|seguisb_0.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\seguisb_0.ttf" SelfReg="false"/>
+    <ROW File="TahomaNumKhRegular.ttf" Component_="AgentosUI.ttf" FileName="TAHOMA~1.TTF|TahomaNumKh-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\System\TahomaNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="khmermackey.png" Component_="khmermackey.png" FileName="KHMERM~1.PNG|khmermackey.png" Attributes="0" SourcePath="KhmerPro\khmermackey.png" SelfReg="false"/>
+    <ROW File="MacKhmer.dll" Component_="MacKhmer.dll" FileName="MacKhmer.dll" Attributes="0" SourcePath="KhmerPro\Mac-Layout\amd64\MacKhmer.dll" SelfReg="false"/>
+    <ROW File="MacKhmer.dll_1" Component_="MacKhmer.dll_1" FileName="MacKhmer.dll" Attributes="0" SourcePath="KhmerPro\Mac-Layout\i386\MacKhmer.dll" SelfReg="false"/>
+    <ROW File="MacKhmer.dll_2" Component_="MacKhmer.dll_2" FileName="MacKhmer.dll" Attributes="0" SourcePath="KhmerPro\Mac-Layout\ia64\MacKhmer.dll" SelfReg="false"/>
+    <ROW File="MacKhmer_amd64.msi" Component_="MacKhmer_amd64.msi" FileName="MACKHM~1.MSI|MacKhmer_amd64.msi" Attributes="0" SourcePath="KhmerPro\Mac-Layout\MacKhmer_amd64.msi" SelfReg="false"/>
+    <ROW File="MacKhmer_i386.msi" Component_="MacKhmer_amd64.msi" FileName="MACKHM~2.MSI|MacKhmer_i386.msi" Attributes="0" SourcePath="KhmerPro\Mac-Layout\MacKhmer_i386.msi" SelfReg="false"/>
+    <ROW File="MacKhmer_ia64.msi" Component_="MacKhmer_amd64.msi" FileName="MACKHM~3.MSI|MacKhmer_ia64.msi" Attributes="0" SourcePath="KhmerPro\Mac-Layout\MacKhmer_ia64.msi" SelfReg="false"/>
+    <ROW File="setup.exe" Component_="setup.exe" FileName="setup.exe" Attributes="0" SourcePath="KhmerPro\Mac-Layout\setup.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="MacKhmer.dll_3" Component_="MacKhmer.dll_3" FileName="MacKhmer.dll" Attributes="0" SourcePath="KhmerPro\Mac-Layout\wow64\MacKhmer.dll" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" CabsLocation="1" PackageType="1" FilesInsideExe="true" ExeIconPath="KhmerPro\khmeruni.ico" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" ExtUI="true" UseLargeSchema="true" MsiPackageType="AI_ALL"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;appinstaller\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="Deleting files extracted from archive" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractFiles" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="khmeruni.png" SourcePath="KhmerPro\khmeruni.png"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiConditionComponent">
+    <ROW Feature_="AI64BitFiles" Level="0" Condition="NOT VersionNT64"/>
+    <ROW Feature_="AI32BitFiles" Level="0" Condition="VersionNT64"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control="MaintenanceWelcomeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="Description" Type="Text" X="16" Y="94" Width="458" Height="57" Attributes="196611" Text="The highlighted volumes do not have enough disk space available for the currently selected features. You can either remove some files from the highlighted volumes,or select different destination drive(s). Alternatively, you may choose to disable the installer&apos;s rollback functionality. Click Yes if you wish to take the risk to disable rollback." TextStyle="[DescriptionFont]" Order="400" TextLocId="AppInstaller.Control.Text.OutOfRbDiskDlg#Description" MsiKey="OutOfRbDiskDlg#Description"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="VolumeList" Type="VolumeCostList" X="16" Y="151" Width="458" Height="54" Attributes="393223" Text="{120}{70}{70}{70}{70}" TextStyle="ListFontDark" Order="500" TextLocId="Control.Text.OutOfDiskDlg#VolumeList" MsiKey="OutOfRbDiskDlg#VolumeList"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="ProductNameTitle" Type="Text" X="15" Y="17" Width="364" Height="32" Attributes="196611" Text="Install [ProductName]?" TextStyle="[ProductNameTitleFont]" Order="600" TextLocId="AppInstaller.Control.Text.ProductName" MsiKey="OutOfRbDiskDlg#ProductNameTitle"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="CompanyText" Type="Text" X="16" Y="46" Width="362" Height="15" Attributes="196611" Text="Publisher: [Manufacturer]" TextStyle="[ManufacturerFont]" Order="700" TextLocId="AppInstaller.Control.Text.Manufacturer" MsiKey="OutOfRbDiskDlg#CompanyText"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="ProductLogo" Type="Bitmap" X="404" Y="15" Width="70" Height="70" Attributes="1" Text="[AppLogoIcon]" Order="800" MsiKey="OutOfRbDiskDlg#ProductLogo"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="ProducVersionText" Type="Text" X="16" Y="60" Width="362" Height="15" Attributes="196611" Text="Version: [ProductVersion]" TextStyle="[ManufacturerFont]" Order="900" TextLocId="AppInstaller.Control.Text.ProductVersion" MsiKey="OutOfRbDiskDlg#ProducVersionText"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="AboutBtn" Type="ImageButton" X="5" Y="269" Width="18" Height="18" Attributes="4718595" Text="[AboutBtnIcon]" TextStyle="[ManufacturerFont]" Order="1000" MsiKey="OutOfRbDiskDlg#AboutBtn" Options="1" ExtType="ImageButton" ExtData="[InfoIconMsi]"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="PatchWelcomeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="WelcomeDlg" Control="WelcomeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL AND CustomInstallation" Ordering="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="99"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="3" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="4" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="5" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="WelcomeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_INSTALL" Ordering="0" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="WelcomeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_INSTALL" Ordering="1" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="WelcomeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_INSTALL" Ordering="2" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="WelcomeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_INSTALL" Ordering="3" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="6" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="7" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="0" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="1" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND CustomInstallation AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="8" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND CustomInstallation AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="9" Options="2"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND CustomInstallation AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="10" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_MAINT AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="2" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_MAINT AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="3" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_MAINT AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="4" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="MaintenanceWelcomeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_MAINT" Ordering="0" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="MaintenanceWelcomeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_MAINT" Ordering="1" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="MaintenanceWelcomeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_MAINT" Ordering="2" Options="2"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="MaintenanceWelcomeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_MAINT" Ordering="3" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_PATCH AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="202" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_PATCH AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="203" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_PATCH AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="204" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_PATCH" Ordering="0" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_PATCH" Ordering="1" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_PATCH" Ordering="2" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="PatchWelcomeDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_PATCH" Ordering="3" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_PATCH" Ordering="0" Options="2"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_PATCH" Ordering="1" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ChooseTextStyles" Type="1" Source="aicustact.dll" Target="ChooseTextStyles"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="CustomActionData" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_FinishActions" Type="1" Source="aicustact.dll" Target="RunAllExitActions"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_LaunchApp" Type="1" Source="aicustact.dll" Target="LaunchApp"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SETPROGRAMFILES" Type="51" Source="AI_ProgramFiles" Target="[ProgramFilesFolder]"/>
+    <ROW Action="AI_SETPROGRAMFILES64" Type="51" Source="AI_ProgramFiles" Target="[ProgramFiles64Folder]"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[AI_ProgramFiles][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="OPEN"/>
+    <ROW Feature_="MainFeature" Component_="AutoLoad"/>
+    <ROW Feature_="MainFeature" Component_="Path"/>
+    <ROW Feature_="MainFeature" Component_="KhmerUI"/>
+    <ROW Feature_="MainFeature" Component_="DaunPenh"/>
+    <ROW Feature_="MainFeature" Component_="KhmerUIBold"/>
+    <ROW Feature_="MainFeature" Component_="KhmerUITrueType"/>
+    <ROW Feature_="MainFeature" Component_="DaunPenhTrueType"/>
+    <ROW Feature_="MainFeature" Component_="KhmerUIBoldTrueType"/>
+    <ROW Feature_="MainFeature" Component_="SegoeUITrueType"/>
+    <ROW Feature_="MainFeature" Component_="LeelawadeeUITrueType"/>
+    <ROW Feature_="MainFeature" Component_="SegoeUIBoldTrueType"/>
+    <ROW Feature_="MainFeature" Component_="LeelawadeeUIBoldTrueType"/>
+    <ROW Feature_="MainFeature" Component_="LeelawadeeUISemilightTrueType"/>
+    <ROW Feature_="MainFeature" Component_="SegoeUILightTrueType"/>
+    <ROW Feature_="MainFeature" Component_="SegoeUISemiboldTrueType"/>
+    <ROW Feature_="MainFeature" Component_="SegoeUISemilightTrueType"/>
+    <ROW Feature_="AI64BitFiles" Component_="DesktopOK_x64.exe"/>
+    <ROW Feature_="AIOtherFiles" Component_="Data.xlsb"/>
+    <ROW Feature_="AIOtherFiles" Component_="Normal.dotm"/>
+    <ROW Feature_="MainFeature" Component_="AgentosUI.ttf"/>
+    <ROW Feature_="AI32BitFiles" Component_="DesktopOK.exe"/>
+    <ROW Feature_="AgFonts" Component_="AgKhmerChrongUI.ttf"/>
+    <ROW Feature_="KhmerOSFonts" Component_="KhmerOSApsaraNumKhRegular.ttf"/>
+    <ROW Feature_="MainFeature" Component_="AI_ExePath"/>
+    <ROW Feature_="MainFeature" Component_="khmermackey.png"/>
+    <ROW Feature_="MainFeature" Component_="MacKhmer.dll"/>
+    <ROW Feature_="MainFeature" Component_="MacKhmer.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="MacKhmer.dll_2"/>
+    <ROW Feature_="MainFeature" Component_="MacKhmer_amd64.msi"/>
+    <ROW Feature_="MainFeature" Component_="setup.exe"/>
+    <ROW Feature_="MainFeature" Component_="MacKhmer.dll_3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFontsComponent">
+    <ROW File_="AgKhmerChrongUI.ttf"/>
+    <ROW File_="AgKhmerChrongUIBold.ttf"/>
+    <ROW File_="AgKhmerChrongUINumKhRegular.ttf"/>
+    <ROW File_="AgKhmerDangrekUI.ttf"/>
+    <ROW File_="AgKhmerDangrekUIBold.ttf"/>
+    <ROW File_="AgKhmerDangrekUINumKhRegular.ttf"/>
+    <ROW File_="AgKhmerFreehand.ttf"/>
+    <ROW File_="AgKhmerFreehandBold.ttf"/>
+    <ROW File_="AgKhmerFreehandNumKhRegular.ttf"/>
+    <ROW File_="AgKhmerKhlaUI.ttf"/>
+    <ROW File_="AgKhmerKhlaUIBold.ttf"/>
+    <ROW File_="AgKhmerKhlaUINumKhRegular.ttf"/>
+    <ROW File_="AgKhmerMN.ttf"/>
+    <ROW File_="AgKhmerMNBold.ttf"/>
+    <ROW File_="AgKhmerMNNumKhRegular.ttf"/>
+    <ROW File_="AgKhmerUI.ttf"/>
+    <ROW File_="AgKhmerUIBold.ttf"/>
+    <ROW File_="AgKhmerUINumKhRegular.ttf"/>
+    <ROW File_="code128.ttf"/>
+    <ROW File_="KhmerUIBold.ttf"/>
+    <ROW File_="KhmerUIRegular.ttf"/>
+    <ROW File_="KhmerOSApsaraNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSApsaraRegular.ttf"/>
+    <ROW File_="KhmerOSBassacNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSBassacRegular.ttf"/>
+    <ROW File_="KhmerOSBattambangBold.ttf"/>
+    <ROW File_="KhmerOSBattambangNumKhBold.ttf"/>
+    <ROW File_="KhmerOSBattambangNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSBattambangRegular.ttf"/>
+    <ROW File_="KhmerOSBokorNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSBokorRegular.ttf"/>
+    <ROW File_="KhmerOSContentBold.ttf"/>
+    <ROW File_="KhmerOSContentNumKhBold.ttf"/>
+    <ROW File_="KhmerOSContentNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSContentRegular.ttf"/>
+    <ROW File_="KhmerOSDangrekNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSDangrekRegular.ttf"/>
+    <ROW File_="KhmerOSFasthandNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSFasthandRegular.ttf"/>
+    <ROW File_="KhmerOSFreehandNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSFreehandRegular.ttf"/>
+    <ROW File_="KhmerOSKangreyNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSKangreyRegular.ttf"/>
+    <ROW File_="KhmerOSKienSvayNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSKienSvayRegular.ttf"/>
+    <ROW File_="KhmerOSKoulenNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSKoulenRegular.ttf"/>
+    <ROW File_="KhmerOSMetalchriengNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSMetalchriengRegular.ttf"/>
+    <ROW File_="KhmerOSMoulNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSMoulpaliNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSMoulpaliRegular.ttf"/>
+    <ROW File_="KhmerOSMoulRegular.ttf"/>
+    <ROW File_="KhmerOSNewBold.ttf"/>
+    <ROW File_="KhmerOSNewNumKhBold.ttf"/>
+    <ROW File_="KhmerOSNewNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSNewRegular.ttf"/>
+    <ROW File_="KhmerOSNirothNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSNirothRegular.ttf"/>
+    <ROW File_="KhmerOSNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSRegular.ttf"/>
+    <ROW File_="KhmerOSSiemreapNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSSiemreapRegular.ttf"/>
+    <ROW File_="KhmerOSSystemNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSSystemRegular.ttf"/>
+    <ROW File_="KhmerOSWatPhnomNumKhRegular.ttf"/>
+    <ROW File_="KhmerOSWatPhnomRegular.ttf"/>
+    <ROW File_="Tacteing.ttf"/>
+    <ROW File_="AgentosUI.ttf"/>
+    <ROW File_="KhmerUI_0.ttf"/>
+    <ROW File_="KhmerUIb_0.ttf"/>
+    <ROW File_="leelauib_0.ttf"/>
+    <ROW File_="LeelawUI_0.ttf"/>
+    <ROW File_="LeelUIsl_0.ttf"/>
+    <ROW File_="segoeui_0.ttf"/>
+    <ROW File_="segoeuib_0.ttf"/>
+    <ROW File_="segoeuil_0.ttf"/>
+    <ROW File_="segoeuisl_0.ttf"/>
+    <ROW File_="seguisb_0.ttf"/>
+    <ROW File_="TahomaNumKhRegular.ttf"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="khmeruni.exe" SourcePath="KhmerPro\khmeruni.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="747"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1397"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_SETPROGRAMFILES64" Condition="VersionNT64" Sequence="748"/>
+    <ROW Action="AI_SETPROGRAMFILES" Condition="NOT VersionNT64" Sequence="749"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="6599" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="1399" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="1398"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="747"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101"/>
+    <ROW Action="AI_SETPROGRAMFILES64" Condition="VersionNT64" Sequence="748"/>
+    <ROW Action="AI_SETPROGRAMFILES" Condition="NOT VersionNT64" Sequence="749"/>
+    <ROW Action="AI_ChooseTextStyles" Sequence="74"/>
+    <ROW Action="AI_FinishActions" Condition="AI_INSTALL AND AiSkipExitDlg" Sequence="1301"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="( Version9X OR ( NOT VersionNT64 ) OR ( VersionNT64 AND ((VersionNT64 &lt;&gt; 600) OR (MsiNTProductType &lt;&gt; 1)) AND ((VersionNT64 &lt;&gt; 600) OR (MsiNTProductType = 1)) AND ((VersionNT64 &lt;&gt; 601) OR (MsiNTProductType &lt;&gt; 1)) AND ((VersionNT64 &lt;&gt; 601) OR (MsiNTProductType = 1)) AND ((VersionNT64 &lt;&gt; 602) OR (MsiNTProductType &lt;&gt; 1)) AND ((VersionNT64 &lt;&gt; 602) OR (MsiNTProductType = 1)) ) )" Description="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]." DescriptionLocId="AI.LaunchCondition.NoSpecificNT64" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="( Version9X OR VersionNT64 OR ( VersionNT AND ((VersionNT &lt;&gt; 600) OR (MsiNTProductType &lt;&gt; 1)) AND ((VersionNT &lt;&gt; 600) OR (MsiNTProductType = 1)) AND (VersionNT &lt;&gt; 601) AND (VersionNT &lt;&gt; 602) ) )" Description="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]." DescriptionLocId="AI.LaunchCondition.NoSpecificNT" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="AddIns" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint\AddIns" Name="\"/>
+    <ROW Registry="AdvancedInstaller" Root="-1" Key="Software\Caphyon\Advanced Installer" Name="\"/>
+    <ROW Registry="AutoLoad" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint\AddIns\Khmerpro" Name="AutoLoad" Value="#1" Component_="AutoLoad" VirtualValue="#"/>
+    <ROW Registry="Caphyon" Root="-1" Key="Software\Caphyon" Name="\"/>
+    <ROW Registry="CurrentVersion" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion" Name="\"/>
+    <ROW Registry="DaunPenh" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes" Name="DaunPenh" Value="Khmer UI" Component_="DaunPenh"/>
+    <ROW Registry="DaunPenhTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="DaunPenh (TrueType)" Value="LeelawUI_0.ttf" Component_="DaunPenhTrueType"/>
+    <ROW Registry="Excel" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\Excel" Name="\"/>
+    <ROW Registry="FontSubstitutes" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes" Name="\"/>
+    <ROW Registry="Fonts" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="\"/>
+    <ROW Registry="KhmerUI" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes" Name="Khmer UI" Value="Khmer UI" Component_="KhmerUI"/>
+    <ROW Registry="KhmerUIBold" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes" Name="Khmer UI Bold" Value="Khmer UI Bold" Component_="KhmerUIBold"/>
+    <ROW Registry="KhmerUIBoldTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Khmer UI Bold (TrueType)" Value="KhmerUIb_0.ttf" Component_="KhmerUIBoldTrueType"/>
+    <ROW Registry="KhmerUITrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Khmer UI (TrueType)" Value="KhmerUI_0.ttf" Component_="KhmerUITrueType"/>
+    <ROW Registry="Khmerpro" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint\AddIns\Khmerpro" Name="\"/>
+    <ROW Registry="LZMA" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA" Name="\"/>
+    <ROW Registry="LeelawadeeUIBoldTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Leelawadee UI Bold (TrueType)" Value="leelauib_0.ttf" Component_="LeelawadeeUIBoldTrueType"/>
+    <ROW Registry="LeelawadeeUISemilightTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Leelawadee UI Semilight (TrueType)" Value="LeelUIsl_0.ttf" Component_="LeelawadeeUISemilightTrueType"/>
+    <ROW Registry="LeelawadeeUITrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Leelawadee UI (TrueType)" Value="LeelawUI_0.ttf" Component_="LeelawadeeUITrueType"/>
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Microsoft" Root="1" Key="SOFTWARE\Microsoft" Name="\"/>
+    <ROW Registry="Microsoft_1" Root="2" Key="SOFTWARE\Microsoft" Name="\"/>
+    <ROW Registry="OPEN" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\Excel\Options" Name="OPEN" Value="&quot;[AppDataFolder]Microsoft\Templates\LiveContent\Khmerpro.xlam&quot;" Component_="OPEN"/>
+    <ROW Registry="Office" Root="1" Key="SOFTWARE\Microsoft\Office" Name="\"/>
+    <ROW Registry="Options" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\Excel\Options" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Path_1" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint\AddIns\Khmerpro" Name="Path" Value="[AppDataFolder]Microsoft\Templates\LiveContent\Khmerpro.ppam" Component_="Path"/>
+    <ROW Registry="PowerPoint" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint" Name="\"/>
+    <ROW Registry="ProductCode" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]" Name="\"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="ProductVersion" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="\"/>
+    <ROW Registry="SOFTWARE" Root="1" Key="SOFTWARE" Name="\"/>
+    <ROW Registry="SOFTWARE_1" Root="2" Key="SOFTWARE" Name="\"/>
+    <ROW Registry="SegoeUIBoldTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Segoe UI Bold (TrueType)" Value="segoeuib_0.ttf" Component_="SegoeUIBoldTrueType"/>
+    <ROW Registry="SegoeUILightTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Segoe UI Light (TrueType)" Value="segoeuil_0.ttf" Component_="SegoeUILightTrueType"/>
+    <ROW Registry="SegoeUISemiboldTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Segoe UI Semibold (TrueType)" Value="seguisb_0.ttf" Component_="SegoeUISemiboldTrueType"/>
+    <ROW Registry="SegoeUISemilightTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Segoe UI Semilight (TrueType)" Value="segoeuisl_0.ttf" Component_="SegoeUISemilightTrueType"/>
+    <ROW Registry="SegoeUITrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Segoe UI (TrueType)" Value="segoeui_0.ttf" Component_="SegoeUITrueType"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+    <ROW Registry="WindowsNT" Root="2" Key="SOFTWARE\Microsoft\Windows NT" Name="\"/>
+    <ROW Registry="_" Root="1" Key="SOFTWARE\Microsoft\Office\16.0" Name="\"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="DesktopOK" Directory_="ProgramMenuFolder" Name="DESKTO~1|DesktopOK" Component_="DesktopOK.exe" Target="[#DesktopOK.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="DesktopOK_1" Directory_="DesktopFolder" Name="DESKTO~2|DesktopOK" Component_="DesktopOK.exe" Target="[#DesktopOK.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="DesktopOK_x64" Directory_="ProgramMenuFolder" Name="DESKTO~2|DesktopOK_x64" Component_="DesktopOK_x64.exe" Target="[#DesktopOK_x64.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="DesktopOK_x64_1" Directory_="DesktopFolder" Name="DESKTO~1|DesktopOK_x64" Component_="DesktopOK_x64.exe" Target="[#DesktopOK_x64.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="khmermackey" Directory_="DesktopFolder" Name="KHMERM~1|khmermackey" Component_="khmermackey.png" Target="[#khmermackey.png]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="khmermackey_1" Directory_="ProgramMenuFolder" Name="KHMERM~1|khmermackey" Component_="khmermackey.png" Target="[#khmermackey.png]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="appinstaller"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
