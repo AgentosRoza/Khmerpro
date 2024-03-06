@@ -46,6 +46,7 @@
     <ROW Directory="AppDataFolder" Directory_Parent="TARGETDIR" DefaultDir="APPDAT~1|AppDataFolder" IsPseudoRoot="1"/>
     <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
     <ROW Directory="FontsFolder" Directory_Parent="TARGETDIR" DefaultDir="FONTSF~1|FontsFolder" IsPseudoRoot="1"/>
+    <ROW Directory="KhmerPro_Dir" Directory_Parent="ProgramMenuFolder" DefaultDir="KHMERP~1|Khmer Pro"/>
     <ROW Directory="LiveContent_Dir" Directory_Parent="Templates_Dir" DefaultDir="LIVECO~1|LiveContent" DirectoryOptions="3"/>
     <ROW Directory="MacLayout_Dir" Directory_Parent="APPDIR" DefaultDir="MAC-LA~1|Mac-Layout"/>
     <ROW Directory="Microsoft_Dir" Directory_Parent="AppDataFolder" DefaultDir="MICROS~1|Microsoft"/>
@@ -68,7 +69,9 @@
     <ROW Component="DaunPenhTrueType" ComponentId="{DE029725-39BD-4C92-ABEF-9B813969BF0F}" Directory_="APPDIR" Attributes="4" KeyPath="DaunPenhTrueType"/>
     <ROW Component="DesktopOK.exe" ComponentId="{9D366571-9BFE-4E77-B2FC-D416B1B923B0}" Directory_="APPDIR" Attributes="0" Condition="NOT VersionNT64" KeyPath="DesktopOK.exe"/>
     <ROW Component="DesktopOK_x64.exe" ComponentId="{8C46B4CF-C2AC-4863-A791-635A506E64AB}" Directory_="APPDIR" Attributes="256" Condition="VersionNT64" KeyPath="DesktopOK_x64.exe"/>
+    <ROW Component="Fonts.pdf" ComponentId="{6EF5CA69-8243-4042-B9D1-307A26AFB553}" Directory_="APPDIR" Attributes="0" KeyPath="Fonts.pdf"/>
     <ROW Component="KhmerOSApsaraNumKhRegular.ttf" ComponentId="{5B864EE3-BB60-4C8A-B406-AE395476396E}" Directory_="FontsFolder" Attributes="0" Type="0"/>
+    <ROW Component="KhmerPro" ComponentId="{239F2492-E27B-495D-9460-5A56B7F3680E}" Directory_="KhmerPro_Dir" Attributes="0"/>
     <ROW Component="KhmerUI" ComponentId="{2E925454-4A81-4EBB-A82D-F804F6FBA066}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUI"/>
     <ROW Component="KhmerUIBold" ComponentId="{88D78516-6E0E-416B-800C-693156A796D2}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUIBold"/>
     <ROW Component="KhmerUIBoldTrueType" ComponentId="{85667EE2-11B0-4366-AD2F-5D560C0DEDBE}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUIBoldTrueType"/>
@@ -334,6 +337,7 @@
     <ROW File="SuwannaphumRegular.ttf" Component_="AgentosUI.ttf" FileName="SUWANN~4.TTF|Suwannaphum-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Suwannaphum-Regular.ttf" SelfReg="false"/>
     <ROW File="SuwannaphumThin.ttf" Component_="AgentosUI.ttf" FileName="SUWANN~5.TTF|Suwannaphum-Thin.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Suwannaphum-Thin.ttf" SelfReg="false"/>
     <ROW File="TapromRegular.ttf" Component_="AgentosUI.ttf" FileName="TAPROM~1.TTF|Taprom-Regular.ttf" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Taprom-Regular.ttf" SelfReg="false"/>
+    <ROW File="Fonts.pdf" Component_="Fonts.pdf" FileName="Fonts.pdf" Attributes="0" SourcePath="KhmerPro\Fonts.pdf" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
@@ -427,6 +431,7 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
     <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="KhmerPro_Dir" Component_="KhmerPro" ManualDelete="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
     <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
@@ -494,6 +499,8 @@
     <ROW Feature_="MainFeature" Component_="setup.exe"/>
     <ROW Feature_="MainFeature" Component_="MacKhmer.dll_3"/>
     <ROW Feature_="Google" Component_="AgentosUI.ttf"/>
+    <ROW Feature_="MainFeature" Component_="KhmerPro"/>
+    <ROW Feature_="MainFeature" Component_="Fonts.pdf"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFontsComponent">
     <ROW File_="AgKhmerChrongUI.ttf"/>
@@ -808,12 +815,13 @@
     <ROW Registry="_" Root="1" Key="SOFTWARE\Microsoft\Office\16.0" Name="\"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
-    <ROW Shortcut="DesktopOK" Directory_="ProgramMenuFolder" Name="DESKTO~1|DesktopOK" Component_="DesktopOK.exe" Target="[#DesktopOK.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="DesktopOK" Directory_="KhmerPro_Dir" Name="DESKTO~1|DesktopOK" Component_="DesktopOK.exe" Target="[#DesktopOK.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
     <ROW Shortcut="DesktopOK_1" Directory_="DesktopFolder" Name="DESKTO~2|DesktopOK" Component_="DesktopOK.exe" Target="[#DesktopOK.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
-    <ROW Shortcut="DesktopOK_x64" Directory_="ProgramMenuFolder" Name="DESKTO~2|DesktopOK_x64" Component_="DesktopOK_x64.exe" Target="[#DesktopOK_x64.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="DesktopOK_x64" Directory_="KhmerPro_Dir" Name="DESKTO~2|DesktopOK_x64" Component_="DesktopOK_x64.exe" Target="[#DesktopOK_x64.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
     <ROW Shortcut="DesktopOK_x64_1" Directory_="DesktopFolder" Name="DESKTO~1|DesktopOK_x64" Component_="DesktopOK_x64.exe" Target="[#DesktopOK_x64.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="Fonts" Directory_="KhmerPro_Dir" Name="Fonts" Component_="Fonts.pdf" Target="[#Fonts.pdf]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
     <ROW Shortcut="khmermackey" Directory_="DesktopFolder" Name="KHMERM~1|khmermackey" Component_="khmermackey.png" Target="[#khmermackey.png]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
-    <ROW Shortcut="khmermackey_1" Directory_="ProgramMenuFolder" Name="KHMERM~1|khmermackey" Component_="khmermackey.png" Target="[#khmermackey.png]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="khmermackey_1" Directory_="KhmerPro_Dir" Name="KHMERM~1|khmermackey" Component_="khmermackey.png" Target="[#khmermackey.png]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
     <ATTRIBUTE name="UsedTheme" value="appinstaller"/>
