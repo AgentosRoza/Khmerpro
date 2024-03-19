@@ -25,7 +25,7 @@
     <ROW Property="ProductCode" Value="1033:{B0A8B4E2-6C3A-42EE-9ECD-E85F9EF400C0} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="KhmerPro"/>
-    <ROW Property="ProductVersion" Value="2.0.2" Options="32"/>
+    <ROW Property="ProductVersion" Value="2.0.3" Options="32"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
     <ROW Property="UpgradeCode" Value="{DF75D436-94BF-4FE6-BD53-3A0E90A8410D}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
