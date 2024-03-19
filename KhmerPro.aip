@@ -61,8 +61,8 @@
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
     <ROW Component="AI_ExePath" ComponentId="{6D217D66-D881-4291-9CD0-136D567D87DF}" Directory_="APPDIR" Attributes="260" KeyPath="AI_ExePath"/>
     <ROW Component="APPDIR" ComponentId="{4D40983B-ABBA-495D-AD85-54411A3F03DC}" Directory_="APPDIR" Attributes="0"/>
-    <ROW Component="AgentosUI.ttf" ComponentId="{668C1638-93BB-4ABC-803A-78E78024491F}" Directory_="FontsFolder" Attributes="0" Type="0"/>
-    <ROW Component="AngkorRegular.ttf" ComponentId="{A8828C80-977A-41CA-A96B-1658BCE87D39}" Directory_="FontsFolder" Attributes="0" Type="0"/>
+    <ROW Component="AgentosUI.ttf" ComponentId="{7C2EA15E-E0DD-449E-A7B9-2EDA2B2B7095}" Directory_="FontsFolder" Attributes="0" Type="0"/>
+    <ROW Component="AngkorRegular.ttf" ComponentId="{FB0632DA-9652-4168-8CD7-7E3C8070B8B7}" Directory_="FontsFolder" Attributes="0" Type="0"/>
     <ROW Component="AutoLoad" ComponentId="{DF04CABD-E6C6-49DA-BB28-B23FB5CB23D6}" Directory_="APPDIR" Attributes="4" KeyPath="AutoLoad"/>
     <ROW Component="Data.xlsb" ComponentId="{4472A6AE-F66D-43AD-9F1F-355BB05940A5}" Directory_="LiveContent_Dir" Attributes="0" KeyPath="Data.xlsb" Type="0"/>
     <ROW Component="DaunPenh" ComponentId="{61D7ADB7-269D-4F04-BF10-71E49B04366C}" Directory_="APPDIR" Attributes="4" KeyPath="DaunPenh"/>
@@ -70,13 +70,13 @@
     <ROW Component="DesktopOK.exe" ComponentId="{9D366571-9BFE-4E77-B2FC-D416B1B923B0}" Directory_="APPDIR" Attributes="0" Condition="NOT VersionNT64" KeyPath="DesktopOK.exe"/>
     <ROW Component="DesktopOK_x64.exe" ComponentId="{8C46B4CF-C2AC-4863-A791-635A506E64AB}" Directory_="APPDIR" Attributes="256" Condition="VersionNT64" KeyPath="DesktopOK_x64.exe"/>
     <ROW Component="Fonts.pdf" ComponentId="{6EF5CA69-8243-4042-B9D1-307A26AFB553}" Directory_="APPDIR" Attributes="0" KeyPath="Fonts.pdf"/>
-    <ROW Component="KhmerOS.ttf" ComponentId="{EED7DEEB-1506-4F00-8709-C060BD071DF6}" Directory_="FontsFolder" Attributes="0" Type="0"/>
+    <ROW Component="KhmerOS.ttf" ComponentId="{6564A418-477D-4479-BA64-9C18F100E094}" Directory_="FontsFolder" Attributes="0" Type="0"/>
     <ROW Component="KhmerPro" ComponentId="{239F2492-E27B-495D-9460-5A56B7F3680E}" Directory_="KhmerPro_Dir" Attributes="0"/>
     <ROW Component="KhmerUI" ComponentId="{2E925454-4A81-4EBB-A82D-F804F6FBA066}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUI"/>
     <ROW Component="KhmerUIBold" ComponentId="{88D78516-6E0E-416B-800C-693156A796D2}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUIBold"/>
     <ROW Component="KhmerUIBoldTrueType" ComponentId="{85667EE2-11B0-4366-AD2F-5D560C0DEDBE}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUIBoldTrueType"/>
     <ROW Component="KhmerUITrueType" ComponentId="{5904B038-1C86-4975-9049-47637259F7D9}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUITrueType"/>
-    <ROW Component="KhmerUI_0.ttf" ComponentId="{5152ED40-68D5-4BC8-89A4-5DDC6E0DD767}" Directory_="FontsFolder" Attributes="0" Type="0"/>
+    <ROW Component="KhmerUI_0.ttf" ComponentId="{1CD61E63-B220-413F-9D10-EBA5A208C8B0}" Directory_="FontsFolder" Attributes="0" Type="0"/>
     <ROW Component="LeelawadeeUIBoldTrueType" ComponentId="{DCCE9205-015F-414E-BFDE-63FA3E8F7759}" Directory_="APPDIR" Attributes="4" KeyPath="LeelawadeeUIBoldTrueType"/>
     <ROW Component="LeelawadeeUISemilightTrueType" ComponentId="{402F29B9-2864-4295-B567-D11E33BA486B}" Directory_="APPDIR" Attributes="4" KeyPath="LeelawadeeUISemilightTrueType"/>
     <ROW Component="LeelawadeeUITrueType" ComponentId="{8ACDA461-1D6F-47B8-91BA-A134C44A5EAF}" Directory_="APPDIR" Attributes="4" KeyPath="LeelawadeeUITrueType"/>
@@ -136,6 +136,76 @@
     <ROW File="segoeuisl_0.ttf" Component_="KhmerUI_0.ttf" FileName="SEGOEU~4.TTF|segoeuisl_0.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\System\segoeuisl_0.ttf" SelfReg="false"/>
     <ROW File="seguisb_0.ttf" Component_="KhmerUI_0.ttf" FileName="SEGUIS~1.TTF|seguisb_0.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\System\seguisb_0.ttf" SelfReg="false"/>
     <ROW File="TahomaNumKhRegular.ttf" Component_="KhmerUI_0.ttf" FileName="TAHOMA~1.TTF|TahomaNumKh-Regular.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\System\TahomaNumKh-Regular.ttf" SelfReg="false"/>
+    <ROW File="AgentosUI.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~1.TTF|AgentosUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUI.ttf" SelfReg="false"/>
+    <ROW File="AgentosUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~2.TTF|AgentosUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgentosUIExtralight.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~3.TTF|AgentosUI-Extralight.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUI-Extralight.ttf" SelfReg="false"/>
+    <ROW File="AgentosUILight.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~4.TTF|AgentosUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUI-Light.ttf" SelfReg="false"/>
+    <ROW File="AgentosUINumKh.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~5.TTF|AgentosUINumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUINumKh.ttf" SelfReg="false"/>
+    <ROW File="AgentosUISemibold.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~6.TTF|AgentosUI-Semibold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUI-Semibold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerChrongUI.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~1.TTF|AgKhmerChrongUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUI.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerChrongUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~2.TTF|AgKhmerChrongUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerChrongUILight.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~3.TTF|AgKhmerChrongUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUI-Light.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerChrongUINumKh.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~4.TTF|AgKhmerChrongUINumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUINumKh.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerDangrekUI.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~5.TTF|AgKhmerDangrekUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUI.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerDangrekUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~6.TTF|AgKhmerDangrekUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerDangrekUILight.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~7.TTF|AgKhmerDangrekUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUI-Light.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerDangrekUINumKh.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~8.TTF|AgKhmerDangrekUINumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUINumKh.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerFreehand.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~9.TTF|AgKhmerFreehand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehand.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerFreehandBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~10.TTF|AgKhmerFreehand-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehand-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerFreehandLight.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~11.TTF|AgKhmerFreehand-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehand-Light.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerFreehandNumKh.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~12.TTF|AgKhmerFreehandNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehandNumKh.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerKhlaUI.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~13.TTF|AgKhmerKhlaUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUI.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerKhlaUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~14.TTF|AgKhmerKhlaUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerKhlaUILight.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~15.TTF|AgKhmerKhlaUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUI-Light.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerKhlaUINumKh.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~16.TTF|AgKhmerKhlaUINumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUINumKh.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMN.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~17.TTF|AgKhmerMN.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMN.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMNBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~18.TTF|AgKhmerMN-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMN-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMNLight.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~19.TTF|AgKhmerMN-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMN-Light.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMNNumKh.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~20.TTF|AgKhmerMNNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMNNumKh.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMoulUI.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~21.TTF|AgKhmerMoulUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMoulUI.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMoulUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~22.TTF|AgKhmerMoulUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMoulUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMoulUILight.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~23.TTF|AgKhmerMoulUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMoulUI-Light.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerMoulUINumKh.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~24.TTF|AgKhmerMoulUINumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMoulUINumKh.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerUI.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~25.TTF|AgKhmerUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUI.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~26.TTF|AgKhmerUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUI-Bold.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerUILight.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~27.TTF|AgKhmerUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUI-Light.ttf" SelfReg="false"/>
+    <ROW File="AgKhmerUINumKh.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~28.TTF|AgKhmerUINumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUINumKh.ttf" SelfReg="false"/>
+    <ROW File="code128.ttf" Component_="AgentosUI.ttf" FileName="code128.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\code128.ttf" SelfReg="false"/>
+    <ROW File="KhmerOS.ttf" Component_="KhmerOS.ttf" FileName="KhmerOS.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOS.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSApsara.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~1.TTF|KhmerOSApsara.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSApsara.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSApsaraNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~2.TTF|KhmerOSApsaraNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSApsaraNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBattambang.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~3.TTF|KhmerOSBattambang.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBattambang.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBattambangNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~4.TTF|KhmerOSBattambangNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBattambangNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBokor.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~5.TTF|KhmerOSBokor.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBokor.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSBokorNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~6.TTF|KhmerOSBokorNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBokorNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSClassic.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~7.TTF|KhmerOSClassic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSClassic.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSClassicNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~8.TTF|KhmerOSClassicNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSClassicNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSContent.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~9.TTF|KhmerOSContent.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSContent.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSContentNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~10.TTF|KhmerOSContentNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSContentNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSFasthand.ttf" Component_="KhmerOS.ttf" FileName="KHMER~11.TTF|KhmerOSFasthand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFasthand.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSFasthandNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~12.TTF|KhmerOSFasthandNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFasthandNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSFreehand.ttf" Component_="KhmerOS.ttf" FileName="KHMER~13.TTF|KhmerOSFreehand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFreehand.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSFreehandNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~14.TTF|KhmerOSFreehandNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFreehandNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSKienSvay.ttf" Component_="KhmerOS.ttf" FileName="KHMER~15.TTF|KhmerOSKienSvay.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSKienSvay.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSKienSvayNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~16.TTF|KhmerOSKienSvayNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSKienSvayNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMetalChrieng.ttf" Component_="KhmerOS.ttf" FileName="KHMER~17.TTF|KhmerOSMetalChrieng.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMetalChrieng.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMetalChriengNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~18.TTF|KhmerOSMetalChriengNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMetalChriengNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMuol.ttf" Component_="KhmerOS.ttf" FileName="KHMER~19.TTF|KhmerOSMuol.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuol.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMuolLight.ttf" Component_="KhmerOS.ttf" FileName="KHMER~20.TTF|KhmerOSMuolLight.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuolLight.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMuolLightNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~21.TTF|KhmerOSMuolLightNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuolLightNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMuolNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~22.TTF|KhmerOSMuolNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuolNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMuolPali.ttf" Component_="KhmerOS.ttf" FileName="KHMER~23.TTF|KhmerOSMuolPali.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuolPali.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSMuolPaliNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~24.TTF|KhmerOSMuolPaliNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuolPaliNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSNiroth.ttf" Component_="KhmerOS.ttf" FileName="KHMER~25.TTF|KhmerOSNiroth.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNiroth.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSNirothNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~26.TTF|KhmerOSNirothNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNirothNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~27.TTF|KhmerOSNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSSiemreap.ttf" Component_="KhmerOS.ttf" FileName="KHMER~28.TTF|KhmerOSSiemreap.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSiemreap.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSSiemreapNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~29.TTF|KhmerOSSiemreapNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSiemreapNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSSystem.ttf" Component_="KhmerOS.ttf" FileName="KHMER~30.TTF|KhmerOSSystem.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSystem.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSSystemNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~31.TTF|KhmerOSSystemNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSystemNumKh.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSWatPhnom.ttf" Component_="KhmerOS.ttf" FileName="KHMER~32.TTF|KhmerOSWatPhnom.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSWatPhnom.ttf" SelfReg="false"/>
+    <ROW File="KhmerOSWatPhnomNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~33.TTF|KhmerOSWatPhnomNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSWatPhnomNumKh.ttf" SelfReg="false"/>
+    <ROW File="Tacteing.ttf" Component_="KhmerOS.ttf" FileName="Tacteing.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\Tacteing.ttf" SelfReg="false"/>
     <ROW File="AngkorRegular.ttf" Component_="AngkorRegular.ttf" FileName="ANGKOR~1.TTF|Angkor-Regular.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Angkor-Regular.ttf" SelfReg="false"/>
     <ROW File="BattambangBlack.ttf" Component_="AngkorRegular.ttf" FileName="BATTAM~1.TTF|Battambang-Black.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Battambang-Black.ttf" SelfReg="false"/>
     <ROW File="BattambangBold.ttf" Component_="AngkorRegular.ttf" FileName="BATTAM~2.TTF|Battambang-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Battambang-Bold.ttf" SelfReg="false"/>
@@ -271,76 +341,6 @@
     <ROW File="SuwannaphumRegular.ttf" Component_="AngkorRegular.ttf" FileName="SUWANN~4.TTF|Suwannaphum-Regular.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Suwannaphum-Regular.ttf" SelfReg="false"/>
     <ROW File="SuwannaphumThin.ttf" Component_="AngkorRegular.ttf" FileName="SUWANN~5.TTF|Suwannaphum-Thin.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Suwannaphum-Thin.ttf" SelfReg="false"/>
     <ROW File="TapromRegular.ttf" Component_="AngkorRegular.ttf" FileName="TAPROM~1.TTF|Taprom-Regular.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Taprom-Regular.ttf" SelfReg="false"/>
-    <ROW File="KhmerOS.ttf" Component_="KhmerOS.ttf" FileName="KhmerOS.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOS.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSApsara.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~1.TTF|KhmerOSApsara.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSApsara.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSApsaraNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~2.TTF|KhmerOSApsaraNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSApsaraNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSBattambang.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~3.TTF|KhmerOSBattambang.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBattambang.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSBattambangNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~4.TTF|KhmerOSBattambangNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBattambangNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSBokor.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~5.TTF|KhmerOSBokor.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBokor.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSBokorNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~6.TTF|KhmerOSBokorNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSBokorNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSClassic.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~7.TTF|KhmerOSClassic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSClassic.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSClassicNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~8.TTF|KhmerOSClassicNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSClassicNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSContent.ttf" Component_="KhmerOS.ttf" FileName="KHMERO~9.TTF|KhmerOSContent.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSContent.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSContentNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~10.TTF|KhmerOSContentNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSContentNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSFasthand.ttf" Component_="KhmerOS.ttf" FileName="KHMER~11.TTF|KhmerOSFasthand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFasthand.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSFasthandNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~12.TTF|KhmerOSFasthandNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFasthandNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSFreehand.ttf" Component_="KhmerOS.ttf" FileName="KHMER~13.TTF|KhmerOSFreehand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFreehand.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSFreehandNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~14.TTF|KhmerOSFreehandNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSFreehandNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSKienSvay.ttf" Component_="KhmerOS.ttf" FileName="KHMER~15.TTF|KhmerOSKienSvay.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSKienSvay.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSKienSvayNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~16.TTF|KhmerOSKienSvayNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSKienSvayNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSMetalChrieng.ttf" Component_="KhmerOS.ttf" FileName="KHMER~17.TTF|KhmerOSMetalChrieng.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMetalChrieng.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSMetalChriengNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~18.TTF|KhmerOSMetalChriengNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMetalChriengNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSMuol.ttf" Component_="KhmerOS.ttf" FileName="KHMER~19.TTF|KhmerOSMuol.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuol.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSMuolLight.ttf" Component_="KhmerOS.ttf" FileName="KHMER~20.TTF|KhmerOSMuolLight.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuolLight.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSMuolLightNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~21.TTF|KhmerOSMuolLightNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuolLightNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSMuolNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~22.TTF|KhmerOSMuolNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuolNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSMuolPali.ttf" Component_="KhmerOS.ttf" FileName="KHMER~23.TTF|KhmerOSMuolPali.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuolPali.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSMuolPaliNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~24.TTF|KhmerOSMuolPaliNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSMuolPaliNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSNiroth.ttf" Component_="KhmerOS.ttf" FileName="KHMER~25.TTF|KhmerOSNiroth.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNiroth.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSNirothNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~26.TTF|KhmerOSNirothNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNirothNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~27.TTF|KhmerOSNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSSiemreap.ttf" Component_="KhmerOS.ttf" FileName="KHMER~28.TTF|KhmerOSSiemreap.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSiemreap.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSSiemreapNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~29.TTF|KhmerOSSiemreapNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSiemreapNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSSystem.ttf" Component_="KhmerOS.ttf" FileName="KHMER~30.TTF|KhmerOSSystem.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSystem.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSSystemNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~31.TTF|KhmerOSSystemNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSSystemNumKh.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSWatPhnom.ttf" Component_="KhmerOS.ttf" FileName="KHMER~32.TTF|KhmerOSWatPhnom.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSWatPhnom.ttf" SelfReg="false"/>
-    <ROW File="KhmerOSWatPhnomNumKh.ttf" Component_="KhmerOS.ttf" FileName="KHMER~33.TTF|KhmerOSWatPhnomNumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerOSWatPhnomNumKh.ttf" SelfReg="false"/>
-    <ROW File="Tacteing.ttf" Component_="KhmerOS.ttf" FileName="Tacteing.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\Tacteing.ttf" SelfReg="false"/>
-    <ROW File="AgentosUI.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~1.TTF|AgentosUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUI.ttf" SelfReg="false"/>
-    <ROW File="AgentosUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~2.TTF|AgentosUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUI-Bold.ttf" SelfReg="false"/>
-    <ROW File="AgentosUIExtralight.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~3.TTF|AgentosUI-Extralight.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUI-Extralight.ttf" SelfReg="false"/>
-    <ROW File="AgentosUILight.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~4.TTF|AgentosUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUI-Light.ttf" SelfReg="false"/>
-    <ROW File="AgentosUINumKh.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~5.TTF|AgentosUINumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUINumKh.ttf" SelfReg="false"/>
-    <ROW File="AgentosUISemibold.ttf" Component_="AgentosUI.ttf" FileName="AGENTO~6.TTF|AgentosUI-Semibold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgentosUI-Semibold.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerChrongUI.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~1.TTF|AgKhmerChrongUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUI.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerChrongUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~2.TTF|AgKhmerChrongUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUI-Bold.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerChrongUILight.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~3.TTF|AgKhmerChrongUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUI-Light.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerChrongUINumKh_0.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~4.TTF|AgKhmerChrongUINumKh_0.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerChrongUINumKh_0.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerDangrekUI.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~5.TTF|AgKhmerDangrekUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUI.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerDangrekUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~6.TTF|AgKhmerDangrekUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUI-Bold.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerDangrekUILight.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~7.TTF|AgKhmerDangrekUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUI-Light.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerDangrekUINumKh_0.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~8.TTF|AgKhmerDangrekUINumKh_0.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerDangrekUINumKh_0.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerFreehand.ttf" Component_="AgentosUI.ttf" FileName="AGKHME~9.TTF|AgKhmerFreehand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehand.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerFreehandBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~10.TTF|AgKhmerFreehand-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehand-Bold.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerFreehandLight.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~11.TTF|AgKhmerFreehand-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehand-Light.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerFreehandNumKh_0.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~12.TTF|AgKhmerFreehandNumKh_0.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerFreehandNumKh_0.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerKhlaUI.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~13.TTF|AgKhmerKhlaUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUI.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerKhlaUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~14.TTF|AgKhmerKhlaUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUI-Bold.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerKhlaUILight.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~15.TTF|AgKhmerKhlaUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUI-Light.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerKhlaUINumKh_0.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~16.TTF|AgKhmerKhlaUINumKh_0.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerKhlaUINumKh_0.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerMN.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~17.TTF|AgKhmerMN.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMN.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerMNBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~18.TTF|AgKhmerMN-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMN-Bold.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerMNLight.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~19.TTF|AgKhmerMN-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMN-Light.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerMNNumKh_0.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~20.TTF|AgKhmerMNNumKh_0.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMNNumKh_0.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerMoulUI.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~21.TTF|AgKhmerMoulUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMoulUI.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerMoulUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~22.TTF|AgKhmerMoulUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMoulUI-Bold.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerMoulUILight.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~23.TTF|AgKhmerMoulUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMoulUI-Light.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerMoulUINumKh.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~24.TTF|AgKhmerMoulUINumKh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerMoulUINumKh.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerUI.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~25.TTF|AgKhmerUI.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUI.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerUIBold.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~26.TTF|AgKhmerUI-Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUI-Bold.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerUILight.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~27.TTF|AgKhmerUI-Light.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUI-Light.ttf" SelfReg="false"/>
-    <ROW File="AgKhmerUINumKh_0.ttf" Component_="AgentosUI.ttf" FileName="AGKHM~28.TTF|AgKhmerUINumKh_0.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\AgKhmerUINumKh_0.ttf" SelfReg="false"/>
-    <ROW File="code128.ttf" Component_="AgentosUI.ttf" FileName="code128.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AgKhmer\code128.ttf" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
@@ -499,12 +499,12 @@
     <ROW Feature_="MainFeature" Component_="MacKhmer_amd64.msi"/>
     <ROW Feature_="MainFeature" Component_="setup.exe"/>
     <ROW Feature_="MainFeature" Component_="MacKhmer.dll_3"/>
-    <ROW Feature_="MainFeature" Component_="KhmerUI_0.ttf"/>
     <ROW Feature_="MainFeature" Component_="KhmerPro"/>
     <ROW Feature_="MainFeature" Component_="Fonts.pdf"/>
-    <ROW Feature_="Google" Component_="AngkorRegular.ttf"/>
-    <ROW Feature_="KhmerOSFonts" Component_="KhmerOS.ttf"/>
+    <ROW Feature_="MainFeature" Component_="KhmerUI_0.ttf"/>
     <ROW Feature_="AgFonts" Component_="AgentosUI.ttf"/>
+    <ROW Feature_="KhmerOSFonts" Component_="KhmerOS.ttf"/>
+    <ROW Feature_="Google" Component_="AngkorRegular.ttf"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFontsComponent">
     <ROW File_="KhmerUI_0.ttf"/>
@@ -519,6 +519,76 @@
     <ROW File_="segoeuisl_0.ttf"/>
     <ROW File_="seguisb_0.ttf"/>
     <ROW File_="TahomaNumKhRegular.ttf"/>
+    <ROW File_="AgentosUI.ttf"/>
+    <ROW File_="AgentosUIBold.ttf"/>
+    <ROW File_="AgentosUIExtralight.ttf"/>
+    <ROW File_="AgentosUILight.ttf"/>
+    <ROW File_="AgentosUINumKh.ttf"/>
+    <ROW File_="AgentosUISemibold.ttf"/>
+    <ROW File_="AgKhmerChrongUI.ttf"/>
+    <ROW File_="AgKhmerChrongUIBold.ttf"/>
+    <ROW File_="AgKhmerChrongUILight.ttf"/>
+    <ROW File_="AgKhmerChrongUINumKh.ttf"/>
+    <ROW File_="AgKhmerDangrekUI.ttf"/>
+    <ROW File_="AgKhmerDangrekUIBold.ttf"/>
+    <ROW File_="AgKhmerDangrekUILight.ttf"/>
+    <ROW File_="AgKhmerDangrekUINumKh.ttf"/>
+    <ROW File_="AgKhmerFreehand.ttf"/>
+    <ROW File_="AgKhmerFreehandBold.ttf"/>
+    <ROW File_="AgKhmerFreehandLight.ttf"/>
+    <ROW File_="AgKhmerFreehandNumKh.ttf"/>
+    <ROW File_="AgKhmerKhlaUI.ttf"/>
+    <ROW File_="AgKhmerKhlaUIBold.ttf"/>
+    <ROW File_="AgKhmerKhlaUILight.ttf"/>
+    <ROW File_="AgKhmerKhlaUINumKh.ttf"/>
+    <ROW File_="AgKhmerMN.ttf"/>
+    <ROW File_="AgKhmerMNBold.ttf"/>
+    <ROW File_="AgKhmerMNLight.ttf"/>
+    <ROW File_="AgKhmerMNNumKh.ttf"/>
+    <ROW File_="AgKhmerMoulUI.ttf"/>
+    <ROW File_="AgKhmerMoulUIBold.ttf"/>
+    <ROW File_="AgKhmerMoulUILight.ttf"/>
+    <ROW File_="AgKhmerMoulUINumKh.ttf"/>
+    <ROW File_="AgKhmerUI.ttf"/>
+    <ROW File_="AgKhmerUIBold.ttf"/>
+    <ROW File_="AgKhmerUILight.ttf"/>
+    <ROW File_="AgKhmerUINumKh.ttf"/>
+    <ROW File_="code128.ttf"/>
+    <ROW File_="KhmerOS.ttf"/>
+    <ROW File_="KhmerOSApsara.ttf"/>
+    <ROW File_="KhmerOSApsaraNumKh.ttf"/>
+    <ROW File_="KhmerOSBattambang.ttf"/>
+    <ROW File_="KhmerOSBattambangNumKh.ttf"/>
+    <ROW File_="KhmerOSBokor.ttf"/>
+    <ROW File_="KhmerOSBokorNumKh.ttf"/>
+    <ROW File_="KhmerOSClassic.ttf"/>
+    <ROW File_="KhmerOSClassicNumKh.ttf"/>
+    <ROW File_="KhmerOSContent.ttf"/>
+    <ROW File_="KhmerOSContentNumKh.ttf"/>
+    <ROW File_="KhmerOSFasthand.ttf"/>
+    <ROW File_="KhmerOSFasthandNumKh.ttf"/>
+    <ROW File_="KhmerOSFreehand.ttf"/>
+    <ROW File_="KhmerOSFreehandNumKh.ttf"/>
+    <ROW File_="KhmerOSKienSvay.ttf"/>
+    <ROW File_="KhmerOSKienSvayNumKh.ttf"/>
+    <ROW File_="KhmerOSMetalChrieng.ttf"/>
+    <ROW File_="KhmerOSMetalChriengNumKh.ttf"/>
+    <ROW File_="KhmerOSMuol.ttf"/>
+    <ROW File_="KhmerOSMuolLight.ttf"/>
+    <ROW File_="KhmerOSMuolLightNumKh.ttf"/>
+    <ROW File_="KhmerOSMuolNumKh.ttf"/>
+    <ROW File_="KhmerOSMuolPali.ttf"/>
+    <ROW File_="KhmerOSMuolPaliNumKh.ttf"/>
+    <ROW File_="KhmerOSNiroth.ttf"/>
+    <ROW File_="KhmerOSNirothNumKh.ttf"/>
+    <ROW File_="KhmerOSNumKh.ttf"/>
+    <ROW File_="KhmerOSSiemreap.ttf"/>
+    <ROW File_="KhmerOSSiemreapNumKh.ttf"/>
+    <ROW File_="KhmerOSSystem.ttf"/>
+    <ROW File_="KhmerOSSystemNumKh.ttf"/>
+    <ROW File_="KhmerOSWatPhnom.ttf"/>
+    <ROW File_="KhmerOSWatPhnomNumKh.ttf"/>
+    <ROW File_="Tacteing.ttf"/>
     <ROW File_="AngkorRegular.ttf"/>
     <ROW File_="BattambangBlack.ttf"/>
     <ROW File_="BattambangBold.ttf"/>
@@ -654,76 +724,6 @@
     <ROW File_="SuwannaphumRegular.ttf"/>
     <ROW File_="SuwannaphumThin.ttf"/>
     <ROW File_="TapromRegular.ttf"/>
-    <ROW File_="KhmerOS.ttf"/>
-    <ROW File_="KhmerOSApsara.ttf"/>
-    <ROW File_="KhmerOSApsaraNumKh.ttf"/>
-    <ROW File_="KhmerOSBattambang.ttf"/>
-    <ROW File_="KhmerOSBattambangNumKh.ttf"/>
-    <ROW File_="KhmerOSBokor.ttf"/>
-    <ROW File_="KhmerOSBokorNumKh.ttf"/>
-    <ROW File_="KhmerOSClassic.ttf"/>
-    <ROW File_="KhmerOSClassicNumKh.ttf"/>
-    <ROW File_="KhmerOSContent.ttf"/>
-    <ROW File_="KhmerOSContentNumKh.ttf"/>
-    <ROW File_="KhmerOSFasthand.ttf"/>
-    <ROW File_="KhmerOSFasthandNumKh.ttf"/>
-    <ROW File_="KhmerOSFreehand.ttf"/>
-    <ROW File_="KhmerOSFreehandNumKh.ttf"/>
-    <ROW File_="KhmerOSKienSvay.ttf"/>
-    <ROW File_="KhmerOSKienSvayNumKh.ttf"/>
-    <ROW File_="KhmerOSMetalChrieng.ttf"/>
-    <ROW File_="KhmerOSMetalChriengNumKh.ttf"/>
-    <ROW File_="KhmerOSMuol.ttf"/>
-    <ROW File_="KhmerOSMuolLight.ttf"/>
-    <ROW File_="KhmerOSMuolLightNumKh.ttf"/>
-    <ROW File_="KhmerOSMuolNumKh.ttf"/>
-    <ROW File_="KhmerOSMuolPali.ttf"/>
-    <ROW File_="KhmerOSMuolPaliNumKh.ttf"/>
-    <ROW File_="KhmerOSNiroth.ttf"/>
-    <ROW File_="KhmerOSNirothNumKh.ttf"/>
-    <ROW File_="KhmerOSNumKh.ttf"/>
-    <ROW File_="KhmerOSSiemreap.ttf"/>
-    <ROW File_="KhmerOSSiemreapNumKh.ttf"/>
-    <ROW File_="KhmerOSSystem.ttf"/>
-    <ROW File_="KhmerOSSystemNumKh.ttf"/>
-    <ROW File_="KhmerOSWatPhnom.ttf"/>
-    <ROW File_="KhmerOSWatPhnomNumKh.ttf"/>
-    <ROW File_="Tacteing.ttf"/>
-    <ROW File_="AgentosUI.ttf"/>
-    <ROW File_="AgentosUIBold.ttf"/>
-    <ROW File_="AgentosUIExtralight.ttf"/>
-    <ROW File_="AgentosUILight.ttf"/>
-    <ROW File_="AgentosUINumKh.ttf"/>
-    <ROW File_="AgentosUISemibold.ttf"/>
-    <ROW File_="AgKhmerChrongUI.ttf"/>
-    <ROW File_="AgKhmerChrongUIBold.ttf"/>
-    <ROW File_="AgKhmerChrongUILight.ttf"/>
-    <ROW File_="AgKhmerChrongUINumKh_0.ttf"/>
-    <ROW File_="AgKhmerDangrekUI.ttf"/>
-    <ROW File_="AgKhmerDangrekUIBold.ttf"/>
-    <ROW File_="AgKhmerDangrekUILight.ttf"/>
-    <ROW File_="AgKhmerDangrekUINumKh_0.ttf"/>
-    <ROW File_="AgKhmerFreehand.ttf"/>
-    <ROW File_="AgKhmerFreehandBold.ttf"/>
-    <ROW File_="AgKhmerFreehandLight.ttf"/>
-    <ROW File_="AgKhmerFreehandNumKh_0.ttf"/>
-    <ROW File_="AgKhmerKhlaUI.ttf"/>
-    <ROW File_="AgKhmerKhlaUIBold.ttf"/>
-    <ROW File_="AgKhmerKhlaUILight.ttf"/>
-    <ROW File_="AgKhmerKhlaUINumKh_0.ttf"/>
-    <ROW File_="AgKhmerMN.ttf"/>
-    <ROW File_="AgKhmerMNBold.ttf"/>
-    <ROW File_="AgKhmerMNLight.ttf"/>
-    <ROW File_="AgKhmerMNNumKh_0.ttf"/>
-    <ROW File_="AgKhmerMoulUI.ttf"/>
-    <ROW File_="AgKhmerMoulUIBold.ttf"/>
-    <ROW File_="AgKhmerMoulUILight.ttf"/>
-    <ROW File_="AgKhmerMoulUINumKh.ttf"/>
-    <ROW File_="AgKhmerUI.ttf"/>
-    <ROW File_="AgKhmerUIBold.ttf"/>
-    <ROW File_="AgKhmerUILight.ttf"/>
-    <ROW File_="AgKhmerUINumKh_0.ttf"/>
-    <ROW File_="code128.ttf"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="khmeruni.exe" SourcePath="KhmerPro\khmeruni.ico" Index="0"/>
