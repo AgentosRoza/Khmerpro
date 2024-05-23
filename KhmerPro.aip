@@ -21,10 +21,10 @@
     <ROW Property="AiWinUI" Value="1"/>
     <ROW Property="CTRLS" Value="2"/>
     <ROW Property="Manufacturer" Value="Agentos"/>
-    <ROW Property="ProductCode" Value="1033:{8420DF8A-CB2A-4ABF-BE92-D62DD8210814} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{B1092D2B-C781-4C22-A207-47BAC40AED34} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="KhmerPro"/>
-    <ROW Property="ProductVersion" Value="2.0.4" Options="32"/>
+    <ROW Property="ProductVersion" Value="2.0.5" Options="32"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
     <ROW Property="UpgradeCode" Value="{0E4E239A-7DFC-4D30-9AD5-1C9B570F6F0A}"/>
     <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME#Build:Windows 9x/ME" ValueLocId="-"/>
@@ -354,6 +354,7 @@
     <ROW File="SuwannaphumRegular.ttf" Component_="AngkorRegular.ttf" FileName="SUWANN~4.TTF|Suwannaphum-Regular.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Suwannaphum-Regular.ttf" SelfReg="false"/>
     <ROW File="SuwannaphumThin.ttf" Component_="AngkorRegular.ttf" FileName="SUWANN~5.TTF|Suwannaphum-Thin.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Suwannaphum-Thin.ttf" SelfReg="false"/>
     <ROW File="TapromRegular.ttf" Component_="AngkorRegular.ttf" FileName="TAPROM~1.TTF|Taprom-Regular.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Taprom-Regular.ttf" SelfReg="false"/>
+    <ROW File="KhmerMool1.ttf" Component_="KhmerUI_0.ttf" FileName="KHMERM~1.TTF|KhmerMool1.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerMool1.ttf" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
@@ -762,6 +763,7 @@
     <ROW File_="SuwannaphumRegular.ttf"/>
     <ROW File_="SuwannaphumThin.ttf"/>
     <ROW File_="TapromRegular.ttf"/>
+    <ROW File_="KhmerMool1.ttf"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="khmeruni.exe" SourcePath="KhmerPro\khmeruni.ico" Index="0"/>
