@@ -64,19 +64,18 @@
     <ROW Component="APPDIR" ComponentId="{4D40983B-ABBA-495D-AD85-54411A3F03DC}" Directory_="APPDIR" Attributes="0"/>
     <ROW Component="AgentosUI.ttf" ComponentId="{7C2EA15E-E0DD-449E-A7B9-2EDA2B2B7095}" Directory_="FontsFolder" Attributes="0" Type="0"/>
     <ROW Component="AngkorRegular.ttf" ComponentId="{FB0632DA-9652-4168-8CD7-7E3C8070B8B7}" Directory_="FontsFolder" Attributes="0" Type="0"/>
-    <ROW Component="AutoLoad" ComponentId="{DF04CABD-E6C6-49DA-BB28-B23FB5CB23D6}" Directory_="APPDIR" Attributes="4" KeyPath="AutoLoad"/>
-    <ROW Component="Copen" ComponentId="{2A02C7A4-63DA-454F-BDD6-E9864835E2C4}" Directory_="APPDIR" Attributes="260" KeyPath="Copen"/>
+    <ROW Component="AutoLoad" ComponentId="{10B3E257-B42C-4771-A70C-D5B038B8470E}" Directory_="APPDIR" Attributes="260" KeyPath="AutoLoad"/>
+    <ROW Component="Copen" ComponentId="{9B229855-0066-4F1F-951B-71E0ECC191BA}" Directory_="APPDIR" Attributes="260" KeyPath="Copen"/>
     <ROW Component="Data.xlsb" ComponentId="{4472A6AE-F66D-43AD-9F1F-355BB05940A5}" Directory_="LiveContent_Dir" Attributes="0" KeyPath="Data.xlsb" Type="0"/>
-    <ROW Component="DateTimeFormat" ComponentId="{EA5BA59E-78CD-47BB-888C-008C66DC0185}" Directory_="APPDIR" Attributes="260" KeyPath="DateTimeFormat"/>
+    <ROW Component="DateTimeFormat" ComponentId="{090E3B8B-7FE9-4DD7-BF14-5593D97E70CD}" Directory_="APPDIR" Attributes="260" KeyPath="DateTimeFormat"/>
     <ROW Component="DaunPenh" ComponentId="{61D7ADB7-269D-4F04-BF10-71E49B04366C}" Directory_="APPDIR" Attributes="4" KeyPath="DaunPenh"/>
     <ROW Component="DaunPenhTrueType" ComponentId="{DE029725-39BD-4C92-ABEF-9B813969BF0F}" Directory_="APPDIR" Attributes="4" KeyPath="DaunPenhTrueType"/>
     <ROW Component="DesktopOK.exe" ComponentId="{9D366571-9BFE-4E77-B2FC-D416B1B923B0}" Directory_="APPDIR" Attributes="0" Condition="NOT VersionNT64" KeyPath="DesktopOK.exe"/>
     <ROW Component="DesktopOK_x64.exe" ComponentId="{8C46B4CF-C2AC-4863-A791-635A506E64AB}" Directory_="APPDIR" Attributes="256" Condition="VersionNT64" KeyPath="DesktopOK_x64.exe"/>
-    <ROW Component="EnableDatepicker" ComponentId="{CCE21244-F80B-45E6-AA76-4BEABFB75A66}" Directory_="APPDIR" Attributes="260" KeyPath="EnableDatepicker"/>
+    <ROW Component="DisableNameLocation" ComponentId="{5E0C089E-571D-4030-901A-F8456E8052E5}" Directory_="APPDIR" Attributes="260" KeyPath="DisableNameLocation"/>
+    <ROW Component="EnableDatepicker" ComponentId="{1E35848B-C709-43FF-B3AA-630FA4E179DD}" Directory_="APPDIR" Attributes="260" KeyPath="EnableDatepicker"/>
     <ROW Component="Fonts.pdf" ComponentId="{6EF5CA69-8243-4042-B9D1-307A26AFB553}" Directory_="APPDIR" Attributes="0" KeyPath="Fonts.pdf"/>
-    <ROW Component="FontsName" ComponentId="{BF5F0911-4930-40FC-B8B9-F8AA282639AD}" Directory_="APPDIR" Attributes="260" KeyPath="FontsName"/>
-    <ROW Component="FontsSize" ComponentId="{1BF116DD-2266-462C-B43E-8D6E130F3A96}" Directory_="APPDIR" Attributes="260" KeyPath="FontsSize"/>
-    <ROW Component="KhmerCalanderSpace" ComponentId="{AA5EE869-7113-4B6F-BC25-DD16BD61AF0D}" Directory_="APPDIR" Attributes="260" KeyPath="KhmerCalanderSpace"/>
+    <ROW Component="KhmerCalanderSpace" ComponentId="{C2AD892B-E984-47E1-AA6C-AE5CE90C4B29}" Directory_="APPDIR" Attributes="260" KeyPath="KhmerCalanderSpace"/>
     <ROW Component="KhmerOS.ttf" ComponentId="{6564A418-477D-4479-BA64-9C18F100E094}" Directory_="FontsFolder" Attributes="0" Type="0"/>
     <ROW Component="KhmerPro" ComponentId="{239F2492-E27B-495D-9460-5A56B7F3680E}" Directory_="KhmerPro_Dir" Attributes="0"/>
     <ROW Component="KhmerUI" ComponentId="{2E925454-4A81-4EBB-A82D-F804F6FBA066}" Directory_="APPDIR" Attributes="4" KeyPath="KhmerUI"/>
@@ -93,22 +92,21 @@
     <ROW Component="MacKhmer.dll_3" ComponentId="{CFDFB217-B66F-47E6-A66D-B0E190ABF17E}" Directory_="wow64_Dir" Attributes="0" KeyPath="MacKhmer.dll_3"/>
     <ROW Component="MacKhmer_amd64.msi" ComponentId="{624F7CF7-9E09-49BE-8D51-C547CFC00037}" Directory_="MacLayout_Dir" Attributes="0" KeyPath="MacKhmer_amd64.msi" Type="0"/>
     <ROW Component="Normal.dotm" ComponentId="{798C35A0-062F-4D6B-A572-4711557D4175}" Directory_="Templates_Dir" Attributes="0" KeyPath="Normal.dotm_3" Type="0"/>
-    <ROW Component="OPEN" ComponentId="{E1D7866F-B68C-442C-8432-561D24E5F906}" Directory_="APPDIR" Attributes="4" KeyPath="OPEN"/>
-    <ROW Component="Path" ComponentId="{478A7119-2A2B-4584-85A9-8A14DA1B2141}" Directory_="APPDIR" Attributes="4" KeyPath="Path_1"/>
-    <ROW Component="ProductInformation" ComponentId="{F904D4A0-5FEA-4E06-9885-FDF1FD92BBB0}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="OPEN" ComponentId="{CF310C17-9457-4703-8447-475E2F09BE33}" Directory_="APPDIR" Attributes="260" KeyPath="OPEN"/>
+    <ROW Component="Path" ComponentId="{52EA710A-ABBA-48A2-A03D-7D4E81232353}" Directory_="APPDIR" Attributes="260" KeyPath="Path"/>
     <ROW Component="SegoeUIBoldTrueType" ComponentId="{4E69A62F-EEE3-4F88-ADDC-AF15ABC802D6}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUIBoldTrueType"/>
     <ROW Component="SegoeUILightTrueType" ComponentId="{95A0B874-D918-4A59-94B9-469AA0BD9C56}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUILightTrueType"/>
     <ROW Component="SegoeUISemiboldTrueType" ComponentId="{897147B4-4F8B-4B3A-9AF6-8CFA917D7409}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUISemiboldTrueType"/>
     <ROW Component="SegoeUISemilightTrueType" ComponentId="{5A18F86F-D649-429F-A1AA-4F6276C517D8}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUISemilightTrueType"/>
     <ROW Component="SegoeUITrueType" ComponentId="{39F3F1EE-F1EC-4561-885E-49A5EEA8AD10}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUITrueType"/>
-    <ROW Component="day" ComponentId="{B66529ED-2973-45AA-971B-BD8B399BBCE9}" Directory_="APPDIR" Attributes="260" KeyPath="day"/>
-    <ROW Component="disable_target" ComponentId="{B63111F5-8B40-4B82-B7B9-D587E2C4B7DB}" Directory_="APPDIR" Attributes="260" KeyPath="disable_target"/>
-    <ROW Component="imageHeight" ComponentId="{38EA5D6D-87DD-4520-8511-F78C02F4E068}" Directory_="APPDIR" Attributes="260" KeyPath="imageHeight"/>
-    <ROW Component="imageWeight" ComponentId="{ECF31329-82B3-4261-8683-4C54008C0661}" Directory_="APPDIR" Attributes="260" KeyPath="imageWeight"/>
+    <ROW Component="day" ComponentId="{0A95DFCA-8C06-48F7-AAF6-9F2D3A96BC24}" Directory_="APPDIR" Attributes="260" KeyPath="day"/>
+    <ROW Component="disable_target" ComponentId="{55B9A300-4599-452C-9C16-78D8BDEB2E64}" Directory_="APPDIR" Attributes="260" KeyPath="disable_target"/>
+    <ROW Component="imageHeight" ComponentId="{B7104581-0BEE-4681-8944-3D8F7EB79D43}" Directory_="APPDIR" Attributes="260" KeyPath="imageHeight"/>
+    <ROW Component="imageWeight" ComponentId="{C45BB7A2-7968-4333-8699-00E3AF5CEC95}" Directory_="APPDIR" Attributes="260" KeyPath="imageWeight"/>
     <ROW Component="khmermackey.png" ComponentId="{1B5F5DC4-7E87-454D-9361-D1777B704E51}" Directory_="APPDIR" Attributes="0" KeyPath="khmermackey.png" Type="0"/>
-    <ROW Component="month" ComponentId="{ACD22F60-3CD9-4ED4-98DC-600398881B5F}" Directory_="APPDIR" Attributes="260" KeyPath="month"/>
+    <ROW Component="month" ComponentId="{A3B82A05-AA73-4829-8628-E1183472D417}" Directory_="APPDIR" Attributes="260" KeyPath="month"/>
     <ROW Component="setup.exe" ComponentId="{FBD63F34-96FD-4719-BD7F-27F3C67D18F7}" Directory_="MacLayout_Dir" Attributes="0" KeyPath="setup.exe"/>
-    <ROW Component="year" ComponentId="{3B7D2550-7B37-40C0-9511-7BF1616E6F1A}" Directory_="APPDIR" Attributes="260" KeyPath="year"/>
+    <ROW Component="year" ComponentId="{9B1124D3-4126-4E0D-B747-3E043BB47961}" Directory_="APPDIR" Attributes="260" KeyPath="year"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
     <ROW Feature="AI32BitFiles" Title="32-bit" Description="32-bit Executables and Libraries" Display="5" Level="1" Directory_="APPDIR" Attributes="0"/>
@@ -496,10 +494,6 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
     <ROW Feature_="MainFeature" Component_="APPDIR"/>
-    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
-    <ROW Feature_="MainFeature" Component_="OPEN"/>
-    <ROW Feature_="MainFeature" Component_="AutoLoad"/>
-    <ROW Feature_="MainFeature" Component_="Path"/>
     <ROW Feature_="MainFeature" Component_="KhmerUI"/>
     <ROW Feature_="MainFeature" Component_="DaunPenh"/>
     <ROW Feature_="MainFeature" Component_="KhmerUIBold"/>
@@ -532,18 +526,20 @@
     <ROW Feature_="AgFonts" Component_="AgentosUI.ttf"/>
     <ROW Feature_="KhmerOSFonts" Component_="KhmerOS.ttf"/>
     <ROW Feature_="Google" Component_="AngkorRegular.ttf"/>
+    <ROW Feature_="MainFeature" Component_="DateTimeFormat"/>
+    <ROW Feature_="MainFeature" Component_="KhmerCalanderSpace"/>
+    <ROW Feature_="MainFeature" Component_="DisableNameLocation"/>
+    <ROW Feature_="MainFeature" Component_="Copen"/>
+    <ROW Feature_="MainFeature" Component_="EnableDatepicker"/>
+    <ROW Feature_="MainFeature" Component_="disable_target"/>
     <ROW Feature_="MainFeature" Component_="year"/>
     <ROW Feature_="MainFeature" Component_="month"/>
     <ROW Feature_="MainFeature" Component_="day"/>
-    <ROW Feature_="MainFeature" Component_="DateTimeFormat"/>
-    <ROW Feature_="MainFeature" Component_="KhmerCalanderSpace"/>
-    <ROW Feature_="MainFeature" Component_="Copen"/>
     <ROW Feature_="MainFeature" Component_="imageWeight"/>
     <ROW Feature_="MainFeature" Component_="imageHeight"/>
-    <ROW Feature_="MainFeature" Component_="EnableDatepicker"/>
-    <ROW Feature_="MainFeature" Component_="disable_target"/>
-    <ROW Feature_="MainFeature" Component_="FontsName"/>
-    <ROW Feature_="MainFeature" Component_="FontsSize"/>
+    <ROW Feature_="MainFeature" Component_="OPEN"/>
+    <ROW Feature_="MainFeature" Component_="Path"/>
+    <ROW Feature_="MainFeature" Component_="AutoLoad"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFontsComponent">
     <ROW File_="KhmerUI_0.ttf"/>
@@ -822,40 +818,36 @@
     <ROW Registry="AdvancedInstaller" Root="-1" Key="Software\Caphyon\Advanced Installer" Name="\"/>
     <ROW Registry="AutoLoad" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint\AddIns\Khmerpro" Name="AutoLoad" Value="#1" Component_="AutoLoad" VirtualValue="#"/>
     <ROW Registry="Caphyon" Root="-1" Key="Software\Caphyon" Name="\"/>
-    <ROW Registry="Copen" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="Copen" Value="22" Component_="Copen"/>
+    <ROW Registry="Copen" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="Copen" Value="4" Component_="Copen"/>
     <ROW Registry="CurrentVersion" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion" Name="\"/>
-    <ROW Registry="DateTimeFormat" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="DateTimeFormat" Value="False" Component_="DateTimeFormat"/>
+    <ROW Registry="DateTimeFormat" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="DateTimeFormat" Value="True" Component_="DateTimeFormat"/>
     <ROW Registry="DaunPenh" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes" Name="DaunPenh" Value="Khmer UI" Component_="DaunPenh"/>
     <ROW Registry="DaunPenhTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="DaunPenh (TrueType)" Value="LeelawUI_0.ttf" Component_="DaunPenhTrueType"/>
-    <ROW Registry="EnableDatepicker" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="EnableDatepicker" Value="True" Component_="EnableDatepicker"/>
+    <ROW Registry="DisableNameLocation" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="DisableNameLocation" Value="False" Component_="DisableNameLocation"/>
+    <ROW Registry="EnableDatepicker" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="EnableDatepicker" Value="True" Component_="EnableDatepicker"/>
     <ROW Registry="Excel" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\Excel" Name="\"/>
     <ROW Registry="FontSubstitutes" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes" Name="\"/>
     <ROW Registry="Fonts" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="\"/>
-    <ROW Registry="FontsName" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="FontsName" Value="AgentosUI" Component_="FontsName"/>
-    <ROW Registry="FontsSize" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="FontsSize" Value="10" Component_="FontsSize"/>
-    <ROW Registry="KhmerAddin" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="\"/>
-    <ROW Registry="KhmerCalanderSpace" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="KhmerCalanderSpace" Value="False" Component_="KhmerCalanderSpace"/>
+    <ROW Registry="KhmerAddin" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="\"/>
+    <ROW Registry="KhmerCalanderSpace" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="KhmerCalanderSpace" Value="False" Component_="KhmerCalanderSpace"/>
+    <ROW Registry="KhmerPro" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro" Name="\"/>
     <ROW Registry="KhmerUI" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes" Name="Khmer UI" Value="Khmer UI" Component_="KhmerUI"/>
     <ROW Registry="KhmerUIBold" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes" Name="Khmer UI Bold" Value="Khmer UI Bold" Component_="KhmerUIBold"/>
     <ROW Registry="KhmerUIBoldTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Khmer UI Bold (TrueType)" Value="KhmerUIb_0.ttf" Component_="KhmerUIBoldTrueType"/>
     <ROW Registry="KhmerUITrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Khmer UI (TrueType)" Value="KhmerUI_0.ttf" Component_="KhmerUITrueType"/>
     <ROW Registry="Khmerpro" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint\AddIns\Khmerpro" Name="\"/>
-    <ROW Registry="Khmerpro_1" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro" Name="\"/>
     <ROW Registry="LZMA" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA" Name="\"/>
     <ROW Registry="LeelawadeeUIBoldTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Leelawadee UI Bold (TrueType)" Value="leelauib_0.ttf" Component_="LeelawadeeUIBoldTrueType"/>
     <ROW Registry="LeelawadeeUISemilightTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Leelawadee UI Semilight (TrueType)" Value="LeelUIsl_0.ttf" Component_="LeelawadeeUISemilightTrueType"/>
     <ROW Registry="LeelawadeeUITrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Leelawadee UI (TrueType)" Value="LeelawUI_0.ttf" Component_="LeelawadeeUITrueType"/>
-    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
     <ROW Registry="Microsoft" Root="1" Key="SOFTWARE\Microsoft" Name="\"/>
     <ROW Registry="Microsoft_1" Root="2" Key="SOFTWARE\Microsoft" Name="\"/>
-    <ROW Registry="OPEN" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\Excel\Options" Name="OPEN" Value="&quot;[AppDataFolder]Microsoft\Templates\LiveContent\Khmerpro.xlam&quot;" Component_="OPEN"/>
+    <ROW Registry="OPEN" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\Excel\Options" Name="OPEN" Value="&quot;[#Khmerpro.xlam]&quot;" Component_="OPEN"/>
     <ROW Registry="Office" Root="1" Key="SOFTWARE\Microsoft\Office" Name="\"/>
     <ROW Registry="Options" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\Excel\Options" Name="\"/>
-    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
-    <ROW Registry="Path_1" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint\AddIns\Khmerpro" Name="Path" Value="[AppDataFolder]Microsoft\Templates\LiveContent\Khmerpro.ppam" Component_="Path"/>
+    <ROW Registry="Path" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint\AddIns\Khmerpro" Name="Path" Value="[#Khmerpro.ppam]" Component_="Path"/>
     <ROW Registry="PowerPoint" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint" Name="\"/>
     <ROW Registry="ProductCode" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]" Name="\"/>
-    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
     <ROW Registry="ProductVersion" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="\"/>
     <ROW Registry="SOFTWARE" Root="1" Key="SOFTWARE" Name="\"/>
     <ROW Registry="SOFTWARE_1" Root="2" Key="SOFTWARE" Name="\"/>
@@ -866,15 +858,14 @@
     <ROW Registry="SegoeUITrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Segoe UI (TrueType)" Value="segoeui_0.ttf" Component_="SegoeUITrueType"/>
     <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
     <ROW Registry="VBandVBAProgramSettings" Root="1" Key="SOFTWARE\VB and VBA Program Settings" Name="\"/>
-    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
     <ROW Registry="WindowsNT" Root="2" Key="SOFTWARE\Microsoft\Windows NT" Name="\"/>
     <ROW Registry="_" Root="1" Key="SOFTWARE\Microsoft\Office\16.0" Name="\"/>
-    <ROW Registry="day" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="day" Value="22" Component_="day"/>
-    <ROW Registry="disable_target" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="disable_target" Value="True" Component_="disable_target"/>
-    <ROW Registry="imageHeight" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="imageHeight" Value="10" Component_="imageHeight"/>
-    <ROW Registry="imageWeight" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="imageWeight" Value="60" Component_="imageWeight"/>
-    <ROW Registry="month" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="month" Value="ម&#6081;ស&#6070;" Component_="month"/>
-    <ROW Registry="year" Root="1" Key="SOFTWARE\VB and VBA Program Settings\Khmerpro\KhmerAddin" Name="year" Value="2024" Component_="year"/>
+    <ROW Registry="day" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="day" Value="24" Component_="day"/>
+    <ROW Registry="disable_target" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="disable_target" Value="True" Component_="disable_target"/>
+    <ROW Registry="imageHeight" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="imageHeight" Value="10" Component_="imageHeight"/>
+    <ROW Registry="imageWeight" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="imageWeight" Value="60" Component_="imageWeight"/>
+    <ROW Registry="month" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="month" Value="ឧសភ&#6070;" Component_="month"/>
+    <ROW Registry="year" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="year" Value="2024" Component_="year"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
     <ROW Shortcut="DesktopOK" Directory_="KhmerPro_Dir" Name="DESKTO~1|DesktopOK" Component_="DesktopOK.exe" Target="[#DesktopOK.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
