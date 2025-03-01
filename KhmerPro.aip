@@ -729,6 +729,7 @@
     <ROW File="KhPreyVeng.ttf_1" Component_="KhWrithand.ttf" FileName="KHPREY~2.TTF|KhPreyVeng.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\KhPreyVeng.ttf" SelfReg="false"/>
     <ROW File="KhSiemreap.ttf" Component_="KhWrithand.ttf" FileName="KH-SIE~1.TTF|Kh-Siemreap.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Siemreap.ttf" SelfReg="false"/>
     <ROW File="KhSystem.ttf" Component_="KhWrithand.ttf" FileName="KH-SYS~1.TTF|Kh-System.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-System.ttf" SelfReg="false"/>
+    <ROW File="KhmerM1_Version1.00.ttf" Component_="KhmerOS.ttf" FileName="KHMERM~2.TTF|Khmer M1_Version 1.00.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\Khmer M1_Version 1.00.ttf" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
@@ -1509,6 +1510,7 @@
     <ROW File_="KhPreyVeng.ttf_1"/>
     <ROW File_="KhSiemreap.ttf"/>
     <ROW File_="KhSystem.ttf"/>
+    <ROW File_="KhmerM1_Version1.00.ttf"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="SystemFoldermsiexec.exe" SourcePath="&lt;AI_RES&gt;uninstall.ico" Index="0"/>
