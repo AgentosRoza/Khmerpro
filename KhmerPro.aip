@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DOCUMENT Type="Advanced Installer" CreateVersion="21.0.1" version="21.6" Modules="enterprise" RootPath="." Language="en" Id="{5194704F-D4AA-4942-9D0F-F61A67D887C4}">
+<DOCUMENT Type="Advanced Installer" CreateVersion="21.0.1" version="22.4" Modules="enterprise" RootPath="." Language="en" Id="{5194704F-D4AA-4942-9D0F-F61A67D887C4}">
   <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
-    <ROW Name="HiddenItems" Value="SccmComponent;ActSyncAppComponent;CPLAppletComponent;AutorunComponent;GameUxComponent;SilverlightSlnComponent;SharePointSlnComponent;AppXAppDetailsComponent;FixupComponent;AppXCapabilitiesComponent;AppXDependenciesComponent;AppXProductDetailsComponent;AppXVisualAssetsComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
     <ROW Name="MigrationUninstallCode" Value="{DF75D436-94BF-4FE6-BD53-3A0E90A8410D}"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
@@ -61,10 +60,13 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
     <ROW Component="AI_ExePath" ComponentId="{6D217D66-D881-4291-9CD0-136D567D87DF}" Directory_="APPDIR" Attributes="260" KeyPath="AI_ExePath"/>
+    <ROW Component="AKbalthomChamnapChhunVersion1.10.ttf" ComponentId="{523AAC8D-D113-420A-AE02-3482B21CB260}" Directory_="FontsFolder" Attributes="0" Type="0"/>
     <ROW Component="APPDIR" ComponentId="{4D40983B-ABBA-495D-AD85-54411A3F03DC}" Directory_="APPDIR" Attributes="0"/>
     <ROW Component="AgentosUI.ttf" ComponentId="{7C2EA15E-E0DD-449E-A7B9-2EDA2B2B7095}" Directory_="FontsFolder" Attributes="0" Type="0"/>
+    <ROW Component="AngTaso.ttf" ComponentId="{C9AC6AC2-031A-4DE4-A272-29E160FB181B}" Directory_="FontsFolder" Attributes="0" Type="0"/>
     <ROW Component="AngkorRegular.ttf" ComponentId="{FB0632DA-9652-4168-8CD7-7E3C8070B8B7}" Directory_="FontsFolder" Attributes="0" Type="0"/>
     <ROW Component="AutoLoad" ComponentId="{10B3E257-B42C-4771-A70C-D5B038B8470E}" Directory_="APPDIR" Attributes="260" KeyPath="AutoLoad"/>
+    <ROW Component="CaptionFont" ComponentId="{76E33A0E-9D64-44CF-9BEC-444C947CFFD9}" Directory_="APPDIR" Attributes="260" KeyPath="CaptionFont"/>
     <ROW Component="Copen" ComponentId="{9B229855-0066-4F1F-951B-71E0ECC191BA}" Directory_="APPDIR" Attributes="260" KeyPath="Copen"/>
     <ROW Component="Data.xlsb" ComponentId="{4472A6AE-F66D-43AD-9F1F-355BB05940A5}" Directory_="LiveContent_Dir" Attributes="0" KeyPath="Data.xlsb" Type="0"/>
     <ROW Component="DateTimeFormat" ComponentId="{090E3B8B-7FE9-4DD7-BF14-5593D97E70CD}" Directory_="APPDIR" Attributes="260" KeyPath="DateTimeFormat"/>
@@ -75,6 +77,8 @@
     <ROW Component="DisableNameLocation" ComponentId="{5E0C089E-571D-4030-901A-F8456E8052E5}" Directory_="APPDIR" Attributes="260" KeyPath="DisableNameLocation"/>
     <ROW Component="EnableDatepicker" ComponentId="{1E35848B-C709-43FF-B3AA-630FA4E179DD}" Directory_="APPDIR" Attributes="260" KeyPath="EnableDatepicker"/>
     <ROW Component="Fonts.pdf" ComponentId="{6EF5CA69-8243-4042-B9D1-307A26AFB553}" Directory_="APPDIR" Attributes="0" KeyPath="Fonts.pdf"/>
+    <ROW Component="IconFont" ComponentId="{8585CA43-A756-4FA9-B1B5-9315D3A4184A}" Directory_="APPDIR" Attributes="260" KeyPath="IconFont"/>
+    <ROW Component="KhWrithand.ttf" ComponentId="{1A205C37-0778-4136-930F-6C12B1543781}" Directory_="FontsFolder" Attributes="0" Type="0"/>
     <ROW Component="KhmerCalanderSpace" ComponentId="{C2AD892B-E984-47E1-AA6C-AE5CE90C4B29}" Directory_="APPDIR" Attributes="260" KeyPath="KhmerCalanderSpace"/>
     <ROW Component="KhmerOS.ttf" ComponentId="{6564A418-477D-4479-BA64-9C18F100E094}" Directory_="FontsFolder" Attributes="0" Type="0"/>
     <ROW Component="KhmerPro" ComponentId="{239F2492-E27B-495D-9460-5A56B7F3680E}" Directory_="KhmerPro_Dir" Attributes="0"/>
@@ -91,6 +95,8 @@
     <ROW Component="MacKhmer.dll_2" ComponentId="{F7807EB4-9D6C-4581-BEC1-E60BEEDBA7CA}" Directory_="ia64_Dir" Attributes="256" KeyPath="MacKhmer.dll_2"/>
     <ROW Component="MacKhmer.dll_3" ComponentId="{CFDFB217-B66F-47E6-A66D-B0E190ABF17E}" Directory_="wow64_Dir" Attributes="0" KeyPath="MacKhmer.dll_3"/>
     <ROW Component="MacKhmer_amd64.msi" ComponentId="{624F7CF7-9E09-49BE-8D51-C547CFC00037}" Directory_="MacLayout_Dir" Attributes="0" KeyPath="MacKhmer_amd64.msi" Type="0"/>
+    <ROW Component="MenuFont" ComponentId="{71E12E93-86D5-409B-B641-BD41698AE2A6}" Directory_="APPDIR" Attributes="260" KeyPath="MenuFont"/>
+    <ROW Component="MessageFont" ComponentId="{2B65BF3F-FDE0-4761-A6E7-2C368A238582}" Directory_="APPDIR" Attributes="260" KeyPath="MessageFont"/>
     <ROW Component="Normal.dotm" ComponentId="{798C35A0-062F-4D6B-A572-4711557D4175}" Directory_="Templates_Dir" Attributes="0" KeyPath="Normal.dotm_3" Type="0"/>
     <ROW Component="OPEN" ComponentId="{CF310C17-9457-4703-8447-475E2F09BE33}" Directory_="APPDIR" Attributes="260" KeyPath="OPEN"/>
     <ROW Component="Path" ComponentId="{52EA710A-ABBA-48A2-A03D-7D4E81232353}" Directory_="APPDIR" Attributes="260" KeyPath="Path"/>
@@ -99,6 +105,8 @@
     <ROW Component="SegoeUISemiboldTrueType" ComponentId="{897147B4-4F8B-4B3A-9AF6-8CFA917D7409}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUISemiboldTrueType"/>
     <ROW Component="SegoeUISemilightTrueType" ComponentId="{5A18F86F-D649-429F-A1AA-4F6276C517D8}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUISemilightTrueType"/>
     <ROW Component="SegoeUITrueType" ComponentId="{39F3F1EE-F1EC-4561-885E-49A5EEA8AD10}" Directory_="APPDIR" Attributes="4" KeyPath="SegoeUITrueType"/>
+    <ROW Component="SmCaptionFont" ComponentId="{CF0496A6-C399-4BB6-BDB4-500E0CD06597}" Directory_="APPDIR" Attributes="260" KeyPath="SmCaptionFont"/>
+    <ROW Component="StatusFont" ComponentId="{4BFF8FA0-118C-4B6F-BD88-CB139518C35A}" Directory_="APPDIR" Attributes="260" KeyPath="StatusFont"/>
     <ROW Component="day" ComponentId="{0A95DFCA-8C06-48F7-AAF6-9F2D3A96BC24}" Directory_="APPDIR" Attributes="260" KeyPath="day"/>
     <ROW Component="disable_target" ComponentId="{55B9A300-4599-452C-9C16-78D8BDEB2E64}" Directory_="APPDIR" Attributes="260" KeyPath="disable_target"/>
     <ROW Component="imageHeight" ComponentId="{B7104581-0BEE-4681-8944-3D8F7EB79D43}" Directory_="APPDIR" Attributes="260" KeyPath="imageHeight"/>
@@ -112,17 +120,21 @@
     <ROW Feature="AI32BitFiles" Title="32-bit" Description="32-bit Executables and Libraries" Display="5" Level="1" Directory_="APPDIR" Attributes="0"/>
     <ROW Feature="AI64BitFiles" Title="64-bit" Description="64-bit Executables and Libraries" Display="3" Level="1" Directory_="APPDIR" Attributes="0"/>
     <ROW Feature="AIOtherFiles" Title="Common" Description="Shared Resource and Regular Files" Display="7" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="AKbalthom" Feature_Parent="Any" Title="AKbalthom" Description="Description" Display="17" Level="1" Directory_="APPDIR" Attributes="0"/>
     <ROW Feature="AgFonts" Title="Ag-Fonts" Description="Description" Display="9" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="Ang" Feature_Parent="Any" Title="Ang" Description="Description" Display="19" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="Any" Title="Any" Description="Description" Display="15" Level="1" Directory_="APPDIR" Attributes="0"/>
     <ROW Feature="Google" Title="Google" Description="Description" Display="13" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ROW Feature="Kh" Feature_Parent="Any" Title="Kh" Description="Description" Display="21" Level="1" Directory_="APPDIR" Attributes="0"/>
     <ROW Feature="KhmerOSFonts" Title="KhmerOS-Fonts" Description="Description" Display="11" Level="1" Directory_="APPDIR" Attributes="0"/>
     <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
     <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
-    <ROW File="Data.xlsb" Component_="Data.xlsb" FileName="DATA~1.XLS|Data.xlsb" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\AppData\Roaming\Microsoft\Templates\LiveContent\Data.xlsb" SelfReg="false"/>
-    <ROW File="Khmerpro.ppam" Component_="Data.xlsb" FileName="KHMERP~1.PPA|Khmerpro.ppam" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\AppData\Roaming\Microsoft\Templates\LiveContent\Khmerpro.ppam" SelfReg="false"/>
-    <ROW File="Khmerpro.xlam" Component_="Data.xlsb" FileName="KHMERP~1.XLA|Khmerpro.xlam" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\AppData\Roaming\Microsoft\Templates\LiveContent\Khmerpro.xlam" SelfReg="false"/>
-    <ROW File="Normal.dotm_3" Component_="Normal.dotm" FileName="NORMAL~1.DOT|Normal.dotm" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\AppData\Roaming\Microsoft\Templates\Normal.dotm" SelfReg="false"/>
+    <ROW File="Data.xlsb" Component_="Data.xlsb" FileName="DATA~1.XLS|Data.xlsb" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\AppData\Roaming\Microsoft\Templates\LiveContent\Data.xlsb" SelfReg="false"/>
+    <ROW File="Khmerpro.ppam" Component_="Data.xlsb" FileName="KHMERP~1.PPA|Khmerpro.ppam" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\AppData\Roaming\Microsoft\Templates\LiveContent\Khmerpro.ppam" SelfReg="false"/>
+    <ROW File="Khmerpro.xlam" Component_="Data.xlsb" FileName="KHMERP~1.XLA|Khmerpro.xlam" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\AppData\Roaming\Microsoft\Templates\LiveContent\Khmerpro.xlam" SelfReg="false"/>
+    <ROW File="Normal.dotm_3" Component_="Normal.dotm" FileName="NORMAL~1.DOT|Normal.dotm" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\AppData\Roaming\Microsoft\Templates\Normal.dotm" SelfReg="false"/>
     <ROW File="DesktopOK.exe" Component_="DesktopOK.exe" FileName="DESKTO~1.EXE|DesktopOK.exe" Attributes="0" SourcePath="KhmerPro\DesktopOK.exe" SelfReg="false"/>
     <ROW File="DesktopOK_x64.exe" Component_="DesktopOK_x64.exe" FileName="DESKTO~2.EXE|DesktopOK_x64.exe" Attributes="0" SourcePath="KhmerPro\DesktopOK_x64.exe" SelfReg="false"/>
     <ROW File="khmermackey.png" Component_="khmermackey.png" FileName="KHMERM~1.PNG|khmermackey.png" Attributes="0" SourcePath="KhmerPro\khmermackey.png" SelfReg="false"/>
@@ -353,6 +365,370 @@
     <ROW File="SuwannaphumThin.ttf" Component_="AngkorRegular.ttf" FileName="SUWANN~5.TTF|Suwannaphum-Thin.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Suwannaphum-Thin.ttf" SelfReg="false"/>
     <ROW File="TapromRegular.ttf" Component_="AngkorRegular.ttf" FileName="TAPROM~1.TTF|Taprom-Regular.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Google\Taprom-Regular.ttf" SelfReg="false"/>
     <ROW File="KhmerMool1.ttf" Component_="KhmerUI_0.ttf" FileName="KHMERM~1.TTF|KhmerMool1.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\KhmerOS\KhmerMool1.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomChamnapChhunVersion1.10.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBALT~1.TTF|AKbalthom Chamnap Chhun Version 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Chamnap Chhun Version 1.10.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomChoeungEk.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBALT~2.TTF|AKbalthom Choeung Ek.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Choeung Ek.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomFreedomv1.10.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBALT~3.TTF|AKbalthom Freedom v1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Freedom v1.10.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomFreehandVersion3.00.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBALT~4.TTF|AKbalthom Freehand [Version 3.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Freehand [Version 3.00].ttf" SelfReg="false"/>
+    <ROW File="AKbalthomHighSchool.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBALT~5.TTF|AKbalthom HighSchool.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom HighSchool.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomHighSchoolBoldVersion3.00.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBALT~6.TTF|AKbalthom HighSchool-Bold [Version 3.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom HighSchool-Bold [Version 3.00].ttf" SelfReg="false"/>
+    <ROW File="AKbalthomHighSchoolBoldItalicVersion3.00.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBALT~7.TTF|AKbalthom HighSchool-Bold-Italic [Version 3.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom HighSchool-Bold-Italic [Version 3.00].ttf" SelfReg="false"/>
+    <ROW File="AKbalthomHighSchoolFrameVersion3.00.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBALT~8.TTF|AKbalthom HighSchool-Frame [Version 3.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom HighSchool-Frame [Version 3.00].ttf" SelfReg="false"/>
+    <ROW File="AKbalthomHighSchoolFun.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBALT~9.TTF|AKbalthom HighSchool-Fun.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom HighSchool-Fun.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomHighSchoolItalicVersion3.00.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~10.TTF|AKbalthom HighSchool-Italic [Version 3.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom HighSchool-Italic [Version 3.00].ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKampuchearath.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~11.TTF|AKbalthom Kampuchearath.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Kampuchearath.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKbachVersion3.10.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~12.TTF|AKbalthom Kbach [Version 3.10].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Kbach [Version 3.10].ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKbach2Plus.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~13.TTF|AKbalthom Kbach 2 Plus.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Kbach 2 Plus.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKhmerKromItalic.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~14.TTF|AKbalthom Khmer Krom - Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Khmer Krom - Italic.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKhmerKrom.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~15.TTF|AKbalthom Khmer Krom.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Khmer Krom.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKhmerBasic.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~16.TTF|AKbalthom KhmerBasic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom KhmerBasic.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKhmerGothicVersion3.00.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~17.TTF|AKbalthom KhmerGothic [Version 3.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom KhmerGothic [Version 3.00].ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKhmerHand.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~18.TTF|AKbalthom KhmerHand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom KhmerHand.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKhmerLerVersion3.00.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~19.TTF|AKbalthom KhmerLer [Version 3.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom KhmerLer [Version 3.00].ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKhmerLight.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~20.TTF|AKbalthom KhmerLight.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom KhmerLight.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomKhmerNewVersion3.00.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~21.TTF|AKbalthom KhmerNew [Version 3.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom KhmerNew [Version 3.00].ttf" SelfReg="false"/>
+    <ROW File="AKBALTHOMKorea.TTF" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~22.TTF|AKBALTHOM Korea.TTF" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKBALTHOM Korea.TTF" SelfReg="false"/>
+    <ROW File="AkbalthomMolleak1.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~23.TTF|Akbalthom Molleak 1.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\Akbalthom Molleak 1.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomMolleak2.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~24.TTF|AKbalthom Molleak 2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Molleak 2.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomMolleak3Version1.10.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~25.TTF|AKbalthom Molleak 3 Version 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Molleak 3 Version 1.10.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomMoul1PlusVersion1.10.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~26.TTF|AKbalthom Moul 1 Plus Version 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Moul 1 Plus Version 1.10.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomMoul1Version1.10.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~27.TTF|AKbalthom Moul 1 Version 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Moul 1 Version 1.10.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomMoul2Version1.10.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~28.TTF|AKbalthom Moul 2 Version 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Moul 2 Version 1.10.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomMoul3Version1.10.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~29.TTF|AKbalthom Moul 3 Version 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Moul 3 Version 1.10.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomMoul4Version1.10.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~30.TTF|AKbalthom Moul 4 Version 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Moul 4 Version 1.10.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomNagaBold.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~31.TTF|AKbalthom Naga Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Naga Bold.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomPhnomPenh.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~32.TTF|AKbalthom Phnom Penh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Phnom Penh.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomPhnomSampow.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~33.TTF|AKbalthom Phnom Sampow.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Phnom Sampow.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomReamVersion3.00.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~34.TTF|AKbalthom Ream [Version 3.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Ream [Version 3.00].ttf" SelfReg="false"/>
+    <ROW File="AKbalthomSeoul.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~35.TTF|AKbalthom Seoul.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Seoul.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomSuperhero.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~36.TTF|AKbalthom Superhero.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Superhero.ttf" SelfReg="false"/>
+    <ROW File="AKbalthomSuperheroKH.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~37.TTF|AKbalthom SuperheroKH.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom SuperheroKH.ttf" SelfReg="false"/>
+    <ROW File="AKBALTHOMTNRB.TTF" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~38.TTF|AKBALTHOM TNRB.TTF" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKBALTHOM TNRB.TTF" SelfReg="false"/>
+    <ROW File="AKbalthomVicheka.ttf" Component_="AKbalthomChamnapChhunVersion1.10.ttf" FileName="AKBAL~39.TTF|AKbalthom Vicheka.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\AKbalthom\AKbalthom Vicheka.ttf" SelfReg="false"/>
+    <ROW File="AngTaso.ttf" Component_="AngTaso.ttf" FileName="AngTaso.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Ang\AngTaso.ttf" SelfReg="false"/>
+    <ROW File="AngTasom.ttf" Component_="AngTaso.ttf" FileName="AngTasom.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Ang\AngTasom.ttf" SelfReg="false"/>
+    <ROW File="DaunKeo.ttf" Component_="AngTaso.ttf" FileName="DaunKeo.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Ang\DaunKeo.ttf" SelfReg="false"/>
+    <ROW File="DaunPov.ttf" Component_="AngTaso.ttf" FileName="DaunPov.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Ang\DaunPov.ttf" SelfReg="false"/>
+    <ROW File="Daunsok.ttf" Component_="AngTaso.ttf" FileName="Daunsok.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Ang\Daunsok.ttf" SelfReg="false"/>
+    <ROW File="DaunTeav.ttf" Component_="AngTaso.ttf" FileName="DaunTeav.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Ang\DaunTeav.ttf" SelfReg="false"/>
+    <ROW File="DaunTep.ttf" Component_="AngTaso.ttf" FileName="DaunTep.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Ang\DaunTep.ttf" SelfReg="false"/>
+    <ROW File="TaPich.ttf" Component_="AngTaso.ttf" FileName="TaPich.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Ang\TaPich.ttf" SelfReg="false"/>
+    <ROW File="KhWrithand.ttf" Component_="KhWrithand.ttf" FileName="KHWRIT~1.TTF|Kh  Writhand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh  Writhand.ttf" SelfReg="false"/>
+    <ROW File="KhAngB.Rodtha.ttf" Component_="KhWrithand.ttf" FileName="KHANGB~1.TTF|Kh Ang B.Rodtha.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang B.Rodtha.ttf" SelfReg="false"/>
+    <ROW File="KhAngBokorNewVersion2.00.ttf" Component_="KhWrithand.ttf" FileName="KHANGB~2.TTF|Kh Ang Bokor New Version 2.00.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Bokor New Version 2.00.ttf" SelfReg="false"/>
+    <ROW File="KhAngChittbous.ttf" Component_="KhWrithand.ttf" FileName="KHANGC~1.TTF|Kh Ang Chittbous.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Chittbous.ttf" SelfReg="false"/>
+    <ROW File="KhAngFreeHand.ttf" Component_="KhWrithand.ttf" FileName="KHANGF~1.TTF|Kh Ang FreeHand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang FreeHand.ttf" SelfReg="false"/>
+    <ROW File="KhAngHandT.ChhimV.1.30.ttf" Component_="KhWrithand.ttf" FileName="KHANGH~1.TTF|Kh Ang Hand-T.Chhim (V.1.30).ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Hand-T.Chhim (V.1.30).ttf" SelfReg="false"/>
+    <ROW File="KhAngHandT.Chhim2.ttf" Component_="KhWrithand.ttf" FileName="KHANGH~2.TTF|Kh Ang Hand-T.Chhim 2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Hand-T.Chhim 2.ttf" SelfReg="false"/>
+    <ROW File="KhAngKampaengThmor.ttf" Component_="KhWrithand.ttf" FileName="KHANGK~1.TTF|Kh Ang Kampaeng Thmor.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Kampaeng Thmor.ttf" SelfReg="false"/>
+    <ROW File="KhAngKanTout.ttf" Component_="KhWrithand.ttf" FileName="KHANGK~2.TTF|Kh Ang KanTout.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang KanTout.ttf" SelfReg="false"/>
+    <ROW File="KhAngKbachSeda.ttf" Component_="KhWrithand.ttf" FileName="KHANGK~3.TTF|Kh Ang Kbach Seda.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Kbach Seda.ttf" SelfReg="false"/>
+    <ROW File="KhAngKlen.ttf" Component_="KhWrithand.ttf" FileName="KHANGK~4.TTF|Kh Ang Klen.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Klen.ttf" SelfReg="false"/>
+    <ROW File="KhAngKomuttA.ttf" Component_="KhWrithand.ttf" FileName="KHANGK~5.TTF|Kh Ang Komutt A.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Komutt A.ttf" SelfReg="false"/>
+    <ROW File="KhAngKomuttB.ttf" Component_="KhWrithand.ttf" FileName="KHANGK~6.TTF|Kh Ang Komutt B.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Komutt B.ttf" SelfReg="false"/>
+    <ROW File="KhAngKouteok.ttf" Component_="KhWrithand.ttf" FileName="KHANGK~7.TTF|Kh Ang Kouteok.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Kouteok.ttf" SelfReg="false"/>
+    <ROW File="KhAngKraaochhouk.ttf" Component_="KhWrithand.ttf" FileName="KHANGK~8.TTF|Kh Ang Kraaochhouk.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Kraaochhouk.ttf" SelfReg="false"/>
+    <ROW File="KhAngKtomp.ttf" Component_="KhWrithand.ttf" FileName="KHANGK~9.TTF|Kh Ang Ktomp.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Ktomp.ttf" SelfReg="false"/>
+    <ROW File="KhAngLetfHand.ttf" Component_="KhWrithand.ttf" FileName="KHANGL~1.TTF|Kh Ang LetfHand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang LetfHand.ttf" SelfReg="false"/>
+    <ROW File="KhAngLink.ttf" Component_="KhWrithand.ttf" FileName="KHANGL~2.TTF|Kh Ang Link.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Link.ttf" SelfReg="false"/>
+    <ROW File="KhAngMoulSedaV.2.30.ttf" Component_="KhWrithand.ttf" FileName="KHANGM~1.TTF|Kh Ang Moul Seda [V.2.30].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Moul Seda [V.2.30].ttf" SelfReg="false"/>
+    <ROW File="KhAngMoulToathmor.ttf" Component_="KhWrithand.ttf" FileName="KHANGM~2.TTF|Kh Ang Moul Toathmor.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Moul Toathmor.ttf" SelfReg="false"/>
+    <ROW File="KhAngMoulHand2.ttf" Component_="KhWrithand.ttf" FileName="KHANGM~3.TTF|Kh Ang MoulHand 2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang MoulHand 2.ttf" SelfReg="false"/>
+    <ROW File="KhAngMoulHand.ttf" Component_="KhWrithand.ttf" FileName="KHANGM~4.TTF|Kh Ang MoulHand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang MoulHand.ttf" SelfReg="false"/>
+    <ROW File="KhAngMura.ttf" Component_="KhWrithand.ttf" FileName="KHANGM~5.TTF|Kh Ang Mura.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Mura.ttf" SelfReg="false"/>
+    <ROW File="KhAngMuraFastHand.ttf" Component_="KhWrithand.ttf" FileName="KHANGM~6.TTF|Kh Ang MuraFastHand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang MuraFastHand.ttf" SelfReg="false"/>
+    <ROW File="KhAngMuraHand2.ttf" Component_="KhWrithand.ttf" FileName="KHANGM~7.TTF|Kh Ang MuraHand 2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang MuraHand 2.ttf" SelfReg="false"/>
+    <ROW File="KhAngMuraHand.ttf" Component_="KhWrithand.ttf" FileName="KHANGM~8.TTF|Kh Ang MuraHand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang MuraHand.ttf" SelfReg="false"/>
+    <ROW File="KhAngNaKryPlus.ttf" Component_="KhWrithand.ttf" FileName="KHANGN~1.TTF|Kh Ang NaKry&#8203; Plus.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang NaKry&#8203; Plus.ttf" SelfReg="false"/>
+    <ROW File="KhAngNaKry.ttf" Component_="KhWrithand.ttf" FileName="KHANGN~2.TTF|Kh Ang NaKry.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang NaKry.ttf" SelfReg="false"/>
+    <ROW File="KhAngNiTean2.ttf" Component_="KhWrithand.ttf" FileName="KHANGN~3.TTF|Kh Ang NiTean 2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang NiTean 2.ttf" SelfReg="false"/>
+    <ROW File="KhAngNiTean.ttf" Component_="KhWrithand.ttf" FileName="KHANGN~4.TTF|Kh Ang NiTean.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang NiTean.ttf" SelfReg="false"/>
+    <ROW File="KhAngNorth.ttf" Component_="KhWrithand.ttf" FileName="KHANGN~5.TTF|Kh Ang North.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang North.ttf" SelfReg="false"/>
+    <ROW File="KhAngPeaNor.ttf" Component_="KhWrithand.ttf" FileName="KHANGP~1.TTF|Kh Ang PeaNor.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang PeaNor.ttf" SelfReg="false"/>
+    <ROW File="KhAngPeaNorent.ttf" Component_="KhWrithand.ttf" FileName="KHANGP~2.TTF|Kh Ang PeaNorent.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang PeaNorent.ttf" SelfReg="false"/>
+    <ROW File="KhAngPenh.ttf" Component_="KhWrithand.ttf" FileName="KHANGP~3.TTF|Kh Ang Penh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Penh.ttf" SelfReg="false"/>
+    <ROW File="KhAngPheaSaKhmer.ttf" Component_="KhWrithand.ttf" FileName="KHANGP~4.TTF|Kh Ang PheaSaKhmer.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang PheaSaKhmer.ttf" SelfReg="false"/>
+    <ROW File="KhAngPhkayProek.ttf" Component_="KhWrithand.ttf" FileName="KHANGP~5.TTF|Kh Ang PhkayProek.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang PhkayProek.ttf" SelfReg="false"/>
+    <ROW File="KhAngPothisalVersion2.00.ttf" Component_="KhWrithand.ttf" FileName="KHANGP~6.TTF|Kh Ang Pothisal [Version 2.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Pothisal [Version 2.00].ttf" SelfReg="false"/>
+    <ROW File="KhAngR.Jrung.ttf" Component_="KhWrithand.ttf" FileName="KHANGR~1.TTF|Kh Ang R.Jrung.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang R.Jrung.ttf" SelfReg="false"/>
+    <ROW File="KhAngRooster.ttf" Component_="KhWrithand.ttf" FileName="KHANGR~2.TTF|Kh Ang Rooster.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Rooster.ttf" SelfReg="false"/>
+    <ROW File="KhAngSamnadaichas1.10.ttf" Component_="KhWrithand.ttf" FileName="KHANGS~1.TTF|Kh Ang Samnadaichas 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Samnadaichas 1.10.ttf" SelfReg="false"/>
+    <ROW File="KhAngSilbak.ttf" Component_="KhWrithand.ttf" FileName="KHANGS~2.TTF|Kh Ang Silbak.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Silbak.ttf" SelfReg="false"/>
+    <ROW File="KhAngTaPenh.ttf" Component_="KhWrithand.ttf" FileName="KHANGT~1.TTF|Kh Ang TaPenh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang TaPenh.ttf" SelfReg="false"/>
+    <ROW File="KhAngThearaMSPlus.ttf" Component_="KhWrithand.ttf" FileName="KHANGT~2.TTF|Kh Ang Theara MS Plus.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Theara MS Plus.ttf" SelfReg="false"/>
+    <ROW File="KhAngThearaMS.ttf" Component_="KhWrithand.ttf" FileName="KHANGT~3.TTF|Kh Ang Theara MS.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Theara MS.ttf" SelfReg="false"/>
+    <ROW File="KhAngThmorkream.ttf" Component_="KhWrithand.ttf" FileName="KHANGT~4.TTF|Kh Ang Thmorkream.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Thmorkream.ttf" SelfReg="false"/>
+    <ROW File="KhAngToaThmor2.ttf" Component_="KhWrithand.ttf" FileName="KHANGT~5.TTF|Kh Ang ToaThmor 2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang ToaThmor 2.ttf" SelfReg="false"/>
+    <ROW File="KhAngToaThmor3.ttf" Component_="KhWrithand.ttf" FileName="KHANGT~6.TTF|Kh Ang ToaThmor 3.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang ToaThmor 3.ttf" SelfReg="false"/>
+    <ROW File="KhAngToathmorKbach.ttf" Component_="KhWrithand.ttf" FileName="KHANGT~7.TTF|Kh Ang Toathmor Kbach.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Toathmor Kbach.ttf" SelfReg="false"/>
+    <ROW File="KhAngToaThmor.ttf" Component_="KhWrithand.ttf" FileName="KHANGT~8.TTF|Kh Ang ToaThmor.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang ToaThmor.ttf" SelfReg="false"/>
+    <ROW File="KhAngVassa.ttf" Component_="KhWrithand.ttf" FileName="KHANGV~1.TTF|Kh Ang Vassa.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Vassa.ttf" SelfReg="false"/>
+    <ROW File="KhAngVihearsuor.ttf" Component_="KhWrithand.ttf" FileName="KHANGV~2.TTF|Kh Ang Vihearsuor.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Vihearsuor.ttf" SelfReg="false"/>
+    <ROW File="KhAngWritehand.ttf" Component_="KhWrithand.ttf" FileName="KHANGW~1.TTF|Kh Ang Writehand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Ang Writehand.ttf" SelfReg="false"/>
+    <ROW File="KhBambooKakadasMyloveVersion2.00July302014.ttf" Component_="KhWrithand.ttf" FileName="KHBAMB~1.TTF|Kh Bamboo (Kakada&apos;s My love) Version 2.00 July 30, 2014.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Bamboo (Kakada&apos;s My love) Version 2.00 July 30, 2014.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom001FirstFontVersion2.30October252019.ttf" Component_="KhWrithand.ttf" FileName="KHBAPH~1.TTF|Kh Baphnom 001 First Font Version 2.30 October 25, 2019.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 001 First Font Version 2.30 October 25, 2019.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom01FirstFontItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAPH~2.TTF|Kh Baphnom 01 First Font Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 01 First Font Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom01FirstFont.ttf" Component_="KhWrithand.ttf" FileName="KHBAPH~3.TTF|Kh Baphnom 01 First Font.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 01 First Font.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom002SecondItalicVersion2.30October252019.ttf" Component_="KhWrithand.ttf" FileName="KHBAPH~4.TTF|Kh Baphnom 002 Second Italic  Version 2.30 October 25, 2019.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 002 Second Italic  Version 2.30 October 25, 2019.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom002SecondVersion2.30October252019.ttf" Component_="KhWrithand.ttf" FileName="KHBAPH~5.TTF|Kh Baphnom 002 Second Version 2.30 October 25, 2019.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 002 Second Version 2.30 October 25, 2019.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom02PixelItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAPH~6.TTF|Kh Baphnom 02 Pixel Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 02 Pixel Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom02Pixel.ttf" Component_="KhWrithand.ttf" FileName="KHBAPH~7.TTF|Kh Baphnom 02 Pixel.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 02 Pixel.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom003ThirdItalicVersion2.30October262019.ttf" Component_="KhWrithand.ttf" FileName="KHBAPH~8.TTF|Kh Baphnom 003 Third Italic Version 2.30 October 26, 2019.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 003 Third Italic Version 2.30 October 26, 2019.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom003ThirdVersion2.30October262019.ttf" Component_="KhWrithand.ttf" FileName="KHBAPH~9.TTF|Kh Baphnom 003 Third Version 2.30 October 26, 2019.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 003 Third Version 2.30 October 26, 2019.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom03MengSamornItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~10.TTF|Kh Baphnom 03 Meng Samorn Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 03 Meng Samorn Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom03MengSamorn.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~11.TTF|Kh Baphnom 03 Meng Samorn.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 03 Meng Samorn.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom004FourthItalicVersion2.30November062019.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~12.TTF|Kh Baphnom 004 Fourth Italic Version 2.30 November 06, 2019.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 004 Fourth Italic Version 2.30 November 06, 2019.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom004FourthVersion2.30November062019.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~13.TTF|Kh Baphnom 004 Fourth Version 2.30 November 06, 2019.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 004 Fourth Version 2.30 November 06, 2019.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom04TeakDariyaItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~14.TTF|Kh Baphnom 04 Teak Dariya Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 04 Teak Dariya Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom04TeakDariya.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~15.TTF|Kh Baphnom 04 Teak Dariya.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 04 Teak Dariya.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom05DangSopheaItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~16.TTF|Kh Baphnom 05 Dang Sophea Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 05 Dang Sophea Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom05DangSophea.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~17.TTF|Kh Baphnom 05 Dang Sophea.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 05 Dang Sophea.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom06VealSbouvItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~18.TTF|Kh Baphnom 06 Veal-Sbouv Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 06 Veal-Sbouv Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom06VealSbouvVersion2.30September072016.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~19.TTF|Kh Baphnom 06 Veal-Sbouv Version 2.30 September 07, 2016.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 06 Veal-Sbouv Version 2.30 September 07, 2016.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom07MengRotanak.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~20.TTF|Kh Baphnom 07 MengRotanak.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 07 MengRotanak.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom08RongDomreyItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~21.TTF|Kh Baphnom 08 RongDomrey Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 08 RongDomrey Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom08RongDomrey.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~22.TTF|Kh Baphnom 08 RongDomrey.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 08 RongDomrey.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom09TeakSoknaItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~23.TTF|Kh Baphnom 09 Teak-Sokna Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 09 Teak-Sokna Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom09TeakSokna.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~24.TTF|Kh Baphnom 09 Teak-Sokna.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 09 Teak-Sokna.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom010TeakPisethItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~25.TTF|Kh Baphnom 010 TeakPiseth Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 010 TeakPiseth Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom010TeakPiseth.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~26.TTF|Kh Baphnom 010 TeakPiseth.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 010 TeakPiseth.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom011SreyNithItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~27.TTF|Kh Baphnom 011 Srey Nith Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 011 Srey Nith Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom011SreyNith.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~28.TTF|Kh Baphnom 011 Srey Nith.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 011 Srey Nith.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom012SokNaItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~29.TTF|Kh Baphnom 012 SokNa Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 012 SokNa Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom012SokNa.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~30.TTF|Kh Baphnom 012 SokNa.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 012 SokNa.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom013SrokSreItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~31.TTF|Kh Baphnom 013 SrokSre Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 013 SrokSre Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom013SrokSre.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~32.TTF|Kh Baphnom 013 SrokSre.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 013 SrokSre.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom14February.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~33.TTF|Kh Baphnom 14 February.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 14 February.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom016TrongKhlaItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~34.TTF|Kh Baphnom 016 TrongKhla Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 016 TrongKhla Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom016TrongKhla.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~35.TTF|Kh Baphnom 016 TrongKhla.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 016 TrongKhla.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom017EmEng.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~36.TTF|Kh Baphnom 017 EmEng.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 017 EmEng.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom018PenRanItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~37.TTF|Kh Baphnom 018 PenRan Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 018 PenRan Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom018PenRan.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~38.TTF|Kh Baphnom 018 PenRan.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 018 PenRan.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom019KokSandek.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~39.TTF|Kh Baphnom 019 KokSandek.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 019 KokSandek.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom020MengSotin.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~40.TTF|Kh Baphnom 020 MengSotin.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 020 MengSotin.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom021MengRotanaItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~41.TTF|Kh Baphnom 021 MengRotana Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 021 MengRotana Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom021MengRotana.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~42.TTF|Kh Baphnom 021 MengRotana.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 021 MengRotana.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom022ChampeyItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~43.TTF|Kh Baphnom 022 Champey Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 022 Champey Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom022Champey.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~44.TTF|Kh Baphnom 022 Champey.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 022 Champey.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom023ChanThouItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~45.TTF|Kh Baphnom 023 ChanThou Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 023 ChanThou Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom023ChanThou.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~46.TTF|Kh Baphnom 023 ChanThou.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 023 ChanThou.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom026TheanyItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~47.TTF|Kh Baphnom 026 Theany Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 026 Theany Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom026Theany.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~48.TTF|Kh Baphnom 026 Theany.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 026 Theany.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom034MengNaryItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~49.TTF|Kh Baphnom 034 Meng Nary Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 034 Meng Nary Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom034MengNary.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~50.TTF|Kh Baphnom 034 Meng Nary.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 034 Meng Nary.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom040Darina.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~51.TTF|Kh Baphnom 040 Darina.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 040 Darina.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom041Savy.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~52.TTF|Kh Baphnom 041 Savy.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 041 Savy.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom042Vatey.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~53.TTF|Kh Baphnom 042 Vatey.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 042 Vatey.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom043Dany.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~54.TTF|Kh Baphnom 043 Dany.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom 043 Dany.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomBaktouk.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~55.TTF|Kh Baphnom Baktouk.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Baktouk.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomBuddhaStoryVersion2.30May262016.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~56.TTF|Kh Baphnom Buddha Story Version 2.30 May 26, 2016.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Buddha Story Version 2.30 May 26, 2016.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomChhuoktipNewVersion1.00September102015.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~57.TTF|Kh Baphnom Chhuoktip New Version 1.00 September 10, 2015.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Chhuoktip New Version 1.00 September 10, 2015.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomChomMithVersion2.30September132016.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~58.TTF|Kh Baphnom Chom Mith Version 2.30 September 13, 2016.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Chom Mith Version 2.30 September 13, 2016.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomDangChendaItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~59.TTF|Kh Baphnom Dang Chenda Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Dang Chenda Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomDangChenda.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~60.TTF|Kh Baphnom Dang Chenda.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Dang Chenda.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomDangKanhaVersion2.30January162016.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~61.TTF|Kh Baphnom Dang Kanha Version 2.30 January 16, 2016.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Dang Kanha Version 2.30 January 16, 2016.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomFirst2017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~62.TTF|Kh Baphnom First 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom First 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomiChannli.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~63.TTF|Kh Baphnom iChannli.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom iChannli.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomJrungThomItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~64.TTF|Kh Baphnom Jrung Thom Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Jrung Thom Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomJrungThom.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~65.TTF|Kh Baphnom Jrung Thom.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Jrung Thom.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomKeoSarath.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~66.TTF|Kh Baphnom Keo Sarath.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Keo Sarath.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomKhveakBold.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~67.TTF|Kh Baphnom Khveak Bold.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Khveak Bold.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomKhveakThin.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~68.TTF|Kh Baphnom Khveak Thin.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Khveak Thin.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLazyWriteItalicVersion2.30September202019.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~69.TTF|Kh Baphnom Lazy Write Italic Version 2.30 September 20, 2019.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Lazy Write Italic Version 2.30 September 20, 2019.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLazyWriteVersion2.30September202019.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~70.TTF|Kh Baphnom Lazy Write Version 2.30 September 20, 2019.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Lazy Write Version 2.30 September 20, 2019.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonF1Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~71.TTF|Kh Baphnom Limon F1 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon F1 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonF2Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~72.TTF|Kh Baphnom Limon F2 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon F2 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonF2AVersion2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~73.TTF|Kh Baphnom Limon F2A Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon F2A Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonF3Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~74.TTF|Kh Baphnom Limon F3 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon F3 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonF4Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~75.TTF|Kh Baphnom Limon F4 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon F4 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonF5Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~76.TTF|Kh Baphnom Limon F5 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon F5 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonF6Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~77.TTF|Kh Baphnom Limon F6 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon F6 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonF7Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~78.TTF|Kh Baphnom Limon F7 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon F7 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonF8Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~79.TTF|Kh Baphnom Limon F8 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon F8 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonR1Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~80.TTF|Kh Baphnom Limon R1 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon R1 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonR2Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~81.TTF|Kh Baphnom Limon R2 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon R2 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonR3Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~82.TTF|Kh Baphnom Limon R3 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon R3 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonR4Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~83.TTF|Kh Baphnom Limon R4 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon R4 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonR5Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~84.TTF|Kh Baphnom Limon R5 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon R5 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonS1Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~85.TTF|Kh Baphnom Limon S1 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon S1 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonS2Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~86.TTF|Kh Baphnom Limon S2 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon S2 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonS3Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~87.TTF|Kh Baphnom Limon S3 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon S3 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonS4Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~88.TTF|Kh Baphnom Limon S4 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon S4 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonS5Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~89.TTF|Kh Baphnom Limon S5 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon S5 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonS6Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~90.TTF|Kh Baphnom Limon S6 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon S6 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomLimonS7Version2.50September152017.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~91.TTF|Kh Baphnom Limon S7 Version 2.50 September 15, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Limon S7 Version 2.50 September 15, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomMengTolaVersion2.30January072016.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~92.TTF|Kh Baphnom Meng Tola Version 2.30 January 07, 2016.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Meng Tola Version 2.30 January 07, 2016.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomMengTuonItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~93.TTF|Kh Baphnom Meng Tuon Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Meng Tuon Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomMengTuon.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~94.TTF|Kh Baphnom Meng Tuon.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Meng Tuon.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomMoul5ItalicVersion2.30August252016.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~95.TTF|Kh Baphnom Moul5 Italic Version 2.30 August 25, 2016.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Moul5 Italic Version 2.30 August 25, 2016.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomMoul5Version2.30August252016.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~96.TTF|Kh Baphnom Moul5 Version 2.30 August 25, 2016.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Moul5 Version 2.30 August 25, 2016.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomNeakPoanVersion2.30March012016.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~97.TTF|Kh Baphnom Neak Poan Version 2.30 March 01, 2016.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Neak Poan Version 2.30 March 01, 2016.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomPaliBedokItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~98.TTF|Kh Baphnom Pali Bedok Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Pali Bedok Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomPaliBedok.ttf" Component_="KhWrithand.ttf" FileName="KHBAP~99.TTF|Kh Baphnom Pali Bedok.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Pali Bedok.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomPheaktraVersion2.30October052017.ttf" Component_="KhWrithand.ttf" FileName="KHBA~100.TTF|Kh Baphnom Pheaktra Version 2.30 October 05, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Pheaktra Version 2.30 October 05, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomPixel1.ttf" Component_="KhWrithand.ttf" FileName="KHBA~101.TTF|Kh Baphnom Pixel1.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Pixel1.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomSmallStyle.ttf" Component_="KhWrithand.ttf" FileName="KHBA~102.TTF|Kh Baphnom Small Style.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Small Style.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomSnehReanItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~103.TTF|Kh Baphnom SnehRean Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom SnehRean Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomSnehRean.ttf" Component_="KhWrithand.ttf" FileName="KHBA~104.TTF|Kh Baphnom SnehRean.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom SnehRean.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomSopheaMyMomItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~105.TTF|Kh Baphnom Sophea My Mom Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Sophea My Mom Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomSopheaMyMom.ttf" Component_="KhWrithand.ttf" FileName="KHBA~106.TTF|Kh Baphnom Sophea My Mom.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Sophea My Mom.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomSophyItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~107.TTF|Kh Baphnom Sophy Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Sophy Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomSophy.ttf" Component_="KhWrithand.ttf" FileName="KHBA~108.TTF|Kh Baphnom Sophy.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Sophy.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomSvayTanyItalicVersion2.30November142017.ttf" Component_="KhWrithand.ttf" FileName="KHBA~109.TTF|Kh Baphnom SvayTany Italic Version 2.30 November 14, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom SvayTany Italic Version 2.30 November 14, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomSvayTanyVersion2.30November142017.ttf" Component_="KhWrithand.ttf" FileName="KHBA~110.TTF|Kh Baphnom SvayTany Version 2.30 November 14, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom SvayTany Version 2.30 November 14, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnomVathanaVersion2.30October102017.ttf" Component_="KhWrithand.ttf" FileName="KHBA~111.TTF|Kh Baphnom Vathana Version 2.30 October 10, 2017.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom Vathana Version 2.30 October 10, 2017.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_BeungPreahItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~112.TTF|Kh Baphnom_BeungPreah Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_BeungPreah Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_BeungPreah.ttf" Component_="KhWrithand.ttf" FileName="KHBA~113.TTF|Kh Baphnom_BeungPreah.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_BeungPreah.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_BroSreItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~114.TTF|Kh Baphnom_BroSre Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_BroSre Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_BroSre.ttf" Component_="KhWrithand.ttf" FileName="KHBA~115.TTF|Kh Baphnom_BroSre.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_BroSre.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_Chheukach.ttf" Component_="KhWrithand.ttf" FileName="KHBA~116.TTF|Kh Baphnom_Chheukach.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Chheukach.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF1Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~117.TTF|Kh Baphnom_Limon F1 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F1 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF1.ttf" Component_="KhWrithand.ttf" FileName="KHBA~118.TTF|Kh Baphnom_Limon F1.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F1.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF2Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~119.TTF|Kh Baphnom_Limon F2 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F2 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF2.ttf" Component_="KhWrithand.ttf" FileName="KHBA~120.TTF|Kh Baphnom_Limon F2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F2.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF3Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~121.TTF|Kh Baphnom_Limon F3 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F3 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF3.ttf" Component_="KhWrithand.ttf" FileName="KHBA~122.TTF|Kh Baphnom_Limon F3.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F3.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF4Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~123.TTF|Kh Baphnom_Limon F4 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F4 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF4.ttf" Component_="KhWrithand.ttf" FileName="KHBA~124.TTF|Kh Baphnom_Limon F4.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F4.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF5Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~125.TTF|Kh Baphnom_Limon F5 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F5 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF5.ttf" Component_="KhWrithand.ttf" FileName="KHBA~126.TTF|Kh Baphnom_Limon F5.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F5.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF6Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~127.TTF|Kh Baphnom_Limon F6 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F6 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF6.ttf" Component_="KhWrithand.ttf" FileName="KHBA~128.TTF|Kh Baphnom_Limon F6.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F6.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF7Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~129.TTF|Kh Baphnom_Limon F7 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F7 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF7.ttf" Component_="KhWrithand.ttf" FileName="KHBA~130.TTF|Kh Baphnom_Limon F7.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F7.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF8Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~131.TTF|Kh Baphnom_Limon F8 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F8 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonF8.ttf" Component_="KhWrithand.ttf" FileName="KHBA~132.TTF|Kh Baphnom_Limon F8.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon F8.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonR1Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~133.TTF|Kh Baphnom_Limon R1 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon R1 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonR1.ttf" Component_="KhWrithand.ttf" FileName="KHBA~134.TTF|Kh Baphnom_Limon R1.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon R1.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonR2Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~135.TTF|Kh Baphnom_Limon R2 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon R2 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonR2.ttf" Component_="KhWrithand.ttf" FileName="KHBA~136.TTF|Kh Baphnom_Limon R2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon R2.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonR3Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~137.TTF|Kh Baphnom_Limon R3 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon R3 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonR3.ttf" Component_="KhWrithand.ttf" FileName="KHBA~138.TTF|Kh Baphnom_Limon R3.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon R3.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonR4Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~139.TTF|Kh Baphnom_Limon R4 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon R4 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonR4.ttf" Component_="KhWrithand.ttf" FileName="KHBA~140.TTF|Kh Baphnom_Limon R4.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon R4.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonR5Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~141.TTF|Kh Baphnom_Limon R5 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon R5 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonR5.ttf" Component_="KhWrithand.ttf" FileName="KHBA~142.TTF|Kh Baphnom_Limon R5.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon R5.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonS1Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~143.TTF|Kh Baphnom_Limon S1 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon S1 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonS1.ttf" Component_="KhWrithand.ttf" FileName="KHBA~144.TTF|Kh Baphnom_Limon S1.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon S1.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonS2Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~145.TTF|Kh Baphnom_Limon S2 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon S2 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonS2.ttf" Component_="KhWrithand.ttf" FileName="KHBA~146.TTF|Kh Baphnom_Limon S2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon S2.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonS3.ttf" Component_="KhWrithand.ttf" FileName="KHBA~147.TTF|Kh Baphnom_Limon S3.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon S3.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonS4Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~148.TTF|Kh Baphnom_Limon S4 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon S4 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonS4.ttf" Component_="KhWrithand.ttf" FileName="KHBA~149.TTF|Kh Baphnom_Limon S4.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon S4.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonS5Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~150.TTF|Kh Baphnom_Limon S5 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon S5 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_LimonS5.ttf" Component_="KhWrithand.ttf" FileName="KHBA~151.TTF|Kh Baphnom_Limon S5.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Limon S5.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_MengSocheathItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~152.TTF|Kh Baphnom_MengSocheath Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_MengSocheath Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_MengSocheath.ttf" Component_="KhWrithand.ttf" FileName="KHBA~153.TTF|Kh Baphnom_MengSocheath.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_MengSocheath.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_OldStyeItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~154.TTF|Kh Baphnom_Old Stye Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Old Stye Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_OldStye.ttf" Component_="KhWrithand.ttf" FileName="KHBA~155.TTF|Kh Baphnom_Old Stye.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Old Stye.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_PrekluongItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~156.TTF|Kh Baphnom_Prekluong Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Prekluong Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_Prekluong.ttf" Component_="KhWrithand.ttf" FileName="KHBA~157.TTF|Kh Baphnom_Prekluong.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Prekluong.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_SatraSlekrithItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~158.TTF|Kh Baphnom_SatraSlekrith Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_SatraSlekrith Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_SatraSlekrith.ttf" Component_="KhWrithand.ttf" FileName="KHBA~159.TTF|Kh Baphnom_SatraSlekrith.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_SatraSlekrith.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_SinsisamouthItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~160.TTF|Kh Baphnom_Sinsisamouth Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Sinsisamouth Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_Sinsisamouth.ttf" Component_="KhWrithand.ttf" FileName="KHBA~161.TTF|Kh Baphnom_Sinsisamouth.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Sinsisamouth.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_Sinsisamouth1Italic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~162.TTF|Kh Baphnom_Sinsisamouth1 Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Sinsisamouth1 Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_Sinsisamouth1.ttf" Component_="KhWrithand.ttf" FileName="KHBA~163.TTF|Kh Baphnom_Sinsisamouth1.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Sinsisamouth1.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_StyleItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~164.TTF|Kh Baphnom_Style Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Style Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_Style.ttf" Component_="KhWrithand.ttf" FileName="KHBA~165.TTF|Kh Baphnom_Style.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Style.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_SvayTanyItalic.ttf" Component_="KhWrithand.ttf" FileName="KHBA~166.TTF|Kh Baphnom_SvayTany Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_SvayTany Italic.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_SvayTany.ttf" Component_="KhWrithand.ttf" FileName="KHBA~167.TTF|Kh Baphnom_SvayTany.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_SvayTany.ttf" SelfReg="false"/>
+    <ROW File="KhBaphnom_WritehandPixel2.ttf" Component_="KhWrithand.ttf" FileName="KHBA~168.TTF|Kh Baphnom_Writehand Pixel2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Baphnom_Writehand Pixel2.ttf" SelfReg="false"/>
+    <ROW File="KhBattambangBold_Version6.0.ttf" Component_="KhWrithand.ttf" FileName="KHBATT~1.TTF|Kh Battambang Bold_Version 6.0.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Battambang Bold_Version 6.0.ttf" SelfReg="false"/>
+    <ROW File="KhBLBrushHand.ttf" Component_="KhWrithand.ttf" FileName="KHBLBR~1.TTF|Kh BL BrushHand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh BL BrushHand.ttf" SelfReg="false"/>
+    <ROW File="KhBLLazyDistorted.ttf" Component_="KhWrithand.ttf" FileName="KHBLLA~1.TTF|Kh BL LazyDistorted.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh BL LazyDistorted.ttf" SelfReg="false"/>
+    <ROW File="KhBLLazyOutline.ttf" Component_="KhWrithand.ttf" FileName="KHBLLA~2.TTF|Kh BL LazyOutline.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh BL LazyOutline.ttf" SelfReg="false"/>
+    <ROW File="KhBLLazySmooth.ttf" Component_="KhWrithand.ttf" FileName="KHBLLA~3.TTF|Kh BL LazySmooth.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh BL LazySmooth.ttf" SelfReg="false"/>
+    <ROW File="KhBoeung_Version1.20.ttf" Component_="KhWrithand.ttf" FileName="KHBOEU~1.TTF|Kh Boeung_Version 1.20.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Boeung_Version 1.20.ttf" SelfReg="false"/>
+    <ROW File="KhChheurkachBaphnomItalic.ttf" Component_="KhWrithand.ttf" FileName="KHCHHE~1.TTF|Kh Chheurkach Baphnom Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Chheurkach Baphnom Italic.ttf" SelfReg="false"/>
+    <ROW File="KhChheurkachBaphnom.ttf" Component_="KhWrithand.ttf" FileName="KHCHHE~2.TTF|Kh Chheurkach Baphnom.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Chheurkach Baphnom.ttf" SelfReg="false"/>
+    <ROW File="KhChrungThom_Version1.00.ttf" Component_="KhWrithand.ttf" FileName="KHCHRU~1.TTF|Kh Chrung Thom_Version 1.00.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Chrung Thom_Version 1.00.ttf" SelfReg="false"/>
+    <ROW File="KhCNStar.ttf" Component_="KhWrithand.ttf" FileName="KHCNST~1.TTF|Kh CN Star.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh CN Star.ttf" SelfReg="false"/>
+    <ROW File="KhDangrekJrung_Version1.00.ttf" Component_="KhWrithand.ttf" FileName="KHDANG~1.TTF|Kh Dangrek Jrung_Version 1.00.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Dangrek Jrung_Version 1.00.ttf" SelfReg="false"/>
+    <ROW File="KhDigitalThom.ttf" Component_="KhWrithand.ttf" FileName="KHDIGI~1.TTF|Kh Digital Thom.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Digital Thom.ttf" SelfReg="false"/>
+    <ROW File="Khitkonkhmer_Version1.00.ttf" Component_="KhWrithand.ttf" FileName="KHITKO~1.TTF|Kh itkonkhmer_Version 1.00.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh itkonkhmer_Version 1.00.ttf" SelfReg="false"/>
+    <ROW File="KhitseombelJrungbunly.ttf" Component_="KhWrithand.ttf" FileName="KHITSE~1.TTF|Kh itseombel Jrung - bunly.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh itseombel Jrung - bunly.ttf" SelfReg="false"/>
+    <ROW File="khitsupport4kh.ttf" Component_="KhWrithand.ttf" FileName="KHITSU~1.TTF|kh itsupport4kh.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\kh itsupport4kh.ttf" SelfReg="false"/>
+    <ROW File="KhJrungThom.ttf" Component_="KhWrithand.ttf" FileName="KHJRUN~1.TTF|Kh Jrung Thom.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Jrung Thom.ttf" SelfReg="false"/>
+    <ROW File="KhKakadaMysLoveVersion2.00.ttf" Component_="KhWrithand.ttf" FileName="KHKAKA~1.TTF|Kh Kakada (My&apos;s Love) Version 2.00.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Kakada (My&apos;s Love) Version 2.00.ttf" SelfReg="false"/>
+    <ROW File="KhKAKADA08April.ttf" Component_="KhWrithand.ttf" FileName="KHKAKA~2.TTF|Kh KAKADA 08 April.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh KAKADA 08 April.ttf" SelfReg="false"/>
+    <ROW File="KhKAKADA10May.ttf" Component_="KhWrithand.ttf" FileName="KHKAKA~3.TTF|Kh KAKADA 10 May.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh KAKADA 10 May.ttf" SelfReg="false"/>
+    <ROW File="KhKAKADA25MarchKakadasmyloveVersion2.00April302015.ttf" Component_="KhWrithand.ttf" FileName="KHKAKA~4.TTF|Kh KAKADA 25 March (Kakada&apos;s my love) Version 2.00 April 30, 2015.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh KAKADA 25 March (Kakada&apos;s my love) Version 2.00 April 30, 2015.ttf" SelfReg="false"/>
+    <ROW File="KhKAKADA27Feb.ttf" Component_="KhWrithand.ttf" FileName="KHKAKA~5.TTF|Kh KAKADA 27 Feb.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh KAKADA 27 Feb.ttf" SelfReg="false"/>
+    <ROW File="KhKakadaBati.ttf" Component_="KhWrithand.ttf" FileName="KHKAKA~6.TTF|Kh Kakada Bati.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Kakada Bati.ttf" SelfReg="false"/>
+    <ROW File="KhKampotGrasChhor.ttf" Component_="KhWrithand.ttf" FileName="KHKAMP~1.TTF|Kh Kampot Gras Chhor.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Kampot Gras Chhor.ttf" SelfReg="false"/>
+    <ROW File="KhKantumruyBold_Version1.10.ttf" Component_="KhWrithand.ttf" FileName="KHKANT~1.TTF|Kh Kantumruy Bold_Version 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Kantumruy Bold_Version 1.10.ttf" SelfReg="false"/>
+    <ROW File="KhKantumruyLight_Version1.10.ttf" Component_="KhWrithand.ttf" FileName="KHKANT~2.TTF|Kh Kantumruy Light_Version 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Kantumruy Light_Version 1.10.ttf" SelfReg="false"/>
+    <ROW File="KhKantumruy_Version1.10.ttf" Component_="KhWrithand.ttf" FileName="KHKANT~3.TTF|Kh Kantumruy_Version 1.10.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Kantumruy_Version 1.10.ttf" SelfReg="false"/>
+    <ROW File="KhKhekBattambangItalic.ttf" Component_="KhWrithand.ttf" FileName="KHKHEK~1.TTF|Kh Khek Battambang Italic.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Khek Battambang Italic.ttf" SelfReg="false"/>
+    <ROW File="KhKhekBattambang.ttf" Component_="KhWrithand.ttf" FileName="KHKHEK~2.TTF|Kh Khek Battambang.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Khek Battambang.ttf" SelfReg="false"/>
+    <ROW File="khKompongChhnang.ttf" Component_="KhWrithand.ttf" FileName="KHKOMP~1.TTF|kh Kompong Chhnang.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\kh Kompong Chhnang.ttf" SelfReg="false"/>
+    <ROW File="KhKompongThomBunlyVersion1.202013.ttf" Component_="KhWrithand.ttf" FileName="KHKOMP~2.TTF|Kh KompongThom - Bunly Version 1.20 2013.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh KompongThom - Bunly Version 1.20 2013.ttf" SelfReg="false"/>
+    <ROW File="KhKrongSoungSinfuHandVersion1.00.ttf" Component_="KhWrithand.ttf" FileName="KHKRON~1.TTF|Kh KrongSoung SinfuHand[Version1.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh KrongSoung SinfuHand[Version1.00].ttf" SelfReg="false"/>
+    <ROW File="KhKrouchChhmarItalicVersion1.00.ttf" Component_="KhWrithand.ttf" FileName="KHKROU~1.TTF|Kh KrouchChhmar Italic[Version1.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh KrouchChhmar Italic[Version1.00].ttf" SelfReg="false"/>
+    <ROW File="KhKrouchChhmarVersion1.00.ttf" Component_="KhWrithand.ttf" FileName="KHKROU~2.TTF|Kh KrouchChhmar[Version1.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh KrouchChhmar[Version1.00].ttf" SelfReg="false"/>
+    <ROW File="KhMPSFasthand.ttf" Component_="KhWrithand.ttf" FileName="KHMPSF~1.TTF|Kh MPS Fasthand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh MPS Fasthand.ttf" SelfReg="false"/>
+    <ROW File="KHMPSJrung.ttf" Component_="KhWrithand.ttf" FileName="KHMPSJ~1.TTF|KH MPS Jrung.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\KH MPS Jrung.ttf" SelfReg="false"/>
+    <ROW File="KhMPSLazyVersion1.00January52012.ttf" Component_="KhWrithand.ttf" FileName="KHMPSL~1.TTF|Kh MPS Lazy Version 1.00 January 5, 2012.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh MPS Lazy Version 1.00 January 5, 2012.ttf" SelfReg="false"/>
+    <ROW File="KhMPSPreyVengVersion1.00May92012.ttf" Component_="KhWrithand.ttf" FileName="KHMPSP~1.TTF|Kh MPS Prey Veng Version 1.00 May 9, 2012.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh MPS Prey Veng Version 1.00 May 9, 2012.ttf" SelfReg="false"/>
+    <ROW File="KhMPSRusseyVersion6.00July302011.ttf" Component_="KhWrithand.ttf" FileName="KHMPSR~1.TTF|Kh MPS Russey Version 6.00 July 30, 2011.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh MPS Russey Version 6.00 July 30, 2011.ttf" SelfReg="false"/>
+    <ROW File="KhMPSTempleVersion1.00September252013.ttf" Component_="KhWrithand.ttf" FileName="KHMPST~1.TTF|Kh MPS Temple Version 1.00 September 25, 2013.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh MPS Temple Version 1.00 September 25, 2013.ttf" SelfReg="false"/>
+    <ROW File="KhMPS_Version2.00.ttf" Component_="KhWrithand.ttf" FileName="KHMPS_~1.TTF|Kh MPS_Version 2.00.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh MPS_Version 2.00.ttf" SelfReg="false"/>
+    <ROW File="KhOldStyleKakadasMyLoveVersion2.00January242015.ttf" Component_="KhWrithand.ttf" FileName="KHOLDS~1.TTF|Kh Old Style (Kakada&apos;s My Love) Version 2.00 January 24, 2015.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Old Style (Kakada&apos;s My Love) Version 2.00 January 24, 2015.ttf" SelfReg="false"/>
+    <ROW File="KhOreangOvItalicVersion1.10.ttf" Component_="KhWrithand.ttf" FileName="KHOREA~1.TTF|Kh OreangOv Italic[Version1.10].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh OreangOv Italic[Version1.10].ttf" SelfReg="false"/>
+    <ROW File="KhOreangOvPlusItalicVersion1.10.ttf" Component_="KhWrithand.ttf" FileName="KHOREA~2.TTF|Kh OreangOv Plus Italic[Version1.10].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh OreangOv Plus Italic[Version1.10].ttf" SelfReg="false"/>
+    <ROW File="KhOreangOvPlusVersion1.20.ttf" Component_="KhWrithand.ttf" FileName="KHOREA~3.TTF|Kh OreangOv Plus[Version1.20].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh OreangOv Plus[Version1.20].ttf" SelfReg="false"/>
+    <ROW File="KhOreangOvThmeyItalicVersion1.10.ttf" Component_="KhWrithand.ttf" FileName="KHOREA~4.TTF|Kh OreangOv Thmey Italic[Version1.10].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh OreangOv Thmey Italic[Version1.10].ttf" SelfReg="false"/>
+    <ROW File="KhOreangOvThmeyVersion1.20.ttf" Component_="KhWrithand.ttf" FileName="KHOREA~5.TTF|Kh OreangOv Thmey[Version1.20].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh OreangOv Thmey[Version1.20].ttf" SelfReg="false"/>
+    <ROW File="KhOreangOvVersion1.60.ttf" Component_="KhWrithand.ttf" FileName="KHOREA~6.TTF|Kh OreangOv[Version1.60].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh OreangOv[Version1.60].ttf" SelfReg="false"/>
+    <ROW File="KhPenWappathor_Version1.00.ttf" Component_="KhWrithand.ttf" FileName="KHPENW~1.TTF|Kh Pen Wappathor_Version 1.00.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Pen Wappathor_Version 1.00.ttf" SelfReg="false"/>
+    <ROW File="KHPhalLuch002.ttf" Component_="KhWrithand.ttf" FileName="KHPHAL~1.TTF|KH PhalLuch 002.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\KH PhalLuch 002.ttf" SelfReg="false"/>
+    <ROW File="KHPhalLuchKbach004.ttf" Component_="KhWrithand.ttf" FileName="KHPHAL~2.TTF|KH PhalLuch Kbach 004.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\KH PhalLuch Kbach 004.ttf" SelfReg="false"/>
+    <ROW File="KHPhalLuchkbach005.ttf" Component_="KhWrithand.ttf" FileName="KHPHAL~3.TTF|KH PhalLuch&#8203; kbach 005.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\KH PhalLuch&#8203; kbach 005.ttf" SelfReg="false"/>
+    <ROW File="KhPhearumPlusVathana.ttf" Component_="KhWrithand.ttf" FileName="KHPHEA~1.TTF|Kh Phearum Plus Vathana.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Phearum Plus Vathana.ttf" SelfReg="false"/>
+    <ROW File="KhPRRomneaglowflowers.ttf" Component_="KhWrithand.ttf" FileName="KHPRRO~1.TTF|Kh PR Romnea glow flowers.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh PR Romnea glow flowers.ttf" SelfReg="false"/>
+    <ROW File="KhPRRonTeasDavSamuria.ttf" Component_="KhWrithand.ttf" FileName="KHPRRO~2.TTF|Kh PR Ron Teas Dav Samuria.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh PR Ron Teas Dav Samuria.ttf" SelfReg="false"/>
+    <ROW File="KhPRSunChoeu.ttf" Component_="KhWrithand.ttf" FileName="KHPRSU~1.TTF|Kh PR Sun Choeu.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh PR Sun Choeu.ttf" SelfReg="false"/>
+    <ROW File="KhPreyVeng.ttf" Component_="KhWrithand.ttf" FileName="KHPREY~1.TTF|Kh Prey Veng.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Prey Veng.ttf" SelfReg="false"/>
+    <ROW File="KhSNBeysach.ttf" Component_="KhWrithand.ttf" FileName="KHSNBE~1.TTF|Kh SN Beysach.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh SN Beysach.ttf" SelfReg="false"/>
+    <ROW File="KhSNKampongsom.ttf" Component_="KhWrithand.ttf" FileName="KHSNKA~1.TTF|Kh SN Kampongsom.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh SN Kampongsom.ttf" SelfReg="false"/>
+    <ROW File="KhSNPreytakoy.ttf" Component_="KhWrithand.ttf" FileName="KHSNPR~1.TTF|Kh SN Preytakoy.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh SN Preytakoy.ttf" SelfReg="false"/>
+    <ROW File="KhSomborPreyKokVersion1.102013.ttf" Component_="KhWrithand.ttf" FileName="KHSOMB~1.TTF|Kh SomborPreyKok&#8203;&#8203; Version 1.10 2013.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh SomborPreyKok&#8203;&#8203; Version 1.10 2013.ttf" SelfReg="false"/>
+    <ROW File="KhStuengSaenVersion4.00.ttf" Component_="KhWrithand.ttf" FileName="KHSTUE~1.TTF|Kh Stueng Saen Version 4.00.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Stueng Saen Version 4.00.ttf" SelfReg="false"/>
+    <ROW File="KhTambeVersion1.10.ttf" Component_="KhWrithand.ttf" FileName="KHTAMB~1.TTF|Kh Tambe[Version1.10].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Tambe[Version1.10].ttf" SelfReg="false"/>
+    <ROW File="KhTbaungKhmumThmeyItalicVersion1.00.ttf" Component_="KhWrithand.ttf" FileName="KHTBAU~1.TTF|Kh TbaungKhmum Thmey Italic[Version1.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh TbaungKhmum Thmey Italic[Version1.00].ttf" SelfReg="false"/>
+    <ROW File="KhTbaungKhmumThmeyPlusItalicVersion1.00.ttf" Component_="KhWrithand.ttf" FileName="KHTBAU~2.TTF|Kh TbaungKhmum Thmey Plus Italic[Version1.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh TbaungKhmum Thmey Plus Italic[Version1.00].ttf" SelfReg="false"/>
+    <ROW File="KhTbaungKhmumThmeyPlusPlusItalicVersion1.00.ttf" Component_="KhWrithand.ttf" FileName="KHTBAU~3.TTF|Kh TbaungKhmum Thmey Plus Plus Italic[Version1.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh TbaungKhmum Thmey Plus Plus Italic[Version1.00].ttf" SelfReg="false"/>
+    <ROW File="KhTbaungKhmumThmeyPlusPlusVersion1.00.ttf" Component_="KhWrithand.ttf" FileName="KHTBAU~4.TTF|Kh TbaungKhmum Thmey Plus Plus[Version1.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh TbaungKhmum Thmey Plus Plus[Version1.00].ttf" SelfReg="false"/>
+    <ROW File="KhTbaungKhmumThmeyPlusVersion1.60.ttf" Component_="KhWrithand.ttf" FileName="KHTBAU~5.TTF|Kh TbaungKhmum Thmey Plus[Version1.60].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh TbaungKhmum Thmey Plus[Version1.60].ttf" SelfReg="false"/>
+    <ROW File="KhTbaungKhmumThmeyVersion1.30.ttf" Component_="KhWrithand.ttf" FileName="KHTBAU~6.TTF|Kh TbaungKhmum Thmey[Version1.30].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh TbaungKhmum Thmey[Version1.30].ttf" SelfReg="false"/>
+    <ROW File="KhTbaungKhmumVersion3.30.ttf" Component_="KhWrithand.ttf" FileName="KHTBAU~7.TTF|Kh TbaungKhmum[Version3.30].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh TbaungKhmum[Version3.30].ttf" SelfReg="false"/>
+    <ROW File="KhTKMPonheaKrekLimonR5Version1.00.ttf" Component_="KhWrithand.ttf" FileName="KHTKMP~1.TTF|Kh TKM PonheaKrek Limon R5[Version1.00].ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh TKM PonheaKrek Limon R5[Version1.00].ttf" SelfReg="false"/>
+    <ROW File="khvirakfolktale.ttf" Component_="KhWrithand.ttf" FileName="KHVIRA~1.TTF|kh virak folktale.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\kh virak folktale.ttf" SelfReg="false"/>
+    <ROW File="Khvirakmonomodern.ttf" Component_="KhWrithand.ttf" FileName="KHVIRA~2.TTF|Kh virak mono modern.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh virak mono modern.ttf" SelfReg="false"/>
+    <ROW File="Khviraknippon.ttf" Component_="KhWrithand.ttf" FileName="KHVIRA~3.TTF|Kh virak nippon.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh virak nippon.ttf" SelfReg="false"/>
+    <ROW File="Khvirakromajicover.ttf" Component_="KhWrithand.ttf" FileName="KHVIRA~4.TTF|Kh virak romaji cover.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh virak romaji cover.ttf" SelfReg="false"/>
+    <ROW File="KhWritehandJrung.ttf" Component_="KhWrithand.ttf" FileName="KHWRIT~2.TTF|Kh Writehand Jrung.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Writehand Jrung.ttf" SelfReg="false"/>
+    <ROW File="KhWritehand.ttf" Component_="KhWrithand.ttf" FileName="KHWRIT~3.TTF|Kh Writehand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh Writehand.ttf" SelfReg="false"/>
+    <ROW File="KHPhalLuch001.ttf" Component_="KhWrithand.ttf" FileName="KH&#8203;&#8203;PH~1.TTF|KH&#8203;&#8203; PhalLuch 001.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\KH&#8203;&#8203; PhalLuch 001.ttf" SelfReg="false"/>
+    <ROW File="KhBattambang.ttf" Component_="KhWrithand.ttf" FileName="KH-BAT~1.TTF|Kh-Battambang.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Battambang.ttf" SelfReg="false"/>
+    <ROW File="KhBokor.ttf" Component_="KhWrithand.ttf" FileName="Kh-Bokor.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Bokor.ttf" SelfReg="false"/>
+    <ROW File="KhContent.ttf" Component_="KhWrithand.ttf" FileName="KH-CON~1.TTF|Kh-Content.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Content.ttf" SelfReg="false"/>
+    <ROW File="KhDangrek.ttf" Component_="KhWrithand.ttf" FileName="KH-DAN~1.TTF|Kh-Dangrek.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Dangrek.ttf" SelfReg="false"/>
+    <ROW File="KhFasthand.ttf" Component_="KhWrithand.ttf" FileName="KH-FAS~1.TTF|Kh-Fasthand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Fasthand.ttf" SelfReg="false"/>
+    <ROW File="KhFreehand.ttf" Component_="KhWrithand.ttf" FileName="KH-FRE~1.TTF|Kh-Freehand.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Freehand.ttf" SelfReg="false"/>
+    <ROW File="KhKangrey.ttf" Component_="KhWrithand.ttf" FileName="KH-KAN~1.TTF|Kh-Kangrey.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Kangrey.ttf" SelfReg="false"/>
+    <ROW File="KhKoulen.ttf" Component_="KhWrithand.ttf" FileName="KH-KOU~1.TTF|Kh-Koulen.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Koulen.ttf" SelfReg="false"/>
+    <ROW File="KhKoulenL.ttf" Component_="KhWrithand.ttf" FileName="KH-KOU~2.TTF|Kh-KoulenL.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-KoulenL.ttf" SelfReg="false"/>
+    <ROW File="KhmerChhayRound3.ttf" Component_="KhWrithand.ttf" FileName="KHMERC~1.TTF|Khmer Chhay Round 3.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Khmer Chhay Round 3.ttf" SelfReg="false"/>
+    <ROW File="KhmerChhayStyle5.ttf" Component_="KhWrithand.ttf" FileName="KHMERC~2.TTF|Khmer Chhay Style 5.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Khmer Chhay Style 5.ttf" SelfReg="false"/>
+    <ROW File="KhmerChhayText6.ttf" Component_="KhWrithand.ttf" FileName="KHMERC~3.TTF|Khmer Chhay Text 6.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Khmer Chhay Text 6.ttf" SelfReg="false"/>
+    <ROW File="KhMetalChrieng.ttf" Component_="KhWrithand.ttf" FileName="KH-MET~1.TTF|Kh-Metal-Chrieng.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Metal-Chrieng.ttf" SelfReg="false"/>
+    <ROW File="KhMithSalaPaliv2.ttf" Component_="KhWrithand.ttf" FileName="KH-MIT~1.TTF|Kh-MithSalaPali-v2.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-MithSalaPali-v2.ttf" SelfReg="false"/>
+    <ROW File="KhMuol.ttf" Component_="KhWrithand.ttf" FileName="Kh-Muol.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Muol.ttf" SelfReg="false"/>
+    <ROW File="KhMuolPali.ttf" Component_="KhWrithand.ttf" FileName="KH-MUO~1.TTF|Kh-Muol-Pali.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Muol-Pali.ttf" SelfReg="false"/>
+    <ROW File="KhPreyVeng.ttf_1" Component_="KhWrithand.ttf" FileName="KHPREY~2.TTF|KhPreyVeng.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\KhPreyVeng.ttf" SelfReg="false"/>
+    <ROW File="KhSiemreap.ttf" Component_="KhWrithand.ttf" FileName="KH-SIE~1.TTF|Kh-Siemreap.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-Siemreap.ttf" SelfReg="false"/>
+    <ROW File="KhSystem.ttf" Component_="KhWrithand.ttf" FileName="KH-SYS~1.TTF|Kh-System.ttf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="KhmerPro\Fonts\Kh\Kh-System.ttf" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
@@ -370,7 +746,7 @@
     <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.DigCertStoreComponent">
-    <ROW TimeStampUrl="http://timestamp.digicert.com" SignerDescription="[|ProductName]" SignOptions="0" SignTool="0" UseSha256="1" Subject="CN=yuk7, C=JP" Store="User\MY"/>
+    <ROW TimeStampUrl="http://timestamp.digicert.com" SignerDescription="[|ProductName]" SignOptions="0" SignTool="0" UseSha256="1" Store="User\MY"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.FixupComponent">
     <ROW RowType="8" DiskPath="FontsFolder" VfsPath="FontsFolder" Option="2"/>
@@ -512,7 +888,6 @@
     <ROW Feature_="AIOtherFiles" Component_="Data.xlsb"/>
     <ROW Feature_="AIOtherFiles" Component_="Normal.dotm"/>
     <ROW Feature_="AI32BitFiles" Component_="DesktopOK.exe"/>
-    <ROW Feature_="MainFeature" Component_="AI_ExePath"/>
     <ROW Feature_="MainFeature" Component_="khmermackey.png"/>
     <ROW Feature_="MainFeature" Component_="MacKhmer.dll"/>
     <ROW Feature_="MainFeature" Component_="MacKhmer.dll_1"/>
@@ -540,6 +915,16 @@
     <ROW Feature_="MainFeature" Component_="OPEN"/>
     <ROW Feature_="MainFeature" Component_="Path"/>
     <ROW Feature_="MainFeature" Component_="AutoLoad"/>
+    <ROW Feature_="AKbalthom" Component_="AKbalthomChamnapChhunVersion1.10.ttf"/>
+    <ROW Feature_="Ang" Component_="AngTaso.ttf"/>
+    <ROW Feature_="Kh" Component_="KhWrithand.ttf"/>
+    <ROW Feature_="MainFeature" Component_="CaptionFont"/>
+    <ROW Feature_="MainFeature" Component_="AI_ExePath"/>
+    <ROW Feature_="MainFeature" Component_="IconFont"/>
+    <ROW Feature_="MainFeature" Component_="MenuFont"/>
+    <ROW Feature_="MainFeature" Component_="MessageFont"/>
+    <ROW Feature_="MainFeature" Component_="SmCaptionFont"/>
+    <ROW Feature_="MainFeature" Component_="StatusFont"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFontsComponent">
     <ROW File_="KhmerUI_0.ttf"/>
@@ -760,8 +1145,373 @@
     <ROW File_="SuwannaphumThin.ttf"/>
     <ROW File_="TapromRegular.ttf"/>
     <ROW File_="KhmerMool1.ttf"/>
+    <ROW File_="AKbalthomChamnapChhunVersion1.10.ttf"/>
+    <ROW File_="AKbalthomChoeungEk.ttf"/>
+    <ROW File_="AKbalthomFreedomv1.10.ttf"/>
+    <ROW File_="AKbalthomFreehandVersion3.00.ttf"/>
+    <ROW File_="AKbalthomHighSchool.ttf"/>
+    <ROW File_="AKbalthomHighSchoolBoldVersion3.00.ttf"/>
+    <ROW File_="AKbalthomHighSchoolBoldItalicVersion3.00.ttf"/>
+    <ROW File_="AKbalthomHighSchoolFrameVersion3.00.ttf"/>
+    <ROW File_="AKbalthomHighSchoolFun.ttf"/>
+    <ROW File_="AKbalthomHighSchoolItalicVersion3.00.ttf"/>
+    <ROW File_="AKbalthomKampuchearath.ttf"/>
+    <ROW File_="AKbalthomKbachVersion3.10.ttf"/>
+    <ROW File_="AKbalthomKbach2Plus.ttf"/>
+    <ROW File_="AKbalthomKhmerKromItalic.ttf"/>
+    <ROW File_="AKbalthomKhmerKrom.ttf"/>
+    <ROW File_="AKbalthomKhmerBasic.ttf"/>
+    <ROW File_="AKbalthomKhmerGothicVersion3.00.ttf"/>
+    <ROW File_="AKbalthomKhmerHand.ttf"/>
+    <ROW File_="AKbalthomKhmerLerVersion3.00.ttf"/>
+    <ROW File_="AKbalthomKhmerLight.ttf"/>
+    <ROW File_="AKbalthomKhmerNewVersion3.00.ttf"/>
+    <ROW File_="AKBALTHOMKorea.TTF"/>
+    <ROW File_="AkbalthomMolleak1.ttf"/>
+    <ROW File_="AKbalthomMolleak2.ttf"/>
+    <ROW File_="AKbalthomMolleak3Version1.10.ttf"/>
+    <ROW File_="AKbalthomMoul1PlusVersion1.10.ttf"/>
+    <ROW File_="AKbalthomMoul1Version1.10.ttf"/>
+    <ROW File_="AKbalthomMoul2Version1.10.ttf"/>
+    <ROW File_="AKbalthomMoul3Version1.10.ttf"/>
+    <ROW File_="AKbalthomMoul4Version1.10.ttf"/>
+    <ROW File_="AKbalthomNagaBold.ttf"/>
+    <ROW File_="AKbalthomPhnomPenh.ttf"/>
+    <ROW File_="AKbalthomPhnomSampow.ttf"/>
+    <ROW File_="AKbalthomReamVersion3.00.ttf"/>
+    <ROW File_="AKbalthomSeoul.ttf"/>
+    <ROW File_="AKbalthomSuperhero.ttf"/>
+    <ROW File_="AKbalthomSuperheroKH.ttf"/>
+    <ROW File_="AKBALTHOMTNRB.TTF"/>
+    <ROW File_="AKbalthomVicheka.ttf"/>
+    <ROW File_="AngTaso.ttf"/>
+    <ROW File_="AngTasom.ttf"/>
+    <ROW File_="DaunKeo.ttf"/>
+    <ROW File_="DaunPov.ttf"/>
+    <ROW File_="Daunsok.ttf"/>
+    <ROW File_="DaunTeav.ttf"/>
+    <ROW File_="DaunTep.ttf"/>
+    <ROW File_="TaPich.ttf"/>
+    <ROW File_="KhWrithand.ttf"/>
+    <ROW File_="KhAngB.Rodtha.ttf"/>
+    <ROW File_="KhAngBokorNewVersion2.00.ttf"/>
+    <ROW File_="KhAngChittbous.ttf"/>
+    <ROW File_="KhAngFreeHand.ttf"/>
+    <ROW File_="KhAngHandT.ChhimV.1.30.ttf"/>
+    <ROW File_="KhAngHandT.Chhim2.ttf"/>
+    <ROW File_="KhAngKampaengThmor.ttf"/>
+    <ROW File_="KhAngKanTout.ttf"/>
+    <ROW File_="KhAngKbachSeda.ttf"/>
+    <ROW File_="KhAngKlen.ttf"/>
+    <ROW File_="KhAngKomuttA.ttf"/>
+    <ROW File_="KhAngKomuttB.ttf"/>
+    <ROW File_="KhAngKouteok.ttf"/>
+    <ROW File_="KhAngKraaochhouk.ttf"/>
+    <ROW File_="KhAngKtomp.ttf"/>
+    <ROW File_="KhAngLetfHand.ttf"/>
+    <ROW File_="KhAngLink.ttf"/>
+    <ROW File_="KhAngMoulSedaV.2.30.ttf"/>
+    <ROW File_="KhAngMoulToathmor.ttf"/>
+    <ROW File_="KhAngMoulHand2.ttf"/>
+    <ROW File_="KhAngMoulHand.ttf"/>
+    <ROW File_="KhAngMura.ttf"/>
+    <ROW File_="KhAngMuraFastHand.ttf"/>
+    <ROW File_="KhAngMuraHand2.ttf"/>
+    <ROW File_="KhAngMuraHand.ttf"/>
+    <ROW File_="KhAngNaKryPlus.ttf"/>
+    <ROW File_="KhAngNaKry.ttf"/>
+    <ROW File_="KhAngNiTean2.ttf"/>
+    <ROW File_="KhAngNiTean.ttf"/>
+    <ROW File_="KhAngNorth.ttf"/>
+    <ROW File_="KhAngPeaNor.ttf"/>
+    <ROW File_="KhAngPeaNorent.ttf"/>
+    <ROW File_="KhAngPenh.ttf"/>
+    <ROW File_="KhAngPheaSaKhmer.ttf"/>
+    <ROW File_="KhAngPhkayProek.ttf"/>
+    <ROW File_="KhAngPothisalVersion2.00.ttf"/>
+    <ROW File_="KhAngR.Jrung.ttf"/>
+    <ROW File_="KhAngRooster.ttf"/>
+    <ROW File_="KhAngSamnadaichas1.10.ttf"/>
+    <ROW File_="KhAngSilbak.ttf"/>
+    <ROW File_="KhAngTaPenh.ttf"/>
+    <ROW File_="KhAngThearaMSPlus.ttf"/>
+    <ROW File_="KhAngThearaMS.ttf"/>
+    <ROW File_="KhAngThmorkream.ttf"/>
+    <ROW File_="KhAngToaThmor2.ttf"/>
+    <ROW File_="KhAngToaThmor3.ttf"/>
+    <ROW File_="KhAngToathmorKbach.ttf"/>
+    <ROW File_="KhAngToaThmor.ttf"/>
+    <ROW File_="KhAngVassa.ttf"/>
+    <ROW File_="KhAngVihearsuor.ttf"/>
+    <ROW File_="KhAngWritehand.ttf"/>
+    <ROW File_="KhBambooKakadasMyloveVersion2.00July302014.ttf"/>
+    <ROW File_="KhBaphnom001FirstFontVersion2.30October252019.ttf"/>
+    <ROW File_="KhBaphnom01FirstFontItalic.ttf"/>
+    <ROW File_="KhBaphnom01FirstFont.ttf"/>
+    <ROW File_="KhBaphnom002SecondItalicVersion2.30October252019.ttf"/>
+    <ROW File_="KhBaphnom002SecondVersion2.30October252019.ttf"/>
+    <ROW File_="KhBaphnom02PixelItalic.ttf"/>
+    <ROW File_="KhBaphnom02Pixel.ttf"/>
+    <ROW File_="KhBaphnom003ThirdItalicVersion2.30October262019.ttf"/>
+    <ROW File_="KhBaphnom003ThirdVersion2.30October262019.ttf"/>
+    <ROW File_="KhBaphnom03MengSamornItalic.ttf"/>
+    <ROW File_="KhBaphnom03MengSamorn.ttf"/>
+    <ROW File_="KhBaphnom004FourthItalicVersion2.30November062019.ttf"/>
+    <ROW File_="KhBaphnom004FourthVersion2.30November062019.ttf"/>
+    <ROW File_="KhBaphnom04TeakDariyaItalic.ttf"/>
+    <ROW File_="KhBaphnom04TeakDariya.ttf"/>
+    <ROW File_="KhBaphnom05DangSopheaItalic.ttf"/>
+    <ROW File_="KhBaphnom05DangSophea.ttf"/>
+    <ROW File_="KhBaphnom06VealSbouvItalic.ttf"/>
+    <ROW File_="KhBaphnom06VealSbouvVersion2.30September072016.ttf"/>
+    <ROW File_="KhBaphnom07MengRotanak.ttf"/>
+    <ROW File_="KhBaphnom08RongDomreyItalic.ttf"/>
+    <ROW File_="KhBaphnom08RongDomrey.ttf"/>
+    <ROW File_="KhBaphnom09TeakSoknaItalic.ttf"/>
+    <ROW File_="KhBaphnom09TeakSokna.ttf"/>
+    <ROW File_="KhBaphnom010TeakPisethItalic.ttf"/>
+    <ROW File_="KhBaphnom010TeakPiseth.ttf"/>
+    <ROW File_="KhBaphnom011SreyNithItalic.ttf"/>
+    <ROW File_="KhBaphnom011SreyNith.ttf"/>
+    <ROW File_="KhBaphnom012SokNaItalic.ttf"/>
+    <ROW File_="KhBaphnom012SokNa.ttf"/>
+    <ROW File_="KhBaphnom013SrokSreItalic.ttf"/>
+    <ROW File_="KhBaphnom013SrokSre.ttf"/>
+    <ROW File_="KhBaphnom14February.ttf"/>
+    <ROW File_="KhBaphnom016TrongKhlaItalic.ttf"/>
+    <ROW File_="KhBaphnom016TrongKhla.ttf"/>
+    <ROW File_="KhBaphnom017EmEng.ttf"/>
+    <ROW File_="KhBaphnom018PenRanItalic.ttf"/>
+    <ROW File_="KhBaphnom018PenRan.ttf"/>
+    <ROW File_="KhBaphnom019KokSandek.ttf"/>
+    <ROW File_="KhBaphnom020MengSotin.ttf"/>
+    <ROW File_="KhBaphnom021MengRotanaItalic.ttf"/>
+    <ROW File_="KhBaphnom021MengRotana.ttf"/>
+    <ROW File_="KhBaphnom022ChampeyItalic.ttf"/>
+    <ROW File_="KhBaphnom022Champey.ttf"/>
+    <ROW File_="KhBaphnom023ChanThouItalic.ttf"/>
+    <ROW File_="KhBaphnom023ChanThou.ttf"/>
+    <ROW File_="KhBaphnom026TheanyItalic.ttf"/>
+    <ROW File_="KhBaphnom026Theany.ttf"/>
+    <ROW File_="KhBaphnom034MengNaryItalic.ttf"/>
+    <ROW File_="KhBaphnom034MengNary.ttf"/>
+    <ROW File_="KhBaphnom040Darina.ttf"/>
+    <ROW File_="KhBaphnom041Savy.ttf"/>
+    <ROW File_="KhBaphnom042Vatey.ttf"/>
+    <ROW File_="KhBaphnom043Dany.ttf"/>
+    <ROW File_="KhBaphnomBaktouk.ttf"/>
+    <ROW File_="KhBaphnomBuddhaStoryVersion2.30May262016.ttf"/>
+    <ROW File_="KhBaphnomChhuoktipNewVersion1.00September102015.ttf"/>
+    <ROW File_="KhBaphnomChomMithVersion2.30September132016.ttf"/>
+    <ROW File_="KhBaphnomDangChendaItalic.ttf"/>
+    <ROW File_="KhBaphnomDangChenda.ttf"/>
+    <ROW File_="KhBaphnomDangKanhaVersion2.30January162016.ttf"/>
+    <ROW File_="KhBaphnomFirst2017.ttf"/>
+    <ROW File_="KhBaphnomiChannli.ttf"/>
+    <ROW File_="KhBaphnomJrungThomItalic.ttf"/>
+    <ROW File_="KhBaphnomJrungThom.ttf"/>
+    <ROW File_="KhBaphnomKeoSarath.ttf"/>
+    <ROW File_="KhBaphnomKhveakBold.ttf"/>
+    <ROW File_="KhBaphnomKhveakThin.ttf"/>
+    <ROW File_="KhBaphnomLazyWriteItalicVersion2.30September202019.ttf"/>
+    <ROW File_="KhBaphnomLazyWriteVersion2.30September202019.ttf"/>
+    <ROW File_="KhBaphnomLimonF1Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonF2Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonF2AVersion2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonF3Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonF4Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonF5Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonF6Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonF7Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonF8Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonR1Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonR2Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonR3Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonR4Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonR5Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonS1Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonS2Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonS3Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonS4Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonS5Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonS6Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomLimonS7Version2.50September152017.ttf"/>
+    <ROW File_="KhBaphnomMengTolaVersion2.30January072016.ttf"/>
+    <ROW File_="KhBaphnomMengTuonItalic.ttf"/>
+    <ROW File_="KhBaphnomMengTuon.ttf"/>
+    <ROW File_="KhBaphnomMoul5ItalicVersion2.30August252016.ttf"/>
+    <ROW File_="KhBaphnomMoul5Version2.30August252016.ttf"/>
+    <ROW File_="KhBaphnomNeakPoanVersion2.30March012016.ttf"/>
+    <ROW File_="KhBaphnomPaliBedokItalic.ttf"/>
+    <ROW File_="KhBaphnomPaliBedok.ttf"/>
+    <ROW File_="KhBaphnomPheaktraVersion2.30October052017.ttf"/>
+    <ROW File_="KhBaphnomPixel1.ttf"/>
+    <ROW File_="KhBaphnomSmallStyle.ttf"/>
+    <ROW File_="KhBaphnomSnehReanItalic.ttf"/>
+    <ROW File_="KhBaphnomSnehRean.ttf"/>
+    <ROW File_="KhBaphnomSopheaMyMomItalic.ttf"/>
+    <ROW File_="KhBaphnomSopheaMyMom.ttf"/>
+    <ROW File_="KhBaphnomSophyItalic.ttf"/>
+    <ROW File_="KhBaphnomSophy.ttf"/>
+    <ROW File_="KhBaphnomSvayTanyItalicVersion2.30November142017.ttf"/>
+    <ROW File_="KhBaphnomSvayTanyVersion2.30November142017.ttf"/>
+    <ROW File_="KhBaphnomVathanaVersion2.30October102017.ttf"/>
+    <ROW File_="KhBaphnom_BeungPreahItalic.ttf"/>
+    <ROW File_="KhBaphnom_BeungPreah.ttf"/>
+    <ROW File_="KhBaphnom_BroSreItalic.ttf"/>
+    <ROW File_="KhBaphnom_BroSre.ttf"/>
+    <ROW File_="KhBaphnom_Chheukach.ttf"/>
+    <ROW File_="KhBaphnom_LimonF1Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonF1.ttf"/>
+    <ROW File_="KhBaphnom_LimonF2Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonF2.ttf"/>
+    <ROW File_="KhBaphnom_LimonF3Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonF3.ttf"/>
+    <ROW File_="KhBaphnom_LimonF4Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonF4.ttf"/>
+    <ROW File_="KhBaphnom_LimonF5Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonF5.ttf"/>
+    <ROW File_="KhBaphnom_LimonF6Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonF6.ttf"/>
+    <ROW File_="KhBaphnom_LimonF7Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonF7.ttf"/>
+    <ROW File_="KhBaphnom_LimonF8Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonF8.ttf"/>
+    <ROW File_="KhBaphnom_LimonR1Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonR1.ttf"/>
+    <ROW File_="KhBaphnom_LimonR2Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonR2.ttf"/>
+    <ROW File_="KhBaphnom_LimonR3Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonR3.ttf"/>
+    <ROW File_="KhBaphnom_LimonR4Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonR4.ttf"/>
+    <ROW File_="KhBaphnom_LimonR5Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonR5.ttf"/>
+    <ROW File_="KhBaphnom_LimonS1Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonS1.ttf"/>
+    <ROW File_="KhBaphnom_LimonS2Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonS2.ttf"/>
+    <ROW File_="KhBaphnom_LimonS3.ttf"/>
+    <ROW File_="KhBaphnom_LimonS4Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonS4.ttf"/>
+    <ROW File_="KhBaphnom_LimonS5Italic.ttf"/>
+    <ROW File_="KhBaphnom_LimonS5.ttf"/>
+    <ROW File_="KhBaphnom_MengSocheathItalic.ttf"/>
+    <ROW File_="KhBaphnom_MengSocheath.ttf"/>
+    <ROW File_="KhBaphnom_OldStyeItalic.ttf"/>
+    <ROW File_="KhBaphnom_OldStye.ttf"/>
+    <ROW File_="KhBaphnom_PrekluongItalic.ttf"/>
+    <ROW File_="KhBaphnom_Prekluong.ttf"/>
+    <ROW File_="KhBaphnom_SatraSlekrithItalic.ttf"/>
+    <ROW File_="KhBaphnom_SatraSlekrith.ttf"/>
+    <ROW File_="KhBaphnom_SinsisamouthItalic.ttf"/>
+    <ROW File_="KhBaphnom_Sinsisamouth.ttf"/>
+    <ROW File_="KhBaphnom_Sinsisamouth1Italic.ttf"/>
+    <ROW File_="KhBaphnom_Sinsisamouth1.ttf"/>
+    <ROW File_="KhBaphnom_StyleItalic.ttf"/>
+    <ROW File_="KhBaphnom_Style.ttf"/>
+    <ROW File_="KhBaphnom_SvayTanyItalic.ttf"/>
+    <ROW File_="KhBaphnom_SvayTany.ttf"/>
+    <ROW File_="KhBaphnom_WritehandPixel2.ttf"/>
+    <ROW File_="KhBattambangBold_Version6.0.ttf"/>
+    <ROW File_="KhBLBrushHand.ttf"/>
+    <ROW File_="KhBLLazyDistorted.ttf"/>
+    <ROW File_="KhBLLazyOutline.ttf"/>
+    <ROW File_="KhBLLazySmooth.ttf"/>
+    <ROW File_="KhBoeung_Version1.20.ttf"/>
+    <ROW File_="KhChheurkachBaphnomItalic.ttf"/>
+    <ROW File_="KhChheurkachBaphnom.ttf"/>
+    <ROW File_="KhChrungThom_Version1.00.ttf"/>
+    <ROW File_="KhCNStar.ttf"/>
+    <ROW File_="KhDangrekJrung_Version1.00.ttf"/>
+    <ROW File_="KhDigitalThom.ttf"/>
+    <ROW File_="Khitkonkhmer_Version1.00.ttf"/>
+    <ROW File_="KhitseombelJrungbunly.ttf"/>
+    <ROW File_="khitsupport4kh.ttf"/>
+    <ROW File_="KhJrungThom.ttf"/>
+    <ROW File_="KhKakadaMysLoveVersion2.00.ttf"/>
+    <ROW File_="KhKAKADA08April.ttf"/>
+    <ROW File_="KhKAKADA10May.ttf"/>
+    <ROW File_="KhKAKADA25MarchKakadasmyloveVersion2.00April302015.ttf"/>
+    <ROW File_="KhKAKADA27Feb.ttf"/>
+    <ROW File_="KhKakadaBati.ttf"/>
+    <ROW File_="KhKampotGrasChhor.ttf"/>
+    <ROW File_="KhKantumruyBold_Version1.10.ttf"/>
+    <ROW File_="KhKantumruyLight_Version1.10.ttf"/>
+    <ROW File_="KhKantumruy_Version1.10.ttf"/>
+    <ROW File_="KhKhekBattambangItalic.ttf"/>
+    <ROW File_="KhKhekBattambang.ttf"/>
+    <ROW File_="khKompongChhnang.ttf"/>
+    <ROW File_="KhKompongThomBunlyVersion1.202013.ttf"/>
+    <ROW File_="KhKrongSoungSinfuHandVersion1.00.ttf"/>
+    <ROW File_="KhKrouchChhmarItalicVersion1.00.ttf"/>
+    <ROW File_="KhKrouchChhmarVersion1.00.ttf"/>
+    <ROW File_="KhMPSFasthand.ttf"/>
+    <ROW File_="KHMPSJrung.ttf"/>
+    <ROW File_="KhMPSLazyVersion1.00January52012.ttf"/>
+    <ROW File_="KhMPSPreyVengVersion1.00May92012.ttf"/>
+    <ROW File_="KhMPSRusseyVersion6.00July302011.ttf"/>
+    <ROW File_="KhMPSTempleVersion1.00September252013.ttf"/>
+    <ROW File_="KhMPS_Version2.00.ttf"/>
+    <ROW File_="KhOldStyleKakadasMyLoveVersion2.00January242015.ttf"/>
+    <ROW File_="KhOreangOvItalicVersion1.10.ttf"/>
+    <ROW File_="KhOreangOvPlusItalicVersion1.10.ttf"/>
+    <ROW File_="KhOreangOvPlusVersion1.20.ttf"/>
+    <ROW File_="KhOreangOvThmeyItalicVersion1.10.ttf"/>
+    <ROW File_="KhOreangOvThmeyVersion1.20.ttf"/>
+    <ROW File_="KhOreangOvVersion1.60.ttf"/>
+    <ROW File_="KhPenWappathor_Version1.00.ttf"/>
+    <ROW File_="KHPhalLuch002.ttf"/>
+    <ROW File_="KHPhalLuchKbach004.ttf"/>
+    <ROW File_="KHPhalLuchkbach005.ttf"/>
+    <ROW File_="KhPhearumPlusVathana.ttf"/>
+    <ROW File_="KhPRRomneaglowflowers.ttf"/>
+    <ROW File_="KhPRRonTeasDavSamuria.ttf"/>
+    <ROW File_="KhPRSunChoeu.ttf"/>
+    <ROW File_="KhPreyVeng.ttf"/>
+    <ROW File_="KhSNBeysach.ttf"/>
+    <ROW File_="KhSNKampongsom.ttf"/>
+    <ROW File_="KhSNPreytakoy.ttf"/>
+    <ROW File_="KhSomborPreyKokVersion1.102013.ttf"/>
+    <ROW File_="KhStuengSaenVersion4.00.ttf"/>
+    <ROW File_="KhTambeVersion1.10.ttf"/>
+    <ROW File_="KhTbaungKhmumThmeyItalicVersion1.00.ttf"/>
+    <ROW File_="KhTbaungKhmumThmeyPlusItalicVersion1.00.ttf"/>
+    <ROW File_="KhTbaungKhmumThmeyPlusPlusItalicVersion1.00.ttf"/>
+    <ROW File_="KhTbaungKhmumThmeyPlusPlusVersion1.00.ttf"/>
+    <ROW File_="KhTbaungKhmumThmeyPlusVersion1.60.ttf"/>
+    <ROW File_="KhTbaungKhmumThmeyVersion1.30.ttf"/>
+    <ROW File_="KhTbaungKhmumVersion3.30.ttf"/>
+    <ROW File_="KhTKMPonheaKrekLimonR5Version1.00.ttf"/>
+    <ROW File_="khvirakfolktale.ttf"/>
+    <ROW File_="Khvirakmonomodern.ttf"/>
+    <ROW File_="Khviraknippon.ttf"/>
+    <ROW File_="Khvirakromajicover.ttf"/>
+    <ROW File_="KhWritehandJrung.ttf"/>
+    <ROW File_="KhWritehand.ttf"/>
+    <ROW File_="KHPhalLuch001.ttf"/>
+    <ROW File_="KhBattambang.ttf"/>
+    <ROW File_="KhBokor.ttf"/>
+    <ROW File_="KhContent.ttf"/>
+    <ROW File_="KhDangrek.ttf"/>
+    <ROW File_="KhFasthand.ttf"/>
+    <ROW File_="KhFreehand.ttf"/>
+    <ROW File_="KhKangrey.ttf"/>
+    <ROW File_="KhKoulen.ttf"/>
+    <ROW File_="KhKoulenL.ttf"/>
+    <ROW File_="KhmerChhayRound3.ttf"/>
+    <ROW File_="KhmerChhayStyle5.ttf"/>
+    <ROW File_="KhmerChhayText6.ttf"/>
+    <ROW File_="KhMetalChrieng.ttf"/>
+    <ROW File_="KhMithSalaPaliv2.ttf"/>
+    <ROW File_="KhMuol.ttf"/>
+    <ROW File_="KhMuolPali.ttf"/>
+    <ROW File_="KhPreyVeng.ttf_1"/>
+    <ROW File_="KhSiemreap.ttf"/>
+    <ROW File_="KhSystem.ttf"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="SystemFoldermsiexec.exe" SourcePath="&lt;AI_RES&gt;uninstall.ico" Index="0"/>
     <ROW Name="khmeruni.exe" SourcePath="KhmerPro\khmeruni.ico" Index="0"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
@@ -818,16 +1568,20 @@
     <ROW Registry="AdvancedInstaller" Root="-1" Key="Software\Caphyon\Advanced Installer" Name="\"/>
     <ROW Registry="AutoLoad" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\PowerPoint\AddIns\Khmerpro" Name="AutoLoad" Value="#1" Component_="AutoLoad" VirtualValue="#"/>
     <ROW Registry="Caphyon" Root="-1" Key="Software\Caphyon" Name="\"/>
+    <ROW Registry="CaptionFont" Root="1" Key="Control Panel\Desktop\WindowMetrics" Name="CaptionFont" Value="#xf1ffffff0000000000000000000000009001000000000000030201024100670065006e0074006f0073005500490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Component_="CaptionFont" VirtualValue="#x"/>
+    <ROW Registry="ControlPanel" Root="1" Key="Control Panel" Name="\"/>
     <ROW Registry="Copen" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="Copen" Value="4" Component_="Copen"/>
     <ROW Registry="CurrentVersion" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion" Name="\"/>
     <ROW Registry="DateTimeFormat" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="DateTimeFormat" Value="True" Component_="DateTimeFormat"/>
     <ROW Registry="DaunPenh" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes" Name="DaunPenh" Value="Khmer UI" Component_="DaunPenh"/>
     <ROW Registry="DaunPenhTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="DaunPenh (TrueType)" Value="LeelawUI_0.ttf" Component_="DaunPenhTrueType"/>
+    <ROW Registry="Desktop" Root="1" Key="Control Panel\Desktop" Name="\"/>
     <ROW Registry="DisableNameLocation" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="DisableNameLocation" Value="False" Component_="DisableNameLocation"/>
     <ROW Registry="EnableDatepicker" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="EnableDatepicker" Value="True" Component_="EnableDatepicker"/>
     <ROW Registry="Excel" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\Excel" Name="\"/>
     <ROW Registry="FontSubstitutes" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes" Name="\"/>
     <ROW Registry="Fonts" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="\"/>
+    <ROW Registry="IconFont" Root="1" Key="Control Panel\Desktop\WindowMetrics" Name="IconFont" Value="#xf1ffffff0000000000000000000000009001000000000000030201024100670065006e0074006f0073005500490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Component_="IconFont" VirtualValue="#x"/>
     <ROW Registry="KhmerAddin" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="\"/>
     <ROW Registry="KhmerCalanderSpace" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="KhmerCalanderSpace" Value="False" Component_="KhmerCalanderSpace"/>
     <ROW Registry="KhmerPro" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro" Name="\"/>
@@ -840,6 +1594,8 @@
     <ROW Registry="LeelawadeeUIBoldTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Leelawadee UI Bold (TrueType)" Value="leelauib_0.ttf" Component_="LeelawadeeUIBoldTrueType"/>
     <ROW Registry="LeelawadeeUISemilightTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Leelawadee UI Semilight (TrueType)" Value="LeelUIsl_0.ttf" Component_="LeelawadeeUISemilightTrueType"/>
     <ROW Registry="LeelawadeeUITrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Leelawadee UI (TrueType)" Value="LeelawUI_0.ttf" Component_="LeelawadeeUITrueType"/>
+    <ROW Registry="MenuFont" Root="1" Key="Control Panel\Desktop\WindowMetrics" Name="MenuFont" Value="#xf1ffffff0000000000000000000000009001000000000000030201024100670065006e0074006f0073005500490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Component_="MenuFont" VirtualValue="#x"/>
+    <ROW Registry="MessageFont" Root="1" Key="Control Panel\Desktop\WindowMetrics" Name="MessageFont" Value="#xf1ffffff0000000000000000000000009001000000000000030201024100670065006e0074006f0073005500490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Component_="MessageFont" VirtualValue="#x"/>
     <ROW Registry="Microsoft" Root="1" Key="SOFTWARE\Microsoft" Name="\"/>
     <ROW Registry="Microsoft_1" Root="2" Key="SOFTWARE\Microsoft" Name="\"/>
     <ROW Registry="OPEN" Root="1" Key="SOFTWARE\Microsoft\Office\16.0\Excel\Options" Name="OPEN" Value="&quot;[#Khmerpro.xlam]&quot;" Component_="OPEN"/>
@@ -856,8 +1612,11 @@
     <ROW Registry="SegoeUISemiboldTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Segoe UI Semibold (TrueType)" Value="seguisb_0.ttf" Component_="SegoeUISemiboldTrueType"/>
     <ROW Registry="SegoeUISemilightTrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Segoe UI Semilight (TrueType)" Value="segoeuisl_0.ttf" Component_="SegoeUISemilightTrueType"/>
     <ROW Registry="SegoeUITrueType" Root="2" Key="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" Name="Segoe UI (TrueType)" Value="segoeui_0.ttf" Component_="SegoeUITrueType"/>
+    <ROW Registry="SmCaptionFont" Root="1" Key="Control Panel\Desktop\WindowMetrics" Name="SmCaptionFont" Value="#xf1ffffff0000000000000000000000009001000000000000030201024100670065006e0074006f0073005500490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Component_="SmCaptionFont" VirtualValue="#x"/>
     <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="StatusFont" Root="1" Key="Control Panel\Desktop\WindowMetrics" Name="StatusFont" Value="#xf1ffffff0000000000000000000000009001000000000000030201024100670065006e0074006f0073005500490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Component_="StatusFont" VirtualValue="#x"/>
     <ROW Registry="VBandVBAProgramSettings" Root="1" Key="SOFTWARE\VB and VBA Program Settings" Name="\"/>
+    <ROW Registry="WindowMetrics" Root="1" Key="Control Panel\Desktop\WindowMetrics" Name="\"/>
     <ROW Registry="WindowsNT" Root="2" Key="SOFTWARE\Microsoft\Windows NT" Name="\"/>
     <ROW Registry="_" Root="1" Key="SOFTWARE\Microsoft\Office\16.0" Name="\"/>
     <ROW Registry="day" Root="1" Key="SOFTWARE\VB and VBA Program Settings\KhmerPro\KhmerAddin" Name="day" Value="24" Component_="day"/>
@@ -872,7 +1631,7 @@
     <ROW Shortcut="DesktopOK_1" Directory_="DesktopFolder" Name="DESKTO~2|DesktopOK" Component_="DesktopOK.exe" Target="[#DesktopOK.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
     <ROW Shortcut="DesktopOK_x64" Directory_="KhmerPro_Dir" Name="DESKTO~2|DesktopOK_x64" Component_="DesktopOK_x64.exe" Target="[#DesktopOK_x64.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
     <ROW Shortcut="DesktopOK_x64_1" Directory_="DesktopFolder" Name="DESKTO~1|DesktopOK_x64" Component_="DesktopOK_x64.exe" Target="[#DesktopOK_x64.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
-    <ROW Shortcut="Fonts" Directory_="KhmerPro_Dir" Name="Fonts" Component_="Fonts.pdf" Target="[#Fonts.pdf]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="UninstallProductNameProductVersion" Directory_="KhmerPro_Dir" Name="UNINST~1.5|Uninstall [|ProductName] [|ProductVersion]" Component_="AI_ExePath" Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]" Hotkey="0" Icon_="SystemFoldermsiexec.exe" IconIndex="0" ShowCmd="1"/>
     <ROW Shortcut="khmermackey" Directory_="DesktopFolder" Name="KHMERM~1|khmermackey" Component_="khmermackey.png" Target="[#khmermackey.png]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
     <ROW Shortcut="khmermackey_1" Directory_="KhmerPro_Dir" Name="KHMERM~1|khmermackey" Component_="khmermackey.png" Target="[#khmermackey.png]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
   </COMPONENT>
